@@ -1,0 +1,30 @@
+first_name,last_name,sex,birth_year,rank,serial_number,home_planet,race_species,uniform_color,department,ship_name_or_station
+James,Kirk,M,2233,Captain,SC937-0176CEC,Earth,Humanoid,Gold,Command,USS Enterprise
+Spock,NULL,M,2230,Lt. Cmdr,S 179-276 SP,Vulcan,Vulcan,Blue,Science,USS Enterprise
+Hikaru,Sulu,M,2250,Lt,NULL,Earth,Humanoid,Gold,Operations,USS Enterprise
+Montgomery,Scott,M,2222,Chief Engineer,SE 19754 T,Earth,Humanoid,Red,Engineering,USS Enterprise
+Nyota,Uhura,F,NULL,Lt,NULL,Earth,Humanoid,Red,Command,USS Enterprise
+Pavel,Chekov,M,2245,Ensign,656-5827D,Earth,Humanoid,Gold,Operations,USS Enterprise
+Leonard,McCoy,M,2227,Chief Medical Officer,NULL,Earth,Humanoid,Blue,Science,USS Enterprise
+Christine,Chapel,F,NULL,Cmdr.,NI-596 MT21Z,Earth,Humanoid,Blue,Science,USS Enterprise
+Jean-Luc,Picard,M,2305,Captain,SP-937-215,Earth,Humanoid,Red,Command,USS Enterprise (NCC-1701-D) 
+Will,Riker,M,2335,Cmdr,SC-231-427,Earth,Humanoid,Red,Command,USS Enterprise (NCC-1701-D) 
+Data,NULL,M,2338,Lt.Cmdr,NULL,Omicron Theta,Android,Olive,Operations,USS Enterprise (NCC-1701-D) 
+Geordi,LaForge,M,2335,Lt.Cmdr,NULL,Earth,Humanoid,Olive,Engineering,USS Enterprise (NCC-1701-D) 
+Worf,NULL,M,2340,Lt.Cmdr,NULL,Qo'noS,Klingon,Olive,Operations,USS Enterprise (NCC-1701-D) 
+Deanna,Troi,F,2336,Cmdr,NULL,Betazed,Betazoid-Humanoid,Blue,Counselor,USS Enterprise (NCC-1701-D) 
+Reginald,Barclay,M,2340,Lt,NULL,Earth,Humanoid,Olive,Engineering,USS Enterprise (NCC-1701-D) 
+Beverely,Crusher,F,2324,Cmdr.,NULL,Luna,Humanoid,Blue,Science,USS Enterprise (NCC-1701-E) 
+Ro,Laren,F,2340,Lt,HL-2133-894,Bajor,Bajoran,Red,Command,USS Enterprise (NCC-1701-D) 
+Benjamin,Sisko,M,2332,Captain,NULL,Earth,Humanoid,Red,Command,DS_9
+Miles,O'Brien,M,2328,Senior Chief Petty Officer,NULL,Earth,Humanoid,Olive,Engineering,DS_9
+Julian,Bashir,M,2341,Lt,NULL,Earth,Humanoid,Blue,Science,DS_9
+Jadzia,Dax,F,2341,Lt.Cmdr,NULL,Trill,Trill,Blue,Science,DS_9
+Katheryn,Janeway,F,NULL,Captain,NULL,Earth,Humanoid,Red,Command,USS Voyager
+Chakotay,NULL,M,2329,Cmdr,47-alpha-612,Earth,Humanoid,Red,Command,USS Voyager
+Tuvok,NULL,M,2264,Lt.Cmdr,NULL,Vulcanis Lunar,Vulcan,Olive,Security,USS Voyager
+Tom,Paris,M,NULL,Lt,NULL,Earth,Humanoid,Red,Command,USS Voyager
+B'Elanna ,Torres,F,2349,Lt,NULL,Kessik IV,Klingon-Humanoid,Olive,Engineering,USS Voyager
+Harry,Kim,M,2349,Ensign,NULL,Earth,Humanoid,Olive,Operations,USS Voyager
+7of9,NULL,F,2350,NULL,NULL,Tendara ,Humanoid,NULL,Astrometrics,USS Voyager
+Doctor,NULL,M,2371,Chief Medical Officer,NULL,NULL,Humanoid,Blue,Science,USS Voyager
