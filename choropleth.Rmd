@@ -1,0 +1,283 @@
+---
+title: "R **Choropleth** Notebook"
+author: " Zane Dax"
+date: " May 12 2021"
+output: 
+  html_notebook: 
+    toc: yes
+    theme: spacelab
+    css: ~/Documents/R_/R.css
+---
+
+# Choropleths in R
+
+Need to import libraries for data manipulation and visualization
+```{r libraries}
+library(plotly)
+library(dplyr)
+library(readr)
+
+states = read.csv('states.csv')
+minwage.df = read_csv('Minimum Wage Data.csv') %>% 
+  inner_join(states, by.x= State, by.y= state) %>% 
+  mutate(hover= paste0(State,"\n$", State.Minimum.Wage.2020.Dollars))
+```
+
+```{r}
+minwage_graph = plot_geo(minwage.df,
+                         locationmode= 'USA-states',
+                         frame= ~Year) %>% 
+  add_trace(locations = ~Code,
+            z= ~State.Minimum.Wage.2020.Dollars,
+            color= ~State.Minimum.Wage.2020.Dollars )
+
+minwage_graph
+
+```
+
+
+
+
+
+## Edit map of world
+Just want the US map as the data is US-based. Need to add a layout function
+
+```{r}
+fig.layout.template = 'plotly_dark'
+
+minwage_graph = plot_geo(minwage.df,
+                         locationmode= 'USA-states',
+                         frame= ~Year) %>% 
+  add_trace(locations = ~Code,
+            z= ~State.Minimum.Wage.2020.Dollars,
+            zmin = 0,
+            zmax = max(minwage.df$State.Minimum.Wage.2020.Dollars),
+            color= ~State.Minimum.Wage,
+            colorscale= 'Rainbow') %>% 
+  layout(geo= list(scope= 'usa'))
+
+minwage_graph
+
+```
+
+
+
+
+
+
+```{r}
+
+fontstyle = list(family= 'monaco', size=15, color='black')
+label = list(bgcolor= '#eee', font= fontstyle)
+
+minwage_graph = plot_geo(minwage.df,
+                         locationmode= 'USA-states',
+                         frame= ~Year) %>% 
+  add_trace(locations = ~Code,
+            z= ~State.Minimum.Wage.2020.Dollars,
+            zmin = 0,
+            zmax = max(minwage.df$State.Minimum.Wage.2020.Dollars),
+            color= ~State.Minimum.Wage,
+            colorscale= 'Rainbow',
+            text = ~hover,
+            hoverinfo = 'text'
+            ) %>% 
+  layout(geo= list(scope= 'usa'),
+         title='\nUSA Sate Min. Wage in 2020 $',
+         font = list(family= 'monaco')) %>% 
+  style(hoverlabel = label) %>% 
+  colorbar(tickprefix= "$")
+
+minwage_graph
+
+```
+
+
+
+
+## UFO choropleth
+The dataset of UFO sightings, use longititude and latitude columns
+
+```{r}
+corona = readr::read_csv('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports_us/01-01-2021.csv')
+```
+
+```{r}
+ufos = read_csv('ufos.csv') %>% 
+  select(longitude, latitude, datetime, shape)
+```
+
+```{r}
+geo_properties = list(
+  scope= 'usa',
+  projection = list(type= 'albers usa'),
+  showland = TRUE,
+  showsubunits= FALSE,
+  landcolor= toRGB('gray10'),
+  showlakes= TRUE,
+  lakecolor= toRGB('white')
+)
+
+ufos_graphs = plot_geo(ufos,
+                       y= ~ufos$latitude,
+                       x = ~ufos$longitude,
+                       marker= list(size=2,
+                                    color='pink',
+                                    opacity= 0.25)) %>% 
+  add_markers(hoverinfo= "none") %>% 
+  layout(geo = geo_properties)
+
+ufos_graphs
+```
+
+
+
+
+
+
+
+
+
+
+
+
+# Plotly plots
+customizing Plotly
+
+```{r}
+library(plotly)
+
+p = plot_ly(
+  corona,
+             type = "scatter",        
+            # all "scatter" attributes: https://plot.ly/r/reference/#scatter
+             x = ~corona$Province_State,               
+            # more about scatter's "x": /r/reference/#scatter-x
+             y = ~corona$Deaths,            
+            # more about scatter's "y": /r/reference/#scatter-y
+             name = "covid-19",   # more about scatter's "name": /r/reference/#scatter-name
+             marker = list(           
+               # marker is a named list, valid keys: /r/reference/#scatter-marker
+               color="#264E86"        
+               # more about marker's "color" attribute: /r/reference/#scatter-marker-color
+             )) %>%
+  layout(                        # all of layout's properties: /r/reference/#layout
+         title = "covid-19", # layout's title: /r/reference/#layout-title
+         xaxis = list(           
+           # layout's xaxis is a named list. List of valid keys: /r/reference/#layout-xaxis
+            title = "State",      # xaxis's title: /r/reference/#layout-xaxis-title
+            showgrid = F),       # xaxis's showgrid: /r/reference/#layout-xaxis-showgrid
+         yaxis = list(           
+           # layout's yaxis is a named list. List of valid keys: /r/reference/#layout-yaxis
+            title = "Deaths")     # yaxis's title: /r/reference/#layout-yaxis-title
+)
+
+p
+```
+
+
+
+
+
+
+
+
+
+
+
+## bar chart
+```{r}
+p = plot_ly(
+  x= corona$Province_State,
+  y= corona$Deaths,
+  type = 'bar'
+) %>% 
+  layout(paper_bgcolor='#5875D5',
+       plot_bgcolor='#5875D5')
+p
+```
+
+## change bar colors
+
+```{r}
+p = plot_ly(
+  x= corona$Province_State,
+  y= corona$Deaths,
+  type = 'bar',
+  marker= list(color="#fff")
+) %>% 
+  layout(paper_bgcolor='#5875D5',
+       plot_bgcolor='#5875D5')
+p
+```
+
+
+## style axis
+```{r}
+p = plot_ly(
+  x= corona$Province_State,
+  y= corona$Deaths,
+  type = 'bar',
+   marker= list(color="#fff")
+) %>% 
+  layout(
+    paper_bgcolor='#5875D5',
+    plot_bgcolor='#5875D5',
+    xaxis= list(color="#fff", title='State'),
+    yaxis= list(color="#fff", title='Deaths'))
+p
+```
+
+
+
+
+### adding ticks and angle
+```{r}
+p = plot_ly(
+  x= corona$Province_State,
+  y= corona$Deaths,
+  type = 'bar',
+   marker= list(color="#fff")
+) %>% 
+  layout(
+    paper_bgcolor='#5875D5',
+    plot_bgcolor='#5875D5',
+    titlefont= list(family= 'monaco', size=15, color='#fff'),
+    title= "\nUSA Covid-19 Deaths (Jan 1 2021)",
+    xaxis= list(color="#fff", title='State', tickangle= -45),
+    yaxis= list(color="#fff", title='Deaths'))
+p
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
