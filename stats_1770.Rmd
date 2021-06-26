@@ -1,0 +1,208 @@
+---
+title: "Stats 1770 in R"
+output: 
+  html_notebook: 
+    toc: yes
+    theme: spacelab
+---
+
+
+
+<style type="text/css">
+a {color: #3d0066; font-size: 11;}
+p {color: #000000; font-family:"monaco" font-size:13;}
+h1 {color: #3d0066 }
+h2 {color: #6b00b3 }
+h3 {color: #9900ff }
+h4 {color: #cc0099 }
+ul {list-style-type: circle; color: #6b00b3 }
+ol {color: #cc0099; font-size:11; }
+p1 {color: #004d4d;}
+li {color: #004d4d;} 
+
+</style>
+
+<t>
+![](RStudio-Logo 1.png)</t>
+
+# The basics
+Symmetrical plots: left skewed and right skewed
+
+- Population size = N 
+- Central tendency is where the data gathers around
+- **mean** is the average
+- **median** the middle value
+- **mode** most frequent occurring data item
+- **range** largest data item - smallest item
+- **variance** average distance from the mean, $\sigma^2$
+- **standard deviation** square root of variance
+- **proportion (p)** the ratio of data items divided by total
+- **InterQuartile Range (IQR)** 3rd quartile minus the 1st quartile
+- **sample variance** $s^2$
+- **sample mean** $x^-$ x with a bar on top
+
+## simple stats
+```{r}
+sample.pop = 1:20
+
+mean(sample.pop)
+var(sample.pop)
+sd(sample.pop)
+```
+**Central Limit Theorem** = the sample size n taken from population with average $\mu$ and variance $\sigma^2$ . If n > 30 then the sampling is approximately Normal Distributed ($\sigma^2$ / N)
+
+**Confidence Interval** 
+
+- confidence level (90%, 95%, 98%)
+- define alpha $\alpha$ value, [1 - 0.95] $\alpha$ = 0.05
+- find z value $\alpha$ / 2
+
+IF n > 30 use z-table <br>
+
+- if population is normal and std is known, use z-table
+- if population is normal and std is not known, use t-table 
+
+IF n < 30, use **Degrees of Freedom** and t-test
+
+<hr>
+Ex. weights of Canadian adults in kg, normal distribution. Sample size is 25, sample mean is 80.4, sample variance is 20.25. Find 98% confidence interval for population mean.
+
+sample population < 30, use DoF, df= n-1, df= 24
+alpha/2 = .02/2 = .010
+t-table = 2.492
+
+the average confidence interval
+(80.4 - 2.492) < $\mu$ < (80.4 + 2.492)
+<hr>
+
+<br>
+4 bags of chips of 220g, with a sample mean 217.25, sample variance 6.25. Normal distribution. Alpha level is 0.05.
+
+1. Null: $\mu$ = 220. Alternative: $\mu$ < 220.
+2. Confidence Interval: $\alpha$ = 0.05
+3. sample size:  4 < 30, use t-table
+4. df= 4 - 1 = 3
+5. t-table value: (df and alpha) 2.353. 
+  - interested in 1 tail, left side (less chips), t= -2.353
+6. reject null if t falls in rejection region
+7. t-test = (217.2 -220/  2.5/ sqrt(4)) = -2.2
+8. fail to reject null
+
+
+# Descriptive Stats
+Descriptive stats 
+
+- central tendency (mean, median, mode)
+- variability (range, std)
+
+# Inferential Stats
+there are 2 main uses
+
+- significance testing, determine if differences or relationship between groups is statistically significant (occurrence is not just pure chance)
+- estimate population parameters from sample stats
+
+![decision](A4 - 1.png)
+
+
+Between Groups: select a sample, assign each person to 1 of the binary label of Indep. Var
+
+Within Groups: each person is assigned to all labels, same group gets diff levels, groups are matched related to the dependent variable
+
+
+
+# Hypothesis Testing
+The p-value is the probability of a result happening by pure randomness alone. The alpha $\alpha$ = 0.05 (95% confidence level, 5% chance of making type 1 error)
+
+IF p-value <= $\alpha$  THEN reject the null, results are significant <br>
+IF p-value > $\alpha$  THEN accept the null
+
+## Errors
+
+- type 1 is rejecting a null when shouldn't 
+- type 2 is accept null when shouldn't 
+
+
+## Effect size
+Effect size indicates how strong the relationship between variables or differences are between groups
+
+
+Interpretation of strength of a relationship:
+
+- for r and Phi
+  - very strong >= .70
+  - large = .50
+  - medium = .36
+  - small = .10
+- for eta
+  - very strong >= .45
+  - large = .37
+  - medium = .24
+  - small = .10
+
+## Correlation tests of coefficients
+Pearson r and bivariate regression (parametric tests)
+Correlation coefficients -1 to +1, closer to -1 or +1 the stronger the relationship
+
+-1 **strong** <-------- weak -------> **strong** +1 <br>
+-  -0.7 -0.5 -0.3 -0.1  <\tab>           0.1  0.3  0.5  0.7
+
+
+
+# Chi square test
+This non-parametric test can be used for difference questions with nominal or dichotomous variables. Classes: 1 or 2, Condition: on/off
+
+# Phi and Cramer's V
+these are tests for association between 2 nominal or dichotomous variables. 
+
+- Phi is used when both variables are dichotomous
+- Cramer's V when 1+ variable has multiple levels/groupings
+
+# Pearson r
+this test is for strength of association between 2 scale variables. Ex. GPA vs Hours of study
+
+# Wilcoxon and McNemar to compare groups
+
+# ANOVA 1-way, F-score
+analysis of variance is used to compare 3+ unrelated groups on an independent variable, determines whether there are significant variance between groups. The value is **F-value**
+
+# Post-hoc tests
+the ANOVA just tells you that a significant difference exists
+
+- do a Tukey's HSD test if the p-value is not stat significant
+- do a Games-Howell test if the p-value is stat significant
+
+
+# ANOVA 2-way
+Independent variables each have 2+ levels, samples must be indep. and each participant must receive only 1 level of each indep. var. Variances must be equal.
+There is 3 null hypotheses: there is no diff between various levels (no main effect), there is no diff between various levels of 2nd Indep. var, and there is no interaction between indep. vars
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
