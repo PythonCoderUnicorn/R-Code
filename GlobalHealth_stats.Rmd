@@ -1,0 +1,224 @@
+---
+title: "Global Health Stats"
+output: 
+  html_notebook: 
+    toc: yes
+    theme: spacelab
+---
+
+
+
+<style type="text/css">
+a {color: #3d0066; font-size: 11;}
+p {color: #000000; font-family:"monaco" font-size:13;}
+h1 {color: #3d0066 }
+h2 {color: #6b00b3 }
+h3 {color: #9900ff }
+h4 {color: #cc0099 }
+ul {list-style-type: circle; color: #6b00b3 }
+ol {color: #cc0099; font-size:11; }
+p1 {color: #004d4d;}
+li {color: #004d4d;} 
+
+</style>
+
+<t>
+![](RStudio-Logo 1.png)</t>
+
+# Install Gapminder library
+```{r Install Gapminder Library}
+install.packages("gapminder")
+library(gapminder)
+data(gapminder)
+```
+
+# Get the Summary Statistics
+```{r Get Summary Stats}
+summary(gapminder)
+```
+# Get the mean of a column
+```{r Mean}
+# the mean of the GDP per Capita
+gdp.mean = mean(gapminder$gdpPercap)
+gdp.mean
+```
+
+## use the attach function to get column values
+```{r}
+attach(gapminder)
+median(pop)
+```
+
+## quick histogram 
+```{r}
+# histogram of life expectancy log base
+log.lifeExp = log(pop)
+hist(log.lifeExp)
+
+```
+## quick boxplot
+```{r}
+# life expectancy based on continent
+boxplot(lifeExp ~ continent)
+```
+## quick scatterplot
+```{r}
+# life expectancy (dep var) on the Y axis
+# gdpPercap (indep var) on X axis
+plot(lifeExp ~ log(gdpPercap))
+```
+
+# install the dplyr library
+The pipe function %>% with the select function for the column variables of interest. The second pipe is like the "and then" with the filter function to select row variable based on a condition.
+The mutate function is used to create a new variable from a data set. In order to use the function, we need to install the dplyr package.
+
+data %>% select(col.1, col.2, col.3) %>% 
+  filter(col.1 =="Type 2")  %>% 
+  mutate(BMI = weight/ (height^2))  %>% 
+  summarize(Average_BMI = mean(BMI))
+
+```{r}
+library(dplyr)
+
+gapminder %>% 
+  select(country, lifeExp)
+```
+
+
+```{r}
+gapminder %>% 
+  select(country, lifeExp) %>% 
+  filter(country =="Norway" | country =="Canada") %>% 
+  group_by(country) %>% 
+  summarise(Avg_LifeExp = mean(lifeExp))
+```
+
+## Variation of sample
+Differences by chance/ no difference (Null hypothesis) which t-test is used with a p-value p= 0.05. Null is p < 0.05. This is compared to real change (alternative hypothesis) p > 0.05. The 95% confidence interval.
+
+```{r}
+
+df.1 = gapminder %>% 
+  select(country, lifeExp) %>% 
+  filter(country =="Norway" | country =="South Africa") 
+
+# use the t-test to determine statistical differance
+t.test(data= df.1, 
+       lifeExp ~ country)
+
+```
+
+The odds of our sample difference is the p-value, so for this case we reject the null hypothesis based on the differences of means is NOT zero. 
+
+
+```{r}
+library(ggplot2)
+
+gapminder %>% 
+  filter(gdpPercap < 50000) %>% 
+  ggplot(aes(x= log(gdpPercap), 
+             y= lifeExp,
+             col= continent,
+             size= pop)) +
+  geom_point(alpha= 0.3) +
+  geom_smooth(method = lm)
+
+```
+
+```{r}
+# linear regression
+summary(lm(lifeExp ~ gdpPercap))
+```
+
+
+```{r}
+# multiple linear regression
+summary(lm(lifeExp ~ gdpPercap + pop))
+
+# the P-value is the Pr
+```
+
+The p-values are 2e-16 and 4.72e-05
+
+
+Population => sample : measure variables
+Categorical = groups, summarize
+Numerical = summarize : range, IQR, mean, median
+
+sample tests:
+
+- 1 sample proportion test
+- chi-squared test
+- t-test
+- ANOVA
+- correlation test 
+
+1 categorical (binary) : 1 sample proportion test <br>
+2 categorical (child/adult/senior) : chi squared <br>
+1 numeric : t-test <br>
+1 numeric AND 1 categorical : t-test or ANOVA <br>
+2 numeric : correlation <br>
+
+
+## Null and Alt hypothesis
+
+- is there a difference? what are chances/ probability of difference?
+- Null: no difference
+- ALt: there is no difference
+- alpha value = 0.05
+- test: 1 sample proportion test, get p-value
+- if p-value < alpha = reject null, statistical significant
+
+"is the average height different significant between groups?"
+
+- Null: there is no difference
+- Alt: there is a difference
+- alpha= 0.05
+- test: t-test, compare averages, p-value
+- test: ANOVA/ correlation, compare weight vs height
+- if p-value < alpha = reject null
+
+correlation -1 to +1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
