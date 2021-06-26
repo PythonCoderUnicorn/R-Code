@@ -1,0 +1,574 @@
+---
+title: "**All Things Stats**"
+author: " *Intro Stats, 4th Ed. (DeVaux, Velleman & Bock)* "
+output:
+  html_notebook:
+    toc: yes
+    theme: spacelab
+  pdf_document:
+    toc: yes
+---
+<br>
+
+
+<h4> This R notebook is made by Zane Dax </h4> 
+<p> **theme**: spacelab, **font**: monaco </p>
+
+<br>
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+setwd(getwd())
+library(plotly)
+library(dplyr)
+```
+
+<style type="text/css">
+a {color: #3d0066; font-size: 11;}
+p {color: #000000; font-family:"monaco" font-size:13;}
+h1 {color: #3d0066 }
+h2 {color: #6b00b3 }
+h3 {color: #9900ff }
+h4 {color: #cc0099 }
+ul {list-style-type: circle; color: #6b00b3 }
+ol {color: #cc0099; font-size:11; }
+p1 {color: #004d4d;}
+li {color: #004d4d;} 
+
+</style>
+
+<t>![](RStudio-Logo 1.png)</t>
+
+# Chapter 1 - Exploring & Understanding Data
+
+## Categorical variables
+These are also named Nominal because these variables name categories. Numerical values are also categorical, like area codes. 
+
+## Quantitative variables
+Measured numerical values, in units.
+
+## Ordinal variables
+Is the rating scale of a survey, much like a Likert scale, [1:'ok', 2:'good'...]
+
+# Chapter 2 - Describe Categorical data
+Three rules of data analysis: make a picture * 3 = tell, show, share.
+Use frequency tables and relative frequency table (proportion of data). Bar charts display distributions of a categorical variable and the counts for comparisons.
+
+## Relationship between 2 categorical variables
+
+```{r import dataset}
+#library(readr)
+#library(dplyr)
+
+#df = read_csv('heart.csv')
+#df2 = read_csv('titanic_dataset.csv')
+#head(df,10)
+#head(df2,10)
+```
+
+
+
+## Contigency Table
+
+Medical researchers followed 6272 Swedish men for 30 years to see whether there was any association between the amount o ffish in their diet and prostate cancer. The study results are in the table.
+```{r}
+fish.consumption = c("fish.seldom",
+                     "fish.small_amnt",
+                     "fish.moderate",
+                     "fish.large"
+                     )
+no.cancer = c(110,2420,2769,507)
+yes.cancer = c(14,201,209,42)
+row_totals = no.cancer+yes.cancer
+no_sums = sum(no.cancer)
+yes_sums = sum(yes.cancer)
+
+fish_df = data.frame( fish.consumption,
+                     no.cancer,
+                     yes.cancer,
+                     row_totals
+                     )
+
+print(fish_df)
+```
+
+```{r}
+# average fish consumption for those with cancer
+avg_fish.and.cancer = fish_df %>% group_by(fish.consumption) %>% summarise(avg_fish.And.cancer = mean(yes.cancer))
+
+avg_fish.and.cancer
+
+# average fish consumption for those with NO cancer
+avg_fish.and.NOcancer = fish_df %>% group_by(fish.consumption) %>% summarise(avg_fish.And.NOcancer = mean(no.cancer))
+
+avg_fish.and.NOcancer
+```
+```{r}
+avg_fishDiet_noCancer = mean( fish_df$no.cancer)
+avg_fishDiet_Cancer = mean( fish_df$yes.cancer)
+
+paste("average no cancer and fish diet:", avg_fishDiet_noCancer)
+paste("average cancer and fish diet:", avg_fishDiet_Cancer)
+```
+
+
+
+
+
+
+### The research question
+* The problem wanting address: *is there an association between fish consumption and prostate cancer?*
+* The variables: n= 6272, study duration = 30 years
+* Categorical counts in dataset
+
+```{r}
+population_total= c(no_sums+yes_sums)
+
+no.cancer.proportion = no_sums / population_total
+yes.cancer.proportion = yes_sums/population_total
+
+paste('Participants with no cancer: ', round(no.cancer.proportion*100),'%' )
+
+paste('Particpants with cancer: ', round(yes.cancer.proportion*100),'%' )
+```
+
+
+# Chapter 3 - Display Quantitative data
+* Histograms 
+* stem-and-leaf histogram
+* dot plots
+
+## Shape
+It is important to check that the values are quantitative. Categorical data does not work with histograms. 
+
+Three things to consider:
+
+1. *does the histogram have a single, central or many humps?* Unimodal, bimodal and multimodal, or uniform.
+
+2. *is the histogram symmetric?* The tails indicate skewness 
+
+3. *do any unusual features stick out?* Look for outliers
+
+
+## Median - middle value
+* if *n* is **odd** then median is the middle value: ``(n + 1) / 2``
+* if *n* is **even** then median is the average of 2 values: ``((n/2) + (n/2))/2 = median``
+
+Spread - how much the data vary around the center
+
+## Range 
+The difference between the max and min values. Large values influence the range value
+
+* range = max - min
+
+## Interquartile Range
+The difference between the quartiles shows how the middle half od the data covers. 
+
+* Quartiles: Q1: 25, Q3: 75
+* IQR = Q3 - Q1
+
+
+## Boxplots & summaries
+The central box shows the middle half of the data between quartiles. If the median is not centered the distribution is skewed. Whiskers show skewness. Outliers are shown individually to give attention to them.
+
+
+## The mean or average
+Add up all the values for the variable and divide that sum by the number of data values. 
+
+* $\Sigma x$  / n
+
+## Standard Deviation
+The standard deviation accounts for each value is from the mean, how far  the data point is from the mean. The difference is called *deviation*, which can be averaged then squared for only positive values. When you sum up all the squared deviations and find their average you get **variance**. ``s^2 = var() and s = sqrt()`` function.
+
+
+# Chapter 5 - Standard Deviation (std) & Normal Model
+To express the distance from the mean in standard deviations *standardizes* the value. To **standardize** a value, subtract the mean and then divide this difference by the std. These standardized values are called ***z-scores***.
+
+The z-scores measure the distance of a value from the mean in standard deviations. A z-score of 2 indicates that a data value is 2 standard deviations above the mean (units don't apply). Negative z-scores indicate standard deviations below the mean. The further from the mean, the more special it is, negative z-scores are more impressive.  
+
+A z-score comparison: z_1 = -1.81 < z_2 = -2.26, because -2.26 is farther from the std mean.
+
+======================================
+
+  Example: Standardizing Ski times
+  
+  2010 Olympic Games, Men's skiing event, 2 races: downhill and slalom.
+  Skier with lowest total times wins.
+  
+  - mean slalom time: 52.67 seconds
+  - standard deviation : 1.614 seconds
+  - mean downhill time: 116.26 seconds
+  - standard deviation : 1.914
+  
+  Bode Miller won gold with combined time 164.92 seconds
+  
+  * slalom total time 51.01 seconds
+  * downhill total time 113.91 seconds
+
+  Which race was better compared to the competition?
+  
+  * z_slalom = ( (slalom total time) - (mean slalom time) ) / std = -1.03
+  * z_downhill = ( (downhill total time) - (mean downhill time) ) / std = -1.23
+
+  Faster times are the goal, the z-score of -1.23 standard deviations from the mean is better than z-score -1.03. 
+  
+========================================
+
+
+## Shifting & Scaling
+Two ways to finding a z-score, shifted by subtracting the mean and then divide by the std.
+
+<p1> CDC Population study, N= 11,000 people. Subgroup of men, n= 80, age = 19:24, average_height = 5.8:5.11, average_weight.kg = 82.36. The NIH max weight for health is 74 kg. To compare weights to the max weight for health, subtract 74 kg from each of the weights. </p1>
+
+<li>  average_weight.kg - 74 = 8.36 kg overweight </li>
+
+<br>
+**Rescaling** is changing the measurement units, kg to lbs. Need to multiply each value of kg by 2.2 for pound units, so the average weight is 181.19 lbs.
+
+Standardizing the z-scores changes the center by making the mean 0, it also changes the spread making the std = 1, but does not change the shape of the distribution.
+
+
+## Normal models (bell-shaped curve)
+It is common for at least half of the data to have z-scores between -1 and +1. If a z-score of +/- 3 or more **is rare**.  A normal model uses **mean** and the **std** for its parameters. 
+
+A *standard normal distribution* is one that has a mean of 0 and std of 1. 
+
+A normal model shows how extreme a value is by how far from the mean it is.
+
+* 68% of the values fall within 1 std of the mean
+* 95% of the values fall within 2 std of the mean
+* 99.7% of the values fall within 3 std of the mean
+
+![68-95-99.7 rule](68-95-99_rule.png)
+![Normal Distribution](normal-distribution.png)
+
+## Finding Normal Percentiles 
+
+SAT Test scores: overall **mean** of 500, **std** of 100.
+your score is 600 on test.
+What ranking is your score? 
+
+z-score = (600 - mean) / std = 1.0  
+your score is 1 std above the mean ($\mu +1$)
+
+if you scored 680, same mean and std, z-score = 1.8
+
+use a **z-score table**, start with the left side 1.8 then top column .00 .01 ...
+to find your percentile value of 0.9641. 
+
+What this means is that **96.4% of the z-scores are less than 1.80**, and only 3.6% of people scored better than 680 on the test.
+
+Caution:
+
+- don't use normal distribution model on non-unimodal and symmetric data
+- don't use the mean and std when outlier are present
+- don't round results in the middle of a calculation, use more than 4 decimal values for more accurate values
+
+
+# Chapter 6 - Scatterplot, association & correlation
+Look for patterns in the scatterplot
+
+- from top left to bottom right = negative
+- from bottom left to top right = positive
+- look at the form of dots, are they linear?
+- the strength of the plot relationship: cohesive stream or a clustered cloud?
+- look for outliers 
+
+Two important variables are the **response variable** and the **predictor variable**. The predictor (explanatory) variable goes on the x-axis.
+
+## Correlation
+The numeric value that determines how strong the association is between variables. Subtracting the mean from each variable just moves the means to zero and makes it easier to se the strength of the association. 
+
+Standardize each variable and work with z-scores,sum the z-scores then divide the sum by *n*-1, which is the **correlation coefficient**. The correlation cofficient lies between -1 and +1. This value has no unit because the z-score has no units.
+
+Correlation measures the strength of linear association bewteen 2 quantitative variables, assuming that there is a correlation. No correlation involving a categorical variable, look for a linear relationship in the scatterplot, check for outliers.
+
+Remember: **correlation != causation** Be mindful of lurking variables that explain correlations.
+
+In R, use ``cor(x, y)`` to find correlations
+
+# Chapter 7 - Linear Regression
+## Line of "best fit"
+A linear model that gives an equation of a straight line through the data. 
+The predicted variable value is the y^ (y-hat), the difference between x and y^ is called the **residual**, which indicates how far off the model's prediction is at *that data point*. Any variable with a hat is usually indicating it is a predicted value of a variable.
+
+- Residual = observed value - predicted value
+- Ex. item has 31g of protein, (predicted) should have 36,7g of fat on linear regression plot but actual fat is 22g. ``Residual = 22 - 36.6 = -14.6g of fat``. This means the actual value is less than the model prediction of fat. Items with negative residuals have less fat than expected, positive residuals have more.
+
+## Linear Model
+If the model is good, the data values will be closely scattered around the linear line of best fit. 
+
+- ``y^ = intercept + slope `` . Intercept are values on the y-axis, Slope are values on x-axis. 
+- Ex. line of best fit: (8.4g of fat based on model when x= 0) 
+  - fat^ = 8.4 + 0.91g protein x (fat in grams). 
+  - *This means that 1g of protein is expected on average to have 0.91g of fat*
+  
+
+## Least Squares Line
+To find the values of slope and intercept for least square line, you need **correlation, std and means**.  Correlations don't have units but slopes do. Changing the units of x and y changes the std. The slope is always the units of **y per unit x**.
+
+to predict y-value for data point x-value
+
+- ex. item has 31g of protein, predict the fat (g) 
+  - x^ = 8.4 + 0.91 (31) = 36.6g of fat
+
+## Examine the Residuals
+The residuals are: residual = observed value - predicted value. The standard deviation residual measures how much the points psreadaround the regression line. 
+
+- don't need to subtract the mean, the mean of the residual is 0. Use ``*n*-2``
+  - residual std = sum( (residual *2) / (n-2))
+- ex. residual std= 10.6g of fat, the residual = -14.6g of fat, make a histogram of the residuals, 2 * 10.6g = 21.2g of fat from 0
+
+## R squared variation
+The variation in the residuals is the key to assessing how well the model fits the data. The R-squared gives the fraction of the data's variation accounted for by the model, 1 - r^2
+
+- ex. $r^2$= 0.76 = 0.58 (58%),  1- 0.58= 0.42 => 42% of variability in total fat 
+  - *this means that 58% of the variability in the fat content is accounted for by variation in the protein content*
+
+> Correlations: A= 0.80 is $r^2$ = $0.80^2$  = 64%. B= 0.40 is $r^2$= $0.40^2$ = 16%.   *A has 4 times the correlation of B.*
+
+
+The $r^2$ values in science range from 80% to 90% or more. Observational studies have lower values.
+
+
+
+# Chapter 10 - Sample Surveys 
+Out of a population there is a sample survey, which often has bias of over/under-representing some groups out of the population. 
+
+- **Randomizing** prevents influences of all features ofo ur population by ensuring that the average of the sample looks like the rest of the population. 
+- Sample size is the number of persons in the sample
+
+Mistakes to avoid:
+
+- sample volunteers, volunteer bias
+- sample convenience 
+- using a bad sampling frame, make sample wide across the population
+- non-response bias, missing data = biased data
+- response bias, anything that influences the response
+
+# Chapter 11- Experiments
+Experiments study the relationship between 2+ variables, 1 must identify at least 1 explanatory variable (a factor) to manipulate and 1+ response variable to measure. The experimenter changes the factors and randomly assigns subjects to treatments at random. Factors have levels, treatment is the combination of factors. 
+
+## The 4 Experimental Design Principles
+
+1. Control - control the sources of variation other than the factors being tested by making conditions similar for all groups.
+2. Randomize - random equalizes the effects of unknown sources of variation
+3. Replicate - 
+4. Block - group similar individuals together and then randomize within each block, this allows difference among the blocks. Not required for experimental design. 
+
+
+Experiment Design:
+  state what you want to know
+    specify the response variable
+      specify the factor levels & treatments 
+        experiment units
+          experiment: control, replicate, randomize
+            visualize data
+
+**Blinding** of study participants and researchers and **Placebo** effect
+
+the best studies are: randomized, comparitive, double-blind, placebo-controlled
+
+Pairing participants that are similar in ways not under study is **matching** 
+
+**Confounding** is when levels of 1 factor are associated with the levels of another factor.
+Lurking variable creates an association between 2 other variables which can influence both explanatory and response variables. This variable is associated with both x and y but makes it look x causes y. Both confounding and lurking variables are outside of control and make it hard to understand the relationhip in the model.
+
+
+# Chapter 15 - Sampling Distribution Models
+A Normal model has 2 parameters, mean and standard deviation. 
+
+Sampling distribution model shows how a statistic from a sample varies from sample to sample, which allows for quantification of that variation.
+
+Formula:`` N(p, sqrt(p x q) /n )``     q = 1-p
+
+Should not sample more than **10%** of the population, to keep individuals independent of each other
+
+<hr>
+The CDC report that 22% of 18 year old women in the US have a BMI of >= 25 value. Random sample of 200, 31 females had BMI values >25.
+
+- proportion = 31/200 = 0.155
+- expected mean = 0.22
+- q = 1 - 0.22
+- std = sqrt( (0.22)(0.78) / 200 ) = 0.029
+- z = 0.155 - 0.22  /0.029  = -2.24
+<hr>
+
+## Central Limit Theorem
+The sampling distribution of any mean becomes more normal as the sample size grows. 
+
+<hr>
+CDC report the mean weght for men in US is 190lbs, std of 59 lbs
+
+- sample n= 10
+- mean = 190
+- std= 59
+- sample std = 59/sqrt(10) = 18.66
+- z= (250 - 190) / 18.66 = 3.21
+- *the average of 250 lbs is more than 3 standard deviations above the mean* 
+<hr>
+
+# Chapter 16 - Confidence Interval for Proportions
+Out of a population of 156, a sample of 48 individuals selected, this sample is p^. The (proportion) p^ = 48/156 = 30.8% . The std for sampling distributions is sqrt(p x q /n).
+
+**Standard error** is when you estimate the standard deviation of a sampling distribution
+
+```{r}
+p.hat = .308
+q.hat = 1 - p.hat
+n.sample = 156
+
+standard_error = sqrt((p.hat * q.hat)/n.sample)*100
+standard_error
+
+SE.high = standard_error * (-2)
+SE.low = standard_error * (2)
+
+error_ratio.low = (p.hat * 100) - SE.low
+error_ratio.low
+
+error_ratio.high = (p.hat *100) - SE.high
+error_ratio.high
+
+```
+This sample is Normal and shows that about 68% of all samples of 156 will have p^ within 1 standard error 0.037 of p. And 95% of all these samples will be within +/- 2 standard errors. The true value of p is unknown, even in an interval. This is also known as 1-proportion z-interval.
+
+p^ -2 SE <-------> p^ <------------> p^ +2 SE
+
+Claims:
+
+- "30.8% of *all* population aged 18-22 do X". **NO**, the Sample and population proportions are not the same 
+- "it is probably true that 30.8% of all population aged 18-22 do X". The true proportion isn't 30.8%
+- what is known: within interval of 30.8% +/- 2 x 3.7% = 23.4% to 38.2%
+- True: "We are 95% confident that between 23.4% and 38.2% of population between 18 and 22 do X" 
+
+## Margin of error: certainty vs precision
+The standard error is the **margin of error** whch is used to describe uncertainty in estimating the population value. *Estimate +/- Margin Error*. The larger the confidence interval, the larger the margin of error. 
+
+```{r}
+# poll of 1,010 people asked about views on topic
+n.sample = 1010
+reported_margin.error = 0.03 # 3%
+p = 0.5
+q = 1 - p
+
+# find margin of error
+standard_error = sqrt( (p*q) /n.sample)
+standard_error
+
+margin_error = (2 * standard_error)*100
+margin_error
+```
+
+## Critical values
+
+```{r}
+# poll of 1,010 people asked about views on topic
+n.sample = 1010
+reported_margin.error = 0.03 # 3%
+p = 0.5
+q = 1 - p
+
+# out of this sample, 40% said X, 90% Confidence interval 
+p.hat = 0.40  # 40%
+q.hat = 1 - p.hat
+standard_error = sqrt( (p.hat * q.hat) / n.sample)
+standard_error
+
+# z-table for 90% = 1.645
+# find margin of error
+z.score = 1.645
+margin_error = z.score * standard_error
+margin_error
+```
+
+# Chapter 17 - Proportion Hypotheses 
+Hypotheses are models used to test data. 
+
+- Null hypothesis assumes there is no change/difference
+- Alternative hypothesis assumes there is a change/difference. evidence must be present in order to reject null
+
+```{r}
+n = 550
+p = 0.517
+q = 1 - p
+
+p
+
+# null_hypothesis 
+null.h = p 
+
+# alt_hypothesis   
+# alt.h != p
+
+# p^ std
+p.hat.std = sqrt( (p *q) / n)
+p.hat.std
+
+# reported proportion p^ 
+# of population 550
+p.hat = 0.569 
+
+# find the z-score
+z = (p.hat - p) / p.hat.std
+z
+
+# z-table value for z
+z.table.value = 0.9927
+p_value = 1 - z.table.value
+
+# 2 tail test need to multiply by 2
+two_tail_test.p_value = p_value*2
+two_tail_test.p_value
+
+# decide 
+null.h < two_tail_test.p_value 
+```
+The sample proportion lies 2.44 standard devations above the mean. The p value shows that if true proportion is 51.7% ( p= 0.517) then observed proportion of 56.9% (p.hat) X event would occur randomly only about 15 (two tail test p_value) times out of 1000. The p value (0.517) is greater than 2 tailed test p value, therefore reject the null. 
+
+# Chapter 18 - t-tests, inferences about means
+When sampling distribution model is bell-shaped, when sample size is large the model is nearly normal, when size is small the tails of model chnage. 
+
+**Degrees of Freedom** represent the number of independent quantities that are left after estimated the parameters
+
+
+critical value with t-value from t-table
+
+- if t value is < critical value = don't reject null
+- if t value is > critical value = reject null
+
+```{r}
+# indep paired t test
+t.value = 2.3
+
+p = .05
+n = 16
+#Degrees.of.Freedom (df) 
+df = n*2 - 2  
+df
+
+# t table, p value and df
+critical.value = 2.04
+
+t.value > critical.value
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
