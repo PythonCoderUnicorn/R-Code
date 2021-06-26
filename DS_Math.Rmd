@@ -1,0 +1,224 @@
+---
+title: "Math for Data Science"
+author: "notebook by Zane Dax"
+output: 
+  html_notebook: 
+    toc: yes
+    theme: spacelab
+---
+
+<style type="text/css">
+a {color: #3d0066; font-size: 11;}
+p {color: #000000; font-family:"monaco" font-size:13;}
+h1 {color: #3d0066 }
+h2 {color: #6b00b3 }
+h3 {color: #9900ff }
+h4 {color: #cc0099 }
+ul {list-style-type: circle; color: #6b00b3 }
+ol {color: #cc0099; font-size:11; }
+p1 {color: #004d4d;}
+li {color: #004d4d;} 
+
+</style>
+
+# Math Foundation for Data Science
+This is my  rework of topics covered in *Duke University's*  **Data Science Math Skills** course from Coursera, which is not in R or Python. 
+
+## Sets
+A mathematical set is a collection of items, made of elements. 
+
+```{r Sets}
+A = c(1,2,-3,7)
+E = c('apple','pear','mango')
+
+A
+E
+```
+
+
+
+### Set Theory Notation
+In set A, 2 is an element, and mango is an element in set E.
+This is described as: 2 is an $\in$ A and mango is an $\in$ E.
+
+
+### Cardinality
+The cardinality of a set is simply the size or number of elements in it.
+For set E, there are 3 items, so we write $|$E$|$= 3
+
+
+# Intersection of sets
+The intersection is the conditional argument symbol of sets, either "And" or "Or" regarding their elements.
+
+```{r}
+A = c(1,2-3,7)
+B = c(2,8,-3,10)
+D = c(5,10)
+```
+
+
+## Intersection "and"
+The element or elements of 1 set have same value in the other set. Both values matching is required for condition to be true. *Note: The notation is to use { } for a set.* 
+
+Sets A and B both have 2 and -3 elements
+A $\cap$ B = {2,-3}
+
+Sets B and D do not both have shared elements, resulting in an empty set
+B $\cap$ D = $\emptyset$
+
+The full notation for this: A $\cap$ B = {x: X $\in$ and X $\in$ B}
+
+## Intersection union
+The union is not what you might assume, it is not the "and" but rather the **or** condition of elements in sets. 
+
+The elements in 1 or both sets to satisfy the condition.<br>
+A $\cup$ B = {x: X $\in$ A or X $\in$ B} = {1,2,-3,7,8,10}
+
+
+
+# Numbers
+There are different types of numbers in math but the ones focused here are $\mathbb{R}$ 
+and $\mathbb{Z}$ which are Real and Integers.
+
+Take a negative 7 integer and get the absolute value.
+
+```{r abs}
+
+n = -7
+abs(n)
+```
+
+## Numeric Conditionals
+The values between variables compared on whether one variable is greater, less than or equal to, and greater or equal to the other value. 
+
+| symbol | meaning |
+|--------| --------|
+| > | greater than x |
+| < | less than x |
+| >= | greater or equal to x |
+| =< | less than or equal to x |
+
+
+**Boolean Logic** evaluates the condition and returns a True or False (1 or 0)
+
+```{r}
+a = 3.14
+b = 6.5
+x = 2
+y = 17
+
+# Boolean Logic 
+a > b
+
+a <= b
+
+# double equal signs means equality
+# test for equality between both conditions
+x*y == y*x
+
+
+b < x
+```
+
+unknown value for z, check if condition is true.
+```{r}
+z = ?
+
+z + 3 < 10
+z < 10 - 3
+z < 7
+
+```
+
+# Intervals
+The intervals are notation of what elements are within the range of what is in a set. 
+
+## Closed set
+A closed set has [ ] and means that x values are bound to the inner range <br>
+[2, 3.1] = {X $\in$ : 2 < x < 3.1}
+
+## Open set
+The open set has ( ) and means values for x are within a range <br>
+(5,8) = {X $\in$ : 5 < x < 8}
+
+## Mixed set
+The mixed set has ( ] notation and uses < and =< <br>
+(-7.1, 15] = {X $\in$ : -7.1 < x =< 15 }
+
+
+# **Summation** function $\sum$
+The sum of values from i to x, then the x has a function performed on it. 
+
+This is testing the ``sum()`` function in R.
+
+```{r}
+
+sum(1:5)
+
+sum(1:5, 9:19)
+```
+
+Testing out a for loop for the summation of $\sum_{i=0}^{5} {i^2}$
+
+```{r for loop}
+
+library(stringr)
+
+v = c(1:4)
+for( i in v){
+  x = i**2
+  z = sum(x)
+}
+str_glue('The sum is {sum(x)}')
+
+```
+
+
+
+Sigma $\sum_{i=1}^{5} f(2i+3)$ 
+```{r}
+
+v = c(1:5)
+for( i in v){
+  k = i*2 + 3
+  z = sum(k)
+  print(z)
+  h = sum(5, 7,9,11, 13)
+}
+str_glue('The sum is {h}')
+
+```
+
+Sum $\sum_{i=1}^{4} {3i^2}$
+
+```{r}
+v = c(1:4)
+for( i in v){
+  k = (3*i)**2
+  z = sum(k)
+}
+str_glue('The sum is {z}')
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
