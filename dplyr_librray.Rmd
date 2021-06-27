@@ -1,0 +1,173 @@
+---
+title: "dplyr_library"
+author: "Zane Dax"
+output:
+  pdf_document:
+    toc: yes
+  html_document:
+    toc: yes
+    theme: spacelab
+    df_print: tibble
+---
+
+# The dplyr library 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+<style type="text/css">
+li {color: #196666; font-size:14;}
+a {color: #cc0099; font-size:18;}
+p {font-family: monaco;font-size: 18; color:#003333;}
+h1 {color:#206040;}
+h2 {color:#669900;}
+h3 {color:#669900;}
+div {color: 'red'; font-size: 18;}
+</style>
+
+
+Load the libraries
+```{r}
+library(tidyverse)
+#install.packages(nycflights13)
+library(nycflights13)
+
+```
+
+
+## Topics covered in this tutorial
+* filter()
+* arrange()
+* select()
+* mutate()
+* groupby()
+* summarize()
+* left_join()
+
+
+```{r}
+
+flights = flights
+airlines = airlines
+```
+
+
+### Filter 
+filter rows of our datasets based on conditions. The R pipe operator " %>% " is the *then* keyword. The "::" is the function from the library.
+```{r filter example}
+flights %>% 
+  dplyr::filter(month == 1 | month == 2, day==1)
+
+```
+
+then we concat the pipe operator
+```{r concat pipe}
+flights.filtered = flights %>% 
+  dplyr::filter(month %in% c(11, 12)) %>% 
+  dplyr::filter(dep_time >= 700) %>% 
+  dplyr::filter(carrier != "UA")
+
+flights.filtered
+```
+
+
+### Arrange 
+The ``arrange()`` function is used for sorting dataframes, the ``desc()`` helper function used to specify descending rather than ascending order. SQL the sort_by.
+```{r arrange function}
+flights.arranged = flights.filtered %>% 
+  arrange( year, month, day, desc(dep_delay))
+
+flights.arranged
+```
+
+
+### select
+The select function is used for selecting variables (columns) of the dataset. The use of '-' is to remove column, and ``rename()`` can rename column names.
+
+```{r select function}
+flights.selected = flights.arranged %>% 
+  dplyr::select(-(hour:time_hour)) %>% # dropping hour from time_hour column
+  dplyr::rename("flight_time" = "air_time", "destination" = "dest")
+
+flights.selected
+```  
+
+
+### Mutate
+The mutate function can create new variables
+```{r mutate}
+flights.mutated = flights.selected %>% 
+  mutate(gain = dep_delay - arr_delay,
+         hours = flight_time/60,
+         gain_per_hour = gain/hours)
+
+flights.mutated
+```
+
+
+there are mutate extensions
+```{r mutate extensions}
+flights.2a = flights.mutated %>% 
+  mutate_at(.vars = c("year","month","day"), .funs = as.character)
+
+flights.2b = flights.mutated %>% 
+  mutate(across(.cols = c("year","month","day"), .fns = as.character ))
+flights.2b
+
+```
+
+
+### Groupby, summarize
+The groupby() function creates a "grouped" dataset, it is used with summarize() function.
+```{r Groupby}
+
+mean.delays = flights.mutated %>% 
+  group_by(carrier) %>% 
+  dplyr:: summarize(mean_delay = mean(dep_delay, na.rm= TRUE)) %>% 
+  arrange( desc(mean_delay))
+
+mean.delays
+```
+
+the count function is simply ``n()`` or ``tally()``
+```{r tally}
+
+carrier.counts = flights.mutated %>% 
+  group_by(carrier) %>% 
+  dplyr::summarise(n = n()) %>% 
+                     arrange(desc(n))
+
+carrier.counts
+```
+
+
+### Joins
+All the joins you could ever want
+```{r joins}
+airline.names = mean.delays %>% 
+  left_join(airlines, by= c("carrier" = "carrier")) %>% 
+  dplyr::select(name, carrier, mean_delay)
+
+airline.names
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
