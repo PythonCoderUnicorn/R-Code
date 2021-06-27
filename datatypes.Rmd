@@ -1,0 +1,165 @@
+---
+title: "**Data Types R Notebook**"
+output: html_notebook
+---
+
+# Data Types
+
+```{r}
+library(tidyverse)
+library(nycflights13)
+
+dataset = flights %>% 
+  mutate( monthFactor = factor(month),
+          big4 = ifelse(carrier %in% c("UA","AA","DL","WN"), T, F),
+          air_time= air_time - 0.05)
+```
+
+
+
+```{r}
+summary(dataset$tailnum)
+dataset$tailnum[1:20]
+```
+
+```{r}
+summary(dataset$arr_time)
+dataset$arr_time[1:20]
+
+```
+
+
+```{r}
+summary(dataset$big4)
+dataset$big4[1:20]
+
+```
+
+
+```{r factors}
+summary(dataset$monthFactor)
+dataset$monthFactor[1:10]
+
+```
+
+
+```{r}
+str(dataset$month) # makes less sense 
+summary(dataset$month)
+
+```
+
+
+forcats
+
+## datetimes
+POSIXct is the class name
+```{r}
+str(dataset$time_hour) # seconds 
+
+```
+lubridate package makes dates easier to work with
+```{r}
+as.POSIXct(dataset$time_hour, tz= "EST")[1:4]
+
+as.POSIXlt(dataset$time_hour, tz= "GMT")[1:4]
+```
+
+
+```{r}
+is.character(4)
+is.character("4")
+as.character(4) # turns 4 into char
+```
+
+
+
+structures - atomic vectors 
+```{r}
+vectorChar = c('char1','char2','char3')
+vectorNum = c(1,2,3)
+vectorChar
+vectorNum
+```
+
+matrix - same data type
+```{r}
+
+matrixChar = matrix( c("1","2","3","4"), nrow = 2, ncol = 2)
+matrixChar
+
+```
+
+```{r}
+matrxNum = matrix( c(1:24), nrow = 3, ncol = 8)
+matrxNum
+```
+
+slice matrix
+```{r}
+
+matrxNum[1,] # row
+matrxNum[,3] # column 
+```
+
+
+Dataframes 
+```{r}
+
+dfEx = data.frame(dataset)
+dfEx[1:10]
+```
+
+
+arrays  (2x3) matrices * 4
+```{r}
+array(matrxNum, dim =  c(2,3,4), dimnames = list( c('row1','row2'),
+      c('col1', 'col2','col3'),
+      c('matrix1','matrix2', 'matrix3','matrix4')))
+
+```
+
+tibbles 
+```{r}
+dataset[1:20]  # tidyverse Tibble
+
+```
+
+
+list 
+```{r}
+list1 = list(3, TRUE, as.factor(1))
+list2 = list(flights, dataset)
+list3 = list(1, 4, flights )
+list4 = list(list1, list2, list3)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
