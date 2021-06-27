@@ -1,0 +1,1055 @@
+---
+title: "**Computational Genomics in R**"
+author: "Zane Dax, source: *Computational Genomics in R*"
+output: 
+  html_notebook: 
+    toc: yes
+    theme: spacelab
+   
+---
+
+[Computational Genomics pdf ](https://compgenomr.github.io/book/genes-dna-and-central-dogma.html)
+
+<style type="text/css">
+li {color: #196666; font-size:12;}
+a {color: #cc0099; font-size:12;}
+p {font-family: monaco;font-size: 13; color:#003333;}
+h1 {color:#206040;}
+h2 {color:#669900;}
+h3 {color:#669900;}
+div {color: 'red'; font-size: 18;}
+</style>
+
+
+
+![](Computational_Genomics.jpg)
+
+
+# Genes and DNA 
+All the instructions to make different kinds of cells are contained within that single cell and with every division of that cell, those instructions are transmitted to new cells. These instructions can be coded into a string – a molecule of DNA, a polymer made of recurring units called nucleotides. The four nucleotides in DNA molecules, Adenine, Guanine, Cytosine and Thymine (coded as four letters: A, C, G, and T) in a specific sequence, store the information for life. DNA is organized in a double-helix form where two complementary polymers interlace with each other and twist into the familiar helical shape.
+
+
+## Genome
+The full DNA sequence of an organism, which contains all the hereditary information, is called a genome. The genome contains all the information to build and maintain an organism. Genomes come in different sizes and structures. Our genome is not only a naked stretch of DNA. In eukaryotic cells, DNA is wrapped around proteins (histones) forming higher-order structures like nucleosomes which make up chromatins and chromosomes.
+![genomes in animals](genomes.png)
+
+**The human genome has 46 chromosomes and over 3 billion base-pairs**, whereas the wheat genome has 42 chromosomes and 17 billion base-pairs; both genome size and chromosome numbers are variable between different organisms.
+
+With this technology, fragments of the DNA sequence from the genome, called reads, are obtained. Larger chunks of the genome sequence are later obtained by stitching the initial fragments to larger ones by using the overlapping reads.
+
+## A Gene
+In the genome, there are specific regions containing the precise information that encodes for physical products of genetic information. A region in the genome with this information is traditionally called a “gene”. 
+
+A gene is a segment of a DNA sequence corresponding to a single protein or to a single catalytic and structural RNA molecule. 
+
+1. DNA is replicated to transfer the information to new cells. If activated, the genes are transcribed into messenger RNA (mRNAs) in the nucleus (in eukaryotes).
+2. mRNAs (if the gene is protein coding) get translated into proteins in the cytoplasm.
+
+Proteins are essential elements for life. The growth and repair, functioning and structure of all living cells depend on them. This is why the gene is a central concept in genome biology, because a gene can encode information for proteins and other functional molecules. How genes are controlled and activated dictates everything about an organism. 
+
+![DNA, RNA, protein](DNA.png)
+
+
+## Transcription 
+The first step in a process of information transfer - the production of an RNA copy of a part of the DNA sequence - is called transcription. 
+
+This task is carried out by the RNA polymerase enzyme. RNA polymerase-dependent initiation of transcription is enabled by the existence of a specific region in the sequence of DNA - a core promoter. 
+
+RNA polymerases recognize these complexes and initiate synthesis of RNAs, the polymerase travels along the template DNA and makes an RNA copy.After mRNA is produced it is often spliced by spliceosome. 
+
+The sections, called ‘introns’, are removed and sections called ‘exons’ left in. Then, the remaining mRNA is translated into proteins. Which exons will be part of the final mature transcript can also be regulated and creates diversity in protein structure and function.
+![transciption](transcription.png)
+
+Non-coding RNA (ncRNAs) genes are processed and assume their functional structures after transcription and without going into translation. ncRNAs and other RNAs in general can form complementary base-pairs within the RNA molecule which gives them additional complexity.
+
+A gene will be represented as a sequence of letters or as a series of connected boxes showing exon-intron structure, which may include the direction of transcription. DNA has two strands. A gene can be located on either of them, and the direction of transcription will depend on that.
+
+![Gene representation](digital-genes.png)
+
+
+## Gene regulation elements
+The mechanisms regulating gene expression are essential for all living organisms as they dictate where and how much of a gene product should be manufactured.
+
+This regulation could occur at the pre- and co-transcriptional level by controlling how many transcripts should be produced and/or which version of the transcript should be produced by regulating splicing.
+
+Gene products can be regulated post-transcriptionally where certain molecules bind to RNA and mark them for degradation even before they can be used in protein production.
+
+Gene regulation drives cellular differentiation, also helps cells maintain differentiated states of cells/tissues.
+
+## Transcriptional regulation
+the primary regulatory element in gene expression regulation is the rate of transcription initiation. The rate is controlled by core promoter elements and distant-acting regulatory elements such as enhancers.
+
+Gene activity is also controlled post-transcriptionally by ncRNAs such as microRNAs (miRNAs), as well as by cell signaling, resulting in protein modification or altered protein-protein interactions.
+
+
+## Transcription factors
+Transcription factors are proteins that recognize a specific DNA motif to bind on a regulatory region and regulate the transcription rate of the gene associated with that regulatory region. These factors bind to a variety of regulatory regions and also affect the transcription rate.
+
+![gene regulation](gene-regulation.png)
+
+## Core and proximal promoters
+Core promoters are the immediate neighboring regions around the transcription start site (TSS) that serve as a docking site for the transcriptional machinery and pre-initiation complex (PIC) assembly.
+
+transcription initiation is as follows: 
+The core promoter has a TATA motif (referred as TATA-box) 30 bp upstream of an initiator sequence (Inr), which also contains TSS.
+
+1. transcription factor TFIID binds to the TATA-box.
+2. general transcription factors are recruited and transcription is initiated on the initiator sequence.
+
+aside from TATA and Inr, there are other sequence elements: downstream promoter elements (DPEs), the BRE elements and CpG islands. 50 to 70% of promoters in the human genome are associated with CpG islands.
+
+## Enhancers
+Most of the transcription factor binding sites in the human genome are found in intergenic regions or in introns. On a molecular function level, enhancers are similar to proximal promoters; they contain binding sites for the same transcriptional activators and they basically enhance the gene expression.
+
+they are often highly modular and several of them can affect the same promoter at the same time or in different time-points or tissues.Their activity is independent of their orientation and their distance to the promoter they interact with.
+
+## Silencers
+Silencers are the opposite of enhancers on the transcription of the target gene, and results in decreasing their level of transcription. Using repressor transcription factors can either block the binding of an activator or induce a repressive chromatin state in which no activator binding is possible.
+
+Silencer effects, similar to those of enhancers, are independent of orientation and distance to target genes.
+
+## Insulators
+Insulators create regulatory domains untainted by the regulatory elements in regions outside that domain. Insulators can block enhancer-promoter communication and/or prevent spreading of repressive chromatin domains. 
+
+Genome-wide studies from different mammalian tissues confirm that CTCF binding is largely invariant of cell type, and CTCF motif locations are conserved in vertebrates. An insulator-bound activator cannot bind an enhancer.
+
+## Locus control regions
+Locus control regions (LCRs) are clusters of different regulatory elements that control an entire set of genes on a locus. LCRs help genes achieve their temporal and/or tissue-specific expression programs. LCRs may be composed of multiple cis-regulatory elements, such as insulators and enhancers, and they act upon their targets even from long distances. LCRs function in an orientation-dependent manner. 
+
+## Epigenetic regulation
+In essence, epigenetic regulation is the regulation of DNA packing and structure, the consequence of which is gene expression regulation. Typical example is that DNA packing inside the nucleus can directly influence gene expression by creating accessible regions for transcription factors to bind.
+
+There are two main mechanisms in epigenetic regulation: i) DNA modifications and ii) histone modifications.
+
+### DNA modifications such as methylation
+DNA methylation is usually associated with gene silencing. DNA methyltransferase enzyme catalyzes the addition of a methyl group to cytosine of CpG dinucleotides. 
+
+This covalent modification either interferes with transcription factor binding on the region, or methyl-CpG binding proteins induce the spread of repressive chromatin domains, thus the gene is silenced if its promoter has methylated CG dinucleotides.
+
+DNA methylation usually occurs in repeat sequences to repress transposable elements. These elements, when active, can jump around and insert them to random parts of the genome, potentially disrupting the genomic functions.
+
+DNA methylation is also related to a key core and proximal promoter element: CpG islands. CpG islands are usually unmethylated, however, for some genes, CpG island methylation accompanies their silenced expression.
+
+- For example, during X-chromosome inactivation, many CpG islands are heavily methylated and the associated genes are silenced. 
+- in embryonic stem cell differentiation, pluripotency-associated genes are silenced due to DNA methylation.
+- other kinds of DNA modifications present in mammalian genomes, such as hydroxy-methylation and formylcytosine. 
+
+
+## Histone modifications
+Histones are proteins that constitute a nucleosome. In eukaryotes, eight histone proteins are wrapped by DNA and make up the nucleosome. They help super-coiling of DNA and inducing high-order structure called chromatin.
+
+In chromatin, DNA is either:
+
+- densely packed (called heterochromatin or closed chromatin)
+or
+- loosely packed (called euchromatin or open chromatin).
+
+Heterochromatin is thought to harbor inactive genes since DNA is densely packed and transcriptional machinery cannot access it. 
+
+Euchromatin is more accessible for transcriptional machinery and might therefore harbor active genes.
+
+Histones have long and unstructured N-terminal tails which can be covalently modified. The most studied modifications include acetylation, methylation and phosphorylation
+
+Using their tails, histones interact with neighboring nucleosomes and the modifications on the tail affect the nucleosomes’ affinity to bind DNA and therefore influence DNA packaging around nucleosomes.
+
+Different modifications on histones are used in different combinations to program the activity of the genes during differentiation. **Histone modifications have a distinct nomenclature**, for example: **H3K4me3** means the lysine (K) on the 4th position of histone H3 is tri-methylated.
+
+![Histone modification](histone-modification.png)
+
+Histone modifications can indicate where the regulatory regions are and they can also indicate activity of the genes.
+
+Certain proteins can influence chromatin structure by interacting with histones. Some of these proteins, like those of the Polycomb Group (PcG) and CTCF.
+
+- PcGs are responsible for maintaining the silent state of developmental genes.
+- trithorax group proteins (trxG) for maintaining their active state
+- Another protein that induces histone modifications is CTCF. CTCF is associated with boundaries between active and repressive histone marks 
+
+PcGs and trxGs induce repressed or active states by catalyzing histone modifications or DNA methylation.
+
+
+## Post-transcriptional regulation
+
+### Regulation by non-coding RNAs
+The non-coding RNA (ncRNA) are important regulatory elements.Plants and animals produce many different types of ncRNAs such as:
+
+- **long non-coding RNAs** (lncRNAs) :
+  lncRNAs are typically >200-bp long, they are involved in epigenetic regulation by interacting with chromatin remodeling factors and they function in gene regulation.
+- **small interferring RNAs** (siRNAs) : siRNAs are short double-stranded RNAs which are involved in gene regulation and transposon control; they silence their target genes by cooperating with Argonaute proteins.
+- **microRNAs (miRNAs)** : miRNAs are short single-stranded RNA molecules that interact with their target genes by using their complementary sequence and mark them for quicker degradation.
+- **promoter-associated RNAs (PARs)** : PARs may regulate gene expression as well: they are approximately 18-to -200-bp-long ncRNAs originating from promoters of coding genes 
+- **small nucleolar RNAs (snoRNAs)** : snoRNAs are also shown to play roles in gene regulation, although they are mostly believed to guide ribosomal RNA modifications 
+
+## Splicing regulation
+Splicing is regulated by regulatory elements on the pre-mRNA and proteins binding to those elements. Regulatory elements are categorized as splicing enhancers and repressors. They can be located either in exons or introns. Depending on their activity and their locations there are four types of regulatory elements for splicing:
+
+- exonic splicing enhancers (ESEs)
+- exonic splicing silencers (ESSs)
+- intronic splicing enhancers (ISEs)
+- intronic splicing silencers (ISSs).
+
+The majority of splicing repressors are heterogeneous nuclear ribonucleoproteins (hnRNPs). If a splicing repressor protein binds silencer elements, they reduce the chance of a nearby site being used as a splice junction. Splicing enhancers are sites to which splicing activator proteins bind and a nearby site will be used as a splice junction.
+
+
+# Shaping the genome: DNA mutation
+Mutations in the genome occur due to multiple reasons. 
+
+1. DNA replication is not an error-free process. Before cell division, the DNA is replicated with 1 mistake per 10^8 to 10^10 base-pairs.
+2. mutagens such as UV light can induce mutations on the genome.
+3. imperfect DNA repair.
+
+Every day, any human cell suffers multiple instances of DNA damage. DNA repair enzymes are there to cope with this damage but they are also not error-free, depending on which DNA repair mechanism is used (there are multiple), mistakes will be made at varying rates.
+
+Mutations are classified by how many bases they affect, their effect on DNA structure and gene function. By their effect on DNA structure the mutations are classified as follows:
+
+- **Base substitution**: A base is changed with another.
+- **Deletion**: One or more bases is deleted.
+- **Insertion**: New base or bases inserted into the genome.
+- **Microsatellite mutation**: Small insertions or deletions of small tandemly repeating DNA segments.
+- **Inversion**: A DNA fragment changes its orientation 180 degrees.
+- **Translocation**: A DNA fragment moves to another location in the genome.
+
+Mutations can also be classified by their size as follows:
+
+- **Point mutations**: Mutations that involve one base. Substitutions, deletions and insertions are point mutations. They are also termed as single nucleotide polymorphisms (SNPs).
+- **Small-scale mutations**: Mutations that involve several bases.
+- **Large-scale mutations**: Mutations which involve larger chromosomal regions. Transposable element insertions (where a segment of the genome jumps to another region in the genome) and segmental duplications (a large region is copied multiple times in tandem) are typical large scale mutations.
+- **Aneuploidies**: Insertions or deletions of whole chromosomes.
+- **Whole-genome polyploidies**: Duplications involving whole genome.
+
+Mutations can be classified by their effect on gene function as follows:
+
+- **Gain-of-function mutations**: A type of mutation in which the altered gene product possesses a new molecular function or a new pattern of gene expression.
+- **Loss-of-function mutations**: A mutation that results in reduced or abolished protein function. This is the more common type of mutation.
+
+
+# Methods in genomics
+High-throughput (*the rate of production or the rate at which something is processed.*) methods aim to quantify or locate all or most of the genome that harbors the biological feature (expressed genes, binding sites, etc.) of interest. Most of the methods rely on some sort of enrichment of the targeted biological feature. 
+
+- if you want to measure expression of protein coding genes you need to be able to extract mRNA molecules with special post-transcriptional alterations that protein-coding genes acquire. Next, you need to be able to tell where these fragments are coming from in the genome and how many of them there are. 
+
+*[old method] Microarrays were the standard tool for the quantification step until the spread of sequencing techniques. In microarrays, one had to design complementary bases, called “oligos” or “probes”, to the genetic material enriched via the experimental protocol.*
+
+High-throughput techniques have the following steps:
+
+- **Extraction**: This is the step where you extract the genetic material of interest, RNA or DNA.
+- **Enrichment**: In this step, you enrich for the event you are interested in. For example, protein binding sites. In some cases such as whole-genome DNA sequencing, there is no need for enrichment step. You just get fragments of genomic DNA and sequence them.
+- **Quantification**: This is where you quantify your enriched material. Depending on the protocol you may need to quantify a control set as well, where you should see no enrichment or only background enrichment.
+
+![Genomic High-Throughput](genome-high-throughput.png)
+
+## High-throughput sequencing
+Also known as massively parallel sequencing, is a collection of methods and technologies that can sequence DNA thousands/ millions of fragments at a time.
+
+Throughput refers to the number of sequenced bases per hour. The older low-throughput sequencing methods have ~100 times less throughput compared to modern high-throughput methods. 
+
+Sequencing-based methods also require an enrichment step. This step enriches for the features we are interested in. The main difference of the sequencing-based methods is the quantification step.
+
+## Sequencing data
+*keyword*: Sequenced read ("reads")
+
+A sequencing library is composed of fragments of RNA or DNA ready to be sequenced. The library preparation primarily depends on the experiment of interest. There are a number of library preparation protocols aimed at quantifying different signals from the genome.
+
+![High-Throughput Sequencing](sequencing-summary.png)
+
+
+# Visualization and data repositories for genomics
+There are ~100 animal genomes sequenced as of 2016. On top these, there are many research projects from either individual labs or consortia that produce petabytes of auxiliary genomics data, such as ChIP-seq, RNA-seq, etc.
+
+There are two requirements to be able to visualize genomes and their associated data: 
+
+1. you need to be able to work with a species that has a sequenced genome 
+2. you want to have annotation on that genome, meaning, at the very least, you want to know where the genes are. 
+
+Most genomes after sequencing are quickly annotated with gene-predictions or known gene sequences are mapped on to them, and you can also have conservation to other species to filter functional elements.
+
+If you are working with a model organism or human, you will also have a lot of auxiliary information to help demarcate the functional regions such as regulatory regions, ncRNAs, and SNPs that are common in the population. Or you might have disease- or tissue-specific data available.
+
+
+## Accessing genome sequences
+As someone who intends to work with genomics, you will need to visualize a large amount of data to make biological inferences or simply check regions of interest in the genome visually. Looking at the genome case by case with all the additional datasets is a necessary step to develop a hypothesis and understand the data.
+
+A genome browser is a website or an application that helps you visualize the genome and all the available data associated with it. Via genome browsers, you will be able to see where genes are in relation to each other and other functional elements. You will also be able to see gene structure, auxiliary data such as conservation, repeat content and SNPs.
+
+Genome browsers:
+
+-  University of California, Santa Cruz. Search genomes and genes, it's responsive and allows you to visualize large amounts of data. The UCSC Table Browser, lets you download the data: http://genome.ucsc.edu/
+
+- European Bioinformatics Institute, users can visualize genes or genomic coordinates from multiple species and download data: http://www.ensembl.org.
+
+## Data repositories
+Genome browsers contain lots of auxiliary high-throughput data. There are two major public archives we use to deposit data.
+
+- Gene Expression Omnibus (GEO): http://www.ncbi.nlm.nih.gov/geo/
+- European Nucleotide Archive (ENA): http://www.ebi.ac.uk/ena.
+
+other databases and datasets:
+
+- Transcription factor binding sites, gene expression and epigenomics data for cell lines: https://www.encodeproject.org/
+- Epigenomic data: http://www.roadmapepigenomics.org/
+- Expression, mutation and epigenomics data for multiple cancer types: http://cancergenome.nih.gov/
+- Human genetic variation data obtained by sequencing 1000s of individuals: http://www.1000genomes.org/ 
+
+
+> End of Chapter 1 
+
+
+
+
+
+
+
+# Chapter 2 - **Genetic Data Analysis in R**
+Although basic R programming tutorials are easily accessible, we are aiming to introduce the subject with the genomic context in the background. The examples and narrative will always be from real-life situations when you try to analyze genomic data with R. 
+
+Bioconductor and CRAN have an array of specialized tools for doing genomics-specific analysis.
+
+The data analysis steps typically include data collection, quality check and cleaning, processing, modeling, visualization, and reporting. These steps are no linear, often you will need to repeat some steps in an iterative process. 
+
+**Data Collection** - How much data and what type of data you should collect depends on the question you are trying to answer and the technical and biological variability of the system you are studying.
+
+**Data quality check and cleaning** - High-throughput genomics data is produced by technologies that could embed technical biases into the data. If we were to give an example from sequencing, the sequenced reads do not have the same quality of bases called. Towards the ends of the reads, you could have bases that might be called incorrectly. Identifying those low-quality bases and removing them will improve the read mapping step.
+
+**Data processing** - You may need to convert it to other formats by transforming data points (such as log transforming, normalizing, etc.), or subset the data set with some arbitrary or pre-defined condition. In terms of genomics, processing includes multiple steps. 
+
+- *genomic data-specific processing and quality check can be achieved via R/Bioconductor packages. For example, sequencing read quality checks and even HT-read alignments can be achieved via R packages.*
+
+- Processing will include aligning reads to the genome and quantification over genes or regions of interest. This is simply counting how many reads are covering your regions of interest. This quantity can give you ideas about how much a gene is expressed if your experimental protocol was RNA sequencing.
+
+**Exploratory data analysis and modeling** - This phase usually takes in the processed or semi-processed data and applies machine learning or statistical methods to explore the data. 
+
+Typically, one needs to see a relationship between variables measured, and a relationship between samples based on the variables measured. 
+
+**modeling** your variable of interest based on other variables you measured. In the context of genomics, it could be that you are trying to predict disease status of the patients from expression of genes you measured from their tissue samples. Then your variable of interest is the disease status. This kind of approach is generally called “predictive modeling”, and could be solved with regression-based machine learning methods.
+
+**Visualization** is necessary for all the previous steps more or less. But in the final phase, we need final figures, tables, and text that describe the outcome of your analysis. This will be your report.
+
+
+## R crashcourse 
+The bare bones of using R syntax. Many reference tutorials use '<-' but the '=' is equal in R language. Named variables can't lead with a number or underscore, but can have a '.' in lead or between characters.
+
+- **Vectors** (known as lists or arrays in Python). To create a vector use ``c()`` function. 
+  - Ex.``v = c(1,2,3,4,5)``
+  - Ex. ``v = 1:5`` makes the same as above
+  - Ex. ``v^2`` squares each number in vector
+
+- **Matrices** use vectors to build a matrix
+  - ``m1 = c(1,2,3,4)``
+  - ``m2 = c(5,6,7,8)``
+  - ``mtrx = cbind(m1, m2)``  **cbind** is column bind
+  - ``mtrx`` to call the variable and see result
+  - **transpose a matrix** use the ``t(mtrx)`` swap 'mtrx' for your variable name
+  - ``m3 = matrix(c(1,3,2,5,-1,2,2,3,9),nrow=3)``
+
+- **Data Frames**
+  ```{r}
+  char = c('c1','c2','c3','c4')
+  strand = c('-',"+","-","+")
+  start = c(1000, 2000, 100,200)
+  end = c(234,670,560,289)
+  
+  my.dataframe = data.frame(char, strand, start, end)
+  my.dataframe
+  ```
+  ```
+    char strand start end
+  1   c1      -  1000 234
+  2   c2      +  2000 670
+  3   c3      -   100 560
+  4   c4      +   200 289
+  ```
+
+To change the columns order, just change the order in the data.frame.
+   ```{r}
+   # slicing a data frame 
+   my.dataframe[ , 2:4]  # columns 2,3,4 of data frame
+   my.dataframe[,c("char","start")] # columns char and start from data frame
+   my.dataframe$start  # $ to get column variable 'start' in the data frame
+   my.dataframe[my.dataframe$start > 400,] # get all rows where start > 400
+   ```
+
+
+- **Lists** - You can create a list with the ``list()``function. Each object or element in the list has a numbered position and can have names. Unordered items in a list.
+  ```
+  my.list = list(id ="DNA",
+              mynumbers = c(7.1, 7.8, 9.2),
+              m = matrix(1:6, ncol=2),
+              age = 27
+              )
+  List
+  ```
+- get the 3rd element from the list, which is the matrix for this list. ``m[[3]]`` returns the matrix
+
+- **Factors** - Factors are used to store categorical data. They are important for statistical modeling since categorical variables are treated differently in statistical models than continuous variables.
+  ```
+  features= c("promoter","exon","intron")
+  factor.feat = factor(features)
+  ```
+
+
+
+## Reading in data
+Most of the genomics data sets are in the form of genomic intervals associated with a score. That means mostly the data will be in table format with columns denoting:
+
+- *chromosome, start positions, end positions, strand and score*. 
+
+One of the popular formats is the **BED format**, which is used primarily by the UCSC genome browser but most other genome browsers and tools will support the BED file format. In R, you can easily read tabular format data with the **read.table()** function.
+
+One important thing is that with save() you can save many objects at a time, and when they are loaded into memory with load() they retain their variable names. 
+
+- For example, if you use ``load("mydata.RData")`` in a fresh R session, an object named cpg.df will be created. That means you have to figure out what name you gave to the objects before saving them. Conversely, when you save an object by ``saveRDS() and read by readRDS()``, the name of the object is not retained, and you need to assign the output of readRDS() to a new variable (x in the above code chunk).
+
+```
+enhancerFilePath=system.file("extdata",
+                "subset.enhancers.hg18.bed",
+                package="compGenomRData")
+cpgiFilePath=system.file("extdata",
+                "subset.cpgi.hg18.bed",
+                package="compGenomRData")
+# read enhancer marker BED file
+enh.df <- read.table(enhancerFilePath, header = FALSE) 
+
+# read CpG island BED file
+cpgi.df <- read.table(cpgiFilePath, header = FALSE) 
+
+# check first lines to see how the data looks like
+head(enh.df)
+```
+You can save your data by writing it to disk as a text file. A data frame or matrix can be written out by using the write.table() function. Now let us write out cpgi.df. We will write it out as a tab-separated file; pay attention to the arguments.
+
+```
+write.table( cpgi.df, file="cpgi.txt", quote=FALSE,
+            row.names =FALSE, col.names =FALSE, sep="\t")
+```
+You can save your R objects directly into a file using save() and saveRDS() and load them back in with load() and readRDS(). 
+
+```
+save( cpgi.df, enh.df, file="mydata.RData")
+load("mydata.RData")
+
+# saveRDS() can save one object at a type
+saveRDS(cpgi.df,file="cpgi.rds")
+
+x=readRDS("cpgi.rds")
+
+head(x)
+```
+
+## Reading large files
+there are additional packages that provide faster functions to read the files. The data.table and readr packages provide this functionality. 
+```
+library(data.table)
+df.f = d(enhancerFilePath, header = FALSE, data.table=FALSE)
+
+library(readr)
+df.f2 = read_table(enhancerFilePath, col_names = FALSE)
+```
+
+## **Plotting with R**
+This basic capability for plotting in R is referred to as “base graphics” or “R base graphics”.
+
+### Histogram
+```{r}
+# histogram
+# sample 50 values from normal distribution
+# and store them in vector x
+x = rnorm(50)
+
+#hist(x) # plot the histogram of those values
+
+hist(x, main="Hello histogram!!!", col="pink")
+```
+
+
+
+### Scatterplot
+Scatter plots are one the most common plots you will encounter in data analysis.It is useful to visualize relationships between two variables. It is frequently used in connection with correlation and linear regression.
+
+```{r}
+# scatterplot
+# randomly sample 50 points from normal distribution
+y = rnorm(50)
+
+# plot a scatter plot
+# control x-axis and y-axis labels
+plot(x, y, 
+     main="scatterplot of random samples",
+     ylab="y values", 
+     xlab="x values",
+     col= c('purple','red')
+     )
+```
+
+
+### Boxplots
+Boxplots depict groups of numerical data through their quartiles. The edges of the box denote the 1st and 3rd quartiles, and the line that crosses the box is the median. The distance between the 1st and the 3rd quartiles is called interquartile range.
+
+The whiskers (lines extending from the boxes) are usually defined using the interquartile range for symmetric distributions as follows: lowerWhisker=Q1-1.5[IQR] and upperWhisker=Q3+1.5[IQR].
+
+```{r}
+# boxplot
+ boxplot(x, y,
+         main="boxplots of random samples",
+         col = c('purple','orange'))
+```
+
+
+
+### Barplot 
+```{r}
+# barplot
+percents = c(50,70,35,25)
+barplot(height= percents,
+        names.arg=c("CpGi","exon","CpGi","exon"),
+        ylab="percentages",
+        main="barplot: imaginary percents",
+        col=c("orange","orange","green","green")
+        )
+
+legend("topright",
+       legend=c("test","control"),
+       fill=c("orange","green"))
+```
+
+
+
+### Combine the plots
+use the par() function for simple combinations. More complicated arrangements with different sizes of sub-plots can be created with the layout() function.
+
+The **mfrow= c(nrows, ncols)** construct will create a matrix of nrows x ncols plots that are filled in by row. The following code will produce a histogram and a scatter plot stacked side by side.
+```{r}
+# combine plots 
+par(mfrow= c(1,2)) # 
+
+# make the plots
+hist(x,main="official histogram",
+     col="purple")
+
+plot(x, y,
+     main="plots on scatterplot",
+     ylab="y values",
+     xlab="x values",
+     col=c('purple','red')
+     )
+```
+
+## Plotting with ggplot2
+There is another popular plotting system called ggplot2 which implements a different logic when constructing the plots. This system or logic is known as the “grammar of graphics”. This system defines a plot or graphics as a combination of different components.
+
+The ggplot2 system and its implementation of “grammar of graphics”1 allows us to build the plot layer by layer using the predefined components.
+
+the aes() function in the ggplot() function. This function defines which columns in the data frame map to x and y coordinates and if they should be colored or have different shapes based on the values in a different column.These elements are the “aesthetic” elements, this is what we observe in the plot. The plus sign is used to add layers and modify the plot.
+
+```{r}
+library(ggplot2)
+
+myData = data.frame( col1 =x, col2 =y)
+
+# the data is myData and I’m using col1 and col2 
+# columns on x and y axes
+ggplot(myData, aes(x=col1, y=col2)) +
+  geom_point() # map x and y as points
+```
+
+```{r}
+
+ggplot(myData, aes(x=col1)) +
+  geom_histogram() + # map x and y as points
+  labs(title="Histogram for a random variable", x="my variable", y="Count")
+
+```
+
+
+Boxplots in ggplot2 require to put all our data into a single data frame with extra columns denoting the group of our values. we first concatenate the x and y vectors and create a second column denoting the group for the vectors. In this case, the x-axis will be the “group” variable which is just a character denoting the group, and the y-axis will be the numeric “values” for the x and y vectors. 
+```{r}
+# data frame with group column showing which 
+# groups the vector x and y belong
+myData2=rbind(data.frame(values=x,group="x"),
+              data.frame(values=y,group="y"))
+
+# x-axis will be group and y-axis will be values
+ggplot(myData2, aes(x=group,y=values)) + 
+         geom_boxplot()
+```
+
+
+## User defined functions
+```{r}
+sqSum = function(x,y){
+  result = x^2 + y^2
+  return(result)
+}
+# now try the function out
+sqSum(2,3)
+```
+```
+cpgi.df <- read.table("intro2R_data/data/subset.cpgi.hg18.bed", header = FALSE)
+# function takes input one row
+# of CpGi data frame
+largeCpGi<-function(bedRow){
+ cpglen=bedRow[3]-bedRow[2]+1
+ if(cpglen>1500){
+    cat("this is large\n")
+ }
+ else if(cpglen<=1500 & cpglen>700){
+    cat("this is normal\n")
+ }
+ else{
+    cat("this is short\n")
+ }
+}
+largeCpGi(cpgi.df[10,])
+largeCpGi(cpgi.df[100,])
+largeCpGi(cpgi.df[1000,])
+```
+
+## For Loops in R
+```{r}
+for(i in 1:10){ # number of repetitions
+cat("This is iteration:", i,'\n') # the task to be repeated
+}
+```
+
+## Apply family functions instead of loops
+They are known collectively as the “**apply**” family of functions, which include apply, lapply, mapply and tapply (and some other variants). All of these functions apply a given function to a set of instances and return the results of those functions for each instance. 
+
+- For example, apply works on data frames or matrices and applies the function on each row or column of the data structure.
+- lapply works on lists or vectors and applies a function which takes the list element as an argument.
+- The example apply() function applies the sum function on the rows of a matrix; it basically sums up the values on each row of the matrix
+
+```{r}
+matrx = cbind( c(3,0,3,3),
+               c(3,0,0,0),
+               c(3,0,0,3),
+               c(1,1,0,0),
+               c(1,1,1,0),
+               c(1,1,1,0)
+               )
+
+result = apply(matrx, 1, sum)
+result
+
+# OR you can define the function as an argument to apply()
+result = apply(matrx, 1,function(x) sum(x))
+result
+```
+
+```{r}
+n= 2
+result = apply(matrx,n,sum)
+result
+
+```
+
+```{r}
+input = c(1,2,3)
+lapply(input, function(x) x^2)
+```
+
+the argument to the mapply() is the function to be applied and the sets of parameters to be supplied as arguments of the function. 
+```{r}
+Xs = 0:5
+Ys = c(2,2,2,3,3,3)
+result = mapply(function(x,y) sum(x,y), Xs,Ys)
+result
+```
+
+
+## Column and Row sums
+In order to get the column or row sums, we can use the vectorized functions colSums() and rowSums().
+```{r}
+colSums(matrx)
+rowSums(matrx)
+```
+
+> End of Chapter 2
+
+# Chapter 4 - Machine Learning EDA
+The goals of data exploration are usually many. Generally, we want to understand how the variables in our data set relate to each other and how the samples defined by those variables relate to each other. These points of information can be used to generate a hypothesis, find outliers in the samples or identify sample groups that need more data points.
+
+## Clustering: Grouping samples based on their similarity
+In genomics, we would very frequently want to assess how our samples relate to each other. 
+
+We need to define a distance or similarity metric between patients’ expression profiles and use that metric to find groups of patients that are more similar to each other than the rest of the patients. This, in essence, is the general idea behind clustering. 
+
+Clustering is a ubiquitous procedure in bioinformatics as well as any field that deals with high-dimensional data. It is very likely that every genomics paper containing multiple samples has some sort of clustering. Due to this ubiquity and general usefulness, it is an essential technique to learn.
+
+## Distance metrics
+The first required step for clustering is the distance metric. This is simply a measurement of how similar gene expressions are to each other. There are many options for distance metrics and the choice of the metric is quite important for clustering. 
+
+A simple metric for distance between gene expression vectors between a given patient pair is the sum of the absolute difference between gene expression values. This distance metric is called the “Manhattan distance” or “L1 norm”.
+
+Another distance metric uses the sum of squared distances and takes the square root of resulting value. This distance is called “Euclidean Distance” or “L2 norm”. This is usually the default distance metric for many clustering algorithms.
+
+The last metric we will introduce is the “correlation distance”. Pearson correlation coefficient between two vectors; in our case those vectors are gene expression profiles of patients. Using this distance the gene expression vectors that have a similar pattern will have a small distance, whereas when the vectors have different patterns they will have a large distance. 
+
+```{r}
+patients = c('001','002','003','004')
+IRX4 = c(11, 13, 2, 1)
+OCT4 = c(10, 13, 4, 3)
+PAX6 = c(1, 3, 10,  9)
+
+my.dataframe = data.frame(IRX4, OCT4, PAX6)
+my.dataframe
+```
+
+Next, we calculate the distance metrics using the dist() function and 1-cor() expression.
+```{r}
+dist( my.dataframe, method="manhattan")
+```
+
+```{r}
+dist(my.dataframe, method="euclidean")
+```
+
+Should we normalize our data? The scale of the vectors in our expression matrix can affect the distance calculation. Gene expression tables might have some sort of normalization, so the values are in comparable scales.
+
+If a gene’s expression values are on a much higher scale than the other genes, that gene will affect the distance more than others when using Euclidean or Manhattan distance.
+
+**The traditional way of scaling variables is to subtract their mean, and divide by their standard deviation, this operation is also called “standardization”.** If this is done on all genes, each gene will have the same effect on distance measures.  *The decision to apply scaling ultimately depends on our data and what you want to achieve.*
+
+In R, the standardization is done via the **scale()** function.
+```{r}
+as.dist(1-cor(t(my.dataframe))) # correlation distance
+
+#--- scaling dataframe with 1 function
+scale(my.dataframe)
+```
+
+
+## Hiearchical clustering
+This is one of the most ubiquitous clustering algorithms. Using this algorithm you can see the relationship of individual data points and relationships of clusters. This is achieved by successively joining small clusters to each other based on the inter-cluster distance.
+
+The height of the dendrogram is the distance between clusters. Here we can show how to use this on our toy data set from four patients. The base function in R to do hierarchical clustering in **hclust().**
+
+```{r}
+d = dist(my.dataframe)
+
+# hierarchical clustering
+HC = hclust(d, method="complete")
+plot(HC)
+```
+
+![Hierarchical Clustering of Patients](H-Clustering.png)
+Patients 3 and 4 clustered together, patients 1 and 2 clustered together.
+
+The method argument defines the criteria that directs how the sub-clusters are merged. During clustering, starting with single-member clusters, the clusters are merged based on the distance between them. There are many different ways to define distance between clusters, and based on which definition you use, the hierarchical clustering results change.
+
+Some **method()** arguments:
+
+* “complete” stands for “Complete Linkage” and the distance between two clusters is defined as the largest distance between any members of the two clusters.
+* “single” stands for “Single Linkage” and the distance between two clusters is defined as the smallest distance between any members of the two clusters.
+* “average” stands for “Average Linkage” or more precisely the UPGMA (Unweighted Pair Group Method with Arithmetic Mean) method. In this case, the distance between two clusters is defined as the average distance between any members of the two clusters.
+* “ward.D2” and “ward.D” stands for different implementations of Ward’s minimum variance method. This method aims to find compact, spherical clusters by selecting clusters to merge based on the change in the cluster variances. The clusters are merged if the increase in the combined variance over the sum of the cluster-specific variances is the minimum compared to alternative merging operations.
+
+In real life, we would get expression profiles from thousands of genes and we will typically have many more patients than our toy example. One such data set is gene expression values from 60 bone marrow samples of patients with one of the four main types of leukemia (ALL, AML, CLL, CML) or no-leukemia controls.
+
+We trimmed that data set down to the top 1000 most variable genes to be able to work with it more easily. We will now use this data set to cluster the patients and display the values as a heatmap and a dendrogram. The heatmap shows the expression values of genes across patients in a color coded manner. The heatmap function, pheatmap(), that we will use performs the clustering as well. The matrix that contains gene expressions has the genes in the rows and the patients in the columns. Therefore, we will also use a column-side color code to mark the patients based on their leukemia type. For the hierarchical clustering, we will use Ward’s method designated by the clustering_method argument to the pheatmap() function. 
+
+```{r}
+setwd("/Users/zanedax/Documents/R_")
+```
+
+```{r}
+
+library(pheatmap)
+
+
+expFile=system.file("extdata","leukemiaExpressionSubset.rds",
+                    package="compGenomRData")
+mat=readRDS(expFile)
+
+# set the leukemia type annotation for each sample
+annotation_col = data.frame(
+                    LeukemiaType =substr(colnames(mat),1,3))
+rownames(annotation_col)=colnames(mat)
+  
+
+pheatmap(mat,show_rownames=FALSE,show_colnames=FALSE,
+         annotation_col=annotation_col,
+         scale = "none",clustering_method="ward.D2",
+         clustering_distance_cols="euclidean")
+
+# code fails to read the .rds file, image from doc
+```
+
+![](Heatmap-gene-expression.png)
+
+It is usually the case, we do not have patient labels and it would be difficult to tell which leaves (patients) in the dendrogram we should consider as part of the same cluster. 
+
+how deep we should cut the dendrogram so that every patient sample still connected via the remaining sub-dendrograms constitute clusters. The **cutree()** function provides the functionality to output either desired number of clusters or clusters obtained from cutting the dendrogram at a certain height. 
+
+```{r}
+hcl=hclust(dist(t(mat)))
+plot(hcl,labels = FALSE, hang= -1)
+rect.hclust(hcl, h = 80, border = "red")
+
+# code fails to work from previous code, image from doc
+```
+![](clustering-height.png)
+
+```{r}
+clu.k5=cutree(hcl,k=5) # cut tree so that there are 5 clusters
+
+clu.h80=cutree(hcl,h=80) # cut tree/dendrogram from height 80
+table(clu.k5) # number of samples for each cluster
+
+# error with code
+```
+
+
+## K-means clustering
+This method divides or partitions the data points, our working example patients, into a pre-determined, “k” number of clusters. 
+
+The algorithm is initialized with randomly chosen *k* centers or centroids. In a sense, a centroid is a data point with multiple values. 
+
+As the next step in the algorithm, each patient is assigned to the closest centroid, and in the next iteration, centroids are set to the mean of values of the genes in the cluster. This process of setting centroids and assigning patients to the clusters repeats itself until the sum of squared distances to cluster centroids is minimized.
+
+```{r}
+set.seed(101)
+
+# we have to transpose the matrix t()
+# so that we calculate distances between patients
+kclu=kmeans(t(mat),centers=5)  
+
+# number of data points in each cluster
+table(kclu$cluster)
+
+# code fails to work
+```
+
+
+Check the percentage of each leukemia type in each cluster. We can visualize this as a table. Looking at the table below, we see that each of the 5 clusters predominantly represents one of the 4 leukemia types or the control patients without leukemia.
+```{r}
+type2kclu = data.frame(
+                    LeukemiaType =substr(colnames(mat),1,3),
+                    cluster=kclu$cluster)
+
+table(type2kclu)
+```
+
+Another related and maybe more robust algorithm is called “k-medoids” clustering. The procedure is almost identical to k-means clustering with a couple of differences. In this case, centroids chosen are real data points in our case patients, and the metric we are trying to optimize in each iteration is based on the Manhattan distance to the centroid. In k-means this was based on the sum of squared distances, so Euclidean distance.
+```{r}
+kmclu=cluster::pam(t(mat),k=5) #  cluster using k-medoids
+
+# make a data frame with Leukemia type and cluster id
+type2kmclu = data.frame(
+                    LeukemiaType =substr(colnames(mat),1,3),
+                    cluster=kmclu$cluster)
+
+table(type2kmclu)
+```
+
+there is a way to compress between patient distances to a 2-dimensional plot. There are many ways to do this, and we introduce these dimension-reduction methods. a method called “multi-dimensional scaling” and plot the patients in a 2D plot color coded by their cluster assignments.
+```{r}
+# Calculate distances
+dists=dist(t(mat))
+
+# calculate MDS
+mds=cmdscale(dists)
+
+# plot the patients in the 2D space
+plot(mds,pch=19,col=rainbow(5)[kclu$cluster])
+
+# set the legend for cluster colors
+legend("bottomright",
+       legend=paste("clu",unique(kclu$cluster)),
+       fill=rainbow(5)[unique(kclu$cluster)],
+       border=NA,box.col=NA)
+
+# code not run do to previous errors
+```
+![](k-means-clustering.png)
+
+The plot we obtained shows the separation between clusters. However, it does not do a great job showing the separation between clusters 3 and 4, which represent CML and “no leukemia” patients. We might need another dimension to properly visualize that separation.
+
+## Silhouette
+One way to determine the quality of the clustering is to measure the expected self-similar nature of the points in a set of clusters. The silhouette value does just that and it is a measure of how similar a data point is to its own cluster compared to other clusters.
+
+The silhouette value ranges from -1 to +1, where values that are positive indicate that the data point is well matched to its own cluster, if the value is zero it is a borderline case, and if the value is minus it means that the data point might be mis-clustered because it is more similar to a neighboring cluster. In R, silhouette values are referred to as silhouette widths in the documentation.
+
+In R, we can calculate silhouette values using the cluster::silhouette() function. Below, we calculate the silhouette values for k-medoids clustering with the pam() function with k=5. 
+```{r}
+library(cluster)
+set.seed(101)
+pamclu=cluster::pam(t(mat),k=5)
+plot(silhouette(pamclu),main=NULL)
+
+# code not run
+```
+
+Now, let us calculate the average silhouette value for different k values and compare. We will use sapply() function to get average silhouette values across k values between 2 and 7. Within sapply() there is an anonymous function that that does the clustering and calculates average silhouette values for each k.
+
+```{r}
+Ks=sapply(2:7,
+    function(i) 
+      summary(silhouette(pam(t(mat),k=i)))$avg.width)
+plot(2:7,Ks,xlab="k",ylab="av. silhouette",type="b",
+     pch=19)
+```
+
+In this case, it seems the best value for k is 4. The k-medoids function pam() will usually cluster CML and “no Leukemia” cases together when k=4, which are also related clusters according to the hierarchical clustering we did earlier.
+
+As clustering aims to find self-similar data points, it would be reasonable to expect with the correct number of clusters the total within-cluster variation is minimized. Within-cluster variation for a single cluster can simply be defined as the sum of squares from the cluster mean, which in this case is the centroid we defined in the k-means algorithm.
+
+## gap statistic
+The more centroids we have, the smaller the distances to the centroids become. A more reliable approach would be somehow calculating the expected variation from a reference null distribution and compare that to the observed variation for each k. In the gap statistic approach, the expected distribution is calculated via sampling points from the boundaries of the original data and calculating within-cluster variation quantity for multiple rounds of sampling 
+
+we have an expectation about the variability when there is no clustering, and then compare that expected variation to the observed within-cluster variation. The expected variation should also go down with the increasing number of clusters, but for the optimal number of clusters, the expected variation will be furthest away from observed variation. This distance is called the “gap statistic” 
+
+We can easily calculate the gap statistic with the cluster::clusGap() function. We will now use that function to calculate the gap statistic for our patient gene expression data. 
+
+```{r}
+library(cluster)
+set.seed(101)
+# define the clustering function
+pam1 <- function(x,k) 
+  list(cluster = pam(x,k, cluster.only=TRUE))
+
+# calculate the gap statistic
+pam.gap= clusGap(t(mat), FUN = pam1, K.max = 8,B=50)
+
+
+# plot the gap statistic accross k values
+plot(pam.gap, main = "Gap statistic for the 'Leukemia' data")
+
+# code fails yet again!
+```
+
+```{r}
+library(NbClust)
+nb = NbClust(data=t(mat), 
+             distance = "euclidean", min.nc = 2,
+        max.nc = 7, method = "kmeans",
+        index=c("kl","ch","cindex","db","silhouette",
+                "duda","pseudot2","beale","ratkowsky",
+                "gap","gamma","mcclain","gplus",
+                "tau","sdindex","sdbw"))
+
+table(nb$Best.nc[1,]) # consensus seems to be 3 clusters 
+```
+
+in biology there are rarely solid labels and things have different granularity. Take the leukemia patients case we have been using for example, it is known that leukemia types have subtypes and those sub-types that have different mutation profiles and consequently have different molecular signatures. 
+
+It is always good to look at the heatmaps after clustering, if you have meaningful self-similar data points, even if the labels you have do not agree that there can be different clusters, you can perform downstream analysis to understand the sub-clusters better.
+
+
+# skipping 4.2, 4.3
+
+# Chapter 5 - Supervised Machine Learning
+In genomics, we are often faced with biological questions to answer using lots of data. Some of those questions can easily fit in the domain of machine learning, where algorithms will learn a mathematical model of the input data in order to make decisions about similar data, previously unseen by the model.
+
+some of the machine learning applications in genomics:
+
+- Predicting gene expression from epigenetic modifications 
+- Predicting gene locations
+- Predicting enhancer or other regulatory regions 
+- Predicting drug response based on genomics 
+- Predicting healthy/disease status or disease subtypes based on genomics 
+- Predicting the effect of SNPs on gene regulation 
+- Calling SNPs 
+
+we could arrive at similar conclusions by building a machine learning model to predict gene expression using histone modifications H3K27ac, H3K27me, H3K4me1, H3K4me3, and DNA methylation. We can then check which of these are most important for gene expression prediction using variable importance metrics.
+
+
+## data process
+## split data
+## predict
+## assess
+## variance
+## class embalance
+## decision trees
+## logistic regression
+## gradient boost
+## SVM
+## neural networks
+
+# Chapter 6 - Genomics
+
+## GenomicRanges 
+The Bioconductor project has a dedicated package called GenomicRanges to deal with genomic intervals. In this section, we will provide use cases involving operations on genomic intervals. The main reason we will stick to this package is that it provides tools to do overlap operations. 
+
+However, the package requires that users operate on specific data types that are conceptually similar to a tabular data structure implemented in a way that makes overlapping and related operations easier. The main object we will be using is called the GRanges object and we will also see some other related objects from the GenomicRanges package.
+
+```{r}
+library(GenomicRanges)
+gr=GRanges(seqnames=c("chr1","chr2","chr2"),
+           ranges=IRanges(start=c(50,150,200),
+                          end=c(100,200,300)),
+           strand=c("+","-","-")
+)
+gr
+```
+
+```{r}
+# subset like a data frame
+gr[1:2,]
+```
+
+As you can see, it looks a bit like a data frame. Also, note that the peculiar second argument “ranges” basically contains the start and end positions of the genomic intervals. However, you cannot just give start and end positions, you actually have to provide another object of IRanges. Do not let this confuse you; GRanges actually depends on another object that is very similar to itself called IRanges and you have to provide the “ranges” argument as an IRanges object. In its simplest form, an IRanges object can be constructed by providing start and end positions to the IRanges() function.
+
+```{r}
+gr=GRanges(seqnames=c("chr1","chr2","chr2"),
+           ranges=IRanges(start=c(50,150,200),
+                          end=c(100,200,300)),
+           names=c("id1","id3","id2"),
+           scores=c(100,90,50)
+)
+# or add it later (replaces the existing meta data)
+mcols(gr)=DataFrame(name2=c("pax6","meis1","zic4"),
+                    score2=c(1,2,3))
+
+gr=GRanges(seqnames=c("chr1","chr2","chr2"),
+           ranges=IRanges(start=c(50,150,200),
+                          end=c(100,200,300)),
+           names=c("id1","id3","id2"),
+           scores=c(100,90,50)
+)
+
+# or appends to existing meta data
+mcols(gr)=cbind(mcols(gr),
+                          DataFrame(name2=c("pax6","meis1","zic4")) )
+gr
+```
+
+```{r}
+# elementMetadata() and values() do the same things
+elementMetadata(gr)
+
+
+values(gr)
+
+
+# you may also add metadata using the $ operator, as for data frames
+gr$name3 = c("A","C", "B")
+gr
+
+```
+
+#### stopped at 6.1.2
+
+https://compgenomr.github.io/book/operations-on-genomic-intervals-with-genomicranges-package.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
