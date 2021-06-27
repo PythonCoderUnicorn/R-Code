@@ -1,0 +1,32 @@
+---
+title: "Fun with R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r}
+plot(cars)
+```
+
+
+## Play Mario sounds in R
+```{r beepr library}
+library(beepr)
+
+#beep('mario') # nice
+beep('coin')  # nice
+#beep('ping')
+#beep('fanfare')
+#beep('complete')
+#beep('treasure') # ok
+#beep('sword')
+
+# downloaded 
+#beep('./wav/alien-spaceship_daniel_simion.wav')
+```
+
+https://soundbible.com 
+can download .wav files for sounds and save in a file then call them
