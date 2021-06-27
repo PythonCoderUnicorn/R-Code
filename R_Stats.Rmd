@@ -1,0 +1,424 @@
+---
+title: "R Stats"
+output: 
+  html_notebook: 
+    toc: yes
+    theme: spacelab
+    smart: no
+---
+
+
+![Computational Genomics pdf](Computational_Genomics.jpg)
+
+<style type="text/css">
+li {color: #196666; font-size:12;}
+a {color: #cc0099; font-size:12;}
+p {font-family: monaco;font-size: 13; color:#003333;}
+h1 {color:#206040;}
+h2 {color:#669900;}
+h3 {color:#669900;}
+div {color: 'red'; font-size: 18;}
+</style>
+
+
+
+
+
+
+
+
+
+# Chapter 3 - Statistics for Genomics
+This chapter will summarize statistics methods frequently used in computational genomics.
+
+The nature of the experiments and natural variation in biology makes it impossible to get the same exact measurements every time you measure something.
+
+- For example, if you are measuring gene expression values for a certain gene, say PAX6, and let’s assume you are measuring expression per sample and cell with any method (microarrays, rt-qPCR, etc.). You will not get the same expression value even if your samples are homogeneous, due to technical bias in experiments or natural variation in the samples.
+
+![PAX6 gene](pax6-gene.png)
+
+## Statistical mean and median
+In R, the mean() function will calculate the mean of a provided vector of numbers. This is called a “sample mean”.
+
+What we have done with our 20 data points is that we took a sample of PAX6 expression values from this population, and calculated the sample mean.
+
+![PAX6 sample mean from a population](pax6-sample-mean.png)
+
+The mean of the population is calculated the same way but traditionally the Greek letter μ is used to denote the population mean. Normally, we would not have access to the population and we will use the sample mean and other quantities derived from the sample to estimate the population properties.
+
+The mean can be affected by outliers easily. If certain values are very high or low compared to the bulk of the sample, this will shift mean toward those outliers. However, the median is not affected by outliers. It is simply the value in a distribution where half of the values are above and the other half are below.
+
+
+**runif()** means random uniform distributed
+```{r}
+#create 10 random numbers from uniform distribution 
+x=runif(10)
+# calculate mean
+mean(x)
+```
+
+## Variance
+You can simply describe the range of the values, such as the minimum and maximum values. You can easily do that in R with the range() function. A more common way to calculate variation is by calculating something called “standard deviation” or the related quantity called “variance”. This is a quantity that shows how variable the values are. 
+
+The variance is the squared distance of data points from the mean. We can calculate the sample standard deviation and variation with the sd() and var() functions in R.
+```{r}
+x = rnorm(20, mean=6, sd=0.7)
+var(x)
+sd(x)
+```
+
+
+One potential problem with the variance is that it could be affected by outliers. 
+It is important to look at the difference between 75th percentile and 25th percentile, this effectively removes a lot of potential outliers which will be towards the edges of the range of values.
+
+This is called the interquartile range, and can be easily calculated using R via the IQR() function and the quantiles of a vector are calculated with the quantile() function.
+
+```{r}
+x = rnorm(20, mean=6, sd=0.7)
+IQR(x)
+
+quantile(x)
+
+boxplot(x, horizontal = T)
+```
+
+
+
+Oftentimes, we do not need the exact probability of a value, but we need the probability of observing a value larger or smaller than a critical value or reference point.
+
+- For example, we might want to know the probability of X being smaller than or equal to -2 for a normal distribution with mean 0 and standard deviation 2 : P(X <= −2 | μ = 0, σ= 2).
+
+To get the area under a curve, we use a z-score formula and table, which corresponds to how many standard deviations you are away from the mean. This is also called “standardization”, the corresponding value is distributed in “standard normal distribution”.
+![z-score](z-score.png)
+
+```{r}
+# get the value of probability density function when X= -2,
+# where mean=0 and sd=2
+dnorm(-2, mean=0, sd=2)
+
+# get the probability of P(X =< -2) where mean=0 and sd=2
+pnorm(-2, mean=0, sd=2)
+
+# get the probability of P(X > -2) where mean=0 and sd=2
+pnorm(-2, mean=0, sd=2, lower.tail = FALSE)
+
+# get 5 random numbers from normal dist with  mean=0 and sd=2
+rnorm(5, mean=0 , sd=2)
+
+# get y value corresponding to P(X > y) = 0.15 with  mean=0 and sd=2
+qnorm( 0.15, mean=0 , sd=2)
+```
+
+
+dbinom is for the binomial distribution. This distribution is usually used to model fractional data and binary data. Examples from genomics include methylation data.
+
+dpois is used for the Poisson distribution and dnbinom is used for the negative binomial distribution. These distributions are used to model count data such as sequencing read counts.
+
+df (F distribution) and dchisq (Chi-Squared distribution) are used in relation to the distribution of variation. The F distribution is used to model ratios of variation and Chi-Squared distribution is used to model distribution of variations. You will frequently encounter these in linear models and generalized linear models.
+
+## Confidence Intervals
+Taking a random sample from a population and compute a statistic, such as the mean, we are trying to approximate the mean of the population. A confidence interval addresses this concern because it provides a range of values which will plausibly contain the population parameter of interest. 
+
+Central Limit Theorem can be used. In R, we can do this using the qnorm() function to get Z-scores associated with α/2 and 1 − α/2. 
+
+```{r}
+set.seed(21)
+sample1 = rnorm(50,20,5) # simulate a sample
+
+alpha = 0.05
+sd = 5
+n = 50
+
+mean(sample1) + qnorm(c(alpha/2, 1-alpha/2)) * sd/sqrt(n)
+```
+
+In reality, we usually have only access to a sample and have no idea about the population standard deviation. If this is the case, we should estimate the standard deviation using the sample standard deviation and use something called the t distribution instead of the standard normal distribution in our interval calculation.
+
+Degrees of freedom is simply the number of data points minus the number of parameters estimated.Here we are estimating the mean from the data, therefore the degrees of freedom is n−1.
+
+
+## test differences between samples
+Need to make comparisons if healthy samples are different from disease samples in some measurable feature (blood count, gene expression, methylation of certain loci). Since there is variability in our measurements, we need to take that into account when comparing the sets of samples.
+
+We can simply subtract the means of two samples, but given the variability of sampling, at the very least we need to decide a cutoff value for differences of means; small differences of means can be explained by random chance due to sampling.
+
+**Hypothesis testing** is simply using statistics to determine the probability that a given hypothesis (Ex: if two sample sets are from the same population or not) is true.
+
+- the **null hypothesis**  is that there is no difference between sets of samples.
+- An **alternative hypothesis** is that there is a difference between the samples.
+
+Randomly assign labels to the samples and calculate the difference of the means, this creates a null distribution, where we can compare the real difference and measure how unlikely it is to get such a value under the expectation of the null hypothesis. 
+
+Doing this process in R. 
+
+1. first simulating two samples from two different distributions. These would be equivalent to gene expression measurements obtained under different conditions. 
+2. calculate the differences in the means and do the randomization procedure to get a null distribution when we assume there is no difference between samples. 
+3. then calculate how often we would get the original difference we calculated under the assumption is true.
+
+```{r}
+library('mosaic')
+
+set.seed(100)
+
+gene1 = rnorm(30, mean=4, sd=2)
+gene2 = rnorm(30, mean=2, sd=2)
+
+org.diff = mean(gene1) - mean(gene2)
+
+gene.df = data.frame(exp = c(gene1, gene2),
+                  group = c( rep("test",30),
+                             rep("control",30) 
+                             ) 
+                    )
+
+
+exp.null =  do(1000) * diff(mosaic::mean(exp ~ shuffle(group), 
+                                         data=gene.df))
+
+hist(exp.null[,1], 
+     xlab="null distribution | no difference in samples",
+     main = expression( paste( H[0]," : no difference in means") 
+                        ),
+     xlim = c(-2,2), 
+     col="purple", 
+     border="white"
+     )
+
+abline( v = quantile(exp.null[,1], 0.95), 
+        col="red" 
+        )
+
+abline( v = org.diff, 
+        col="blue" 
+        )
+
+text(x = quantile(exp.null[,1], 0.95),
+     y= 200,
+     "0.05",
+     adj = c(1,0),
+     col="red"
+     )
+
+text(x = org.diff,
+     y=200,
+     "org. diff.",
+     adj = c(1,0),
+     col="blue"
+     )
+```
+
+After doing random permutations and getting a null distribution, it is possible to get a confidence interval for the distribution of difference in means. This is simply the 2.5th and 97.5th percentiles of the null distribution.
+
+```{r}
+p.val = sum(exp.null[,1]>org.diff)/length(exp.null[,1])
+p.val
+```
+
+## t-test for difference of the means between two samples
+We can also calculate the difference between means using a t-test.
+```{r}
+# Welch's t-test
+stats = t.test(gene1, gene2)
+stats
+```
+
+```{r}
+# t-test with equal variance assumption
+stats::t.test(gene1,gene2,var.equal=TRUE)
+```
+
+t-tests: they generally assume a population where samples coming from them have a normal distribution, however it is been shown t-test can tolerate deviations from normality, especially, when two distributions are moderately skewed in the same direction. This is due to the central limit theorem, which says that the means of samples will be distributed normally no matter the population distribution if sample sizes are large.
+
+## Decision Matrix
+
+| Matrix | Null= True  | Null= False | total |
+|--------|-------------|-------------|-------|
+| Accept | True Neg  (TN)  | False Neg  (type 2) | True Null |
+| Reject | False Pos (type 1)  | True Pos    | True Alt  |
+
+
+
+We expect to make more type I errors as the number of tests increase, which means we will reject the null hypothesis by mistake. False Discovery Rate (FDR), which is the proportion of false positives among all significant tests. This gives us an estimate of the proportion of false discoveries for a given test. To elaborate, p-value of 0.05 implies that 5% of all tests will be false positives. An FDR-adjusted p-value of 0.05 implies that 5% of significant tests will be false positives. The FDR-adjusted P-values will result in a lower number of false positives.
+
+A q-value 0.01 would mean 1% of the tests called significant at this level will be truly null on average. Within the genomics community q-value and FDR adjusted P-value are synonymous although they can be calculated differently.
+
+In R, the base function p.adjust() implements most of the p-value correction methods described above. For the q-value, we can use the qvalue package from Bioconductor. 
+
+## t-tests and multiple comparisons
+In genomics, we usually do not do one test but many.
+samples gene expression values from a hypothetical distribution. Since all the values come from the same distribution, we do not expect differences between groups. We then calculate moderated and unmoderated t-test statistics and plot the P-value distributions for tests. 
+
+```{r}
+set.seed(100)
+
+# sample data matrix from normal distribution
+
+gset = rnorm(3000, mean=200, sd=70)
+data = matrix( gset, ncol=6)
+
+# set groups
+group1 = 1:3
+group2 = 4:6
+n1 = 3
+n2 = 3
+dx = rowMeans( data[, group1]) - rowMeans( data[ , group2])
+  
+require(matrixStats)
+
+# get the estimate of pooled variance 
+stderr = sqrt( (rowVars(data[,group1]) * (n1-1) + 
+       rowVars(data[,group2]) * (n2-1)) / (n1+n2-2) * ( 1/n1 + 1/n2 ))
+
+# do the shrinking towards median
+mod.stderr = (stderr + median(stderr)) / 2 # moderation in variation
+
+# estimate t statistic with moderated variance
+t.mod = dx / mod.stderr
+
+# calculate P-value of rejecting null 
+p.mod = 2*pt( -abs(t.mod), n1+n2-2 )
+
+# estimate t statistic without moderated variance
+t = dx / stderr
+
+# calculate P-value of rejecting null 
+p = 2*pt( -abs(t), n1+n2-2 )
+
+par(mfrow=c(1,2))
+hist(p,col="cornflowerblue",border="white",main="",xlab="P-values t-test")
+mtext(paste("signifcant tests:",sum(p<0.05))  )
+hist(p.mod,col="cornflowerblue",border="white",main="",
+     xlab="P-values mod. t-test")
+mtext(paste("signifcant tests:",sum(p.mod<0.05))  )
+
+```
+
+
+# Linear models and correlation
+In genomics, we would often need to measure or model the relationship between variables. We might want to know about expression of a particular gene in liver in relation to the dosage of a drug that patient receives. Or, we may want to know DNA methylation of a certain locus in the genome in relation to the age of the sample donor.
+
+In these situations and many more, linear regression or linear models can be used to model the relationship with a “dependent” or “response” variable (expression or methylation in the above examples) and one or more “independent” or “explanatory” variables (age, drug dosage or histone modification in the above examples). 
+
+Y is the response variable and X is the explanatory variable.
+``Y = B.0 + B.1 X + error``
+``Y = B.0 + B.1*X.1 + B.2*X.2  ... + error``
+
+```{r}
+# set random number seed, so that the random numbers from the text
+# is the same when you run the code.
+set.seed(32)
+
+# get 50 X values between 1 and 100
+x = runif(50,1,100)
+
+# set b0,b1 and variance (sigma)
+b0 = 10
+b1 = 2
+sigma = 20
+# simulate error terms from normal distribution
+eps = rnorm(50,0,sigma)
+# get y values from the linear equation and addition of error terms
+y = b0 + b1*x+ eps
+```
+
+Now let us fit a line using the lm() function. The function requires a formula, and optionally a data frame.
+```{r}
+mod1=lm(y~x)
+
+# plot the data points
+plot(x,y,pch=20,
+     ylab="Gene Expression",xlab="Histone modification score")
+# plot the linear fit
+abline(mod1,col="purple")
+```
+
+In R, the summary() function will test all the coefficients for the null hypothesis βi= 0. The function takes the model output obtained from the lm() function. To demonstrate this, let us first get some data. The procedure below simulates data to be used in a regression setting and it is useful to examine what the linear model expects to model the data.
+
+Since we have the data, we can build our model and call the summary function. We will then use the confint() function to get the confidence intervals on the coefficients and the coef() function to pull out the estimated coefficients from the model.
+
+```{r}
+mod1 = lm(y ~ x)
+summary(mod1)
+```
+
+```{r}
+# get confidence intervals 
+confint(mod1)
+
+# pull out coefficients from the model
+coef(mod1)
+```
+
+RSE is simply the square-root of the sum of squared error terms, divided by degrees of freedom, n − p. For the simple linear regression case, degrees of freedom is n − 2. Sum of the squares of the error terms is also called the “Residual sum of squares”. The larger the RSE the worse the model is.
+
+## Regression with categorical variables
+An important feature of linear regression is that categorical variables can be used as explanatory variables, this feature is very useful in genomics where explanatory variables can often be categorical.
+
+The simplest model with categorical variables includes two levels that can be encoded in 0 and 1. Below, we show linear regression with categorical variables. We then plot the fitted line.
+
+```{r}
+gene.df = data.frame( exp= c(gene1, gene2, gene2),
+                  group=c( rep("A",30), 
+                           rep("B",30),
+                           rep("C",30) 
+                           ) 
+                  )
+
+mod3 = lm( exp ~ group, data= gene.df)
+summary(mod3)
+```
+```{r}
+require(mosaic)
+plotModel(mod3)
+```
+
+## Regression pitfalls
+
+- Non-linearity
+- Correlation of explanatory variables
+- Correlation of error terms
+- Non-constant variance of error terms
+- Outliers and high leverage points
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
