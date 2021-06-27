@@ -1,0 +1,192 @@
+---
+title: 'R Package: icd.data'
+author: "me of course"
+subtitle: plotting
+output: pdf_document
+---
+```{r}
+getwd()
+```
+```{r}
+setwd("/Users/zanedax/Documents/R_")
+```
+# ICD data
+
+# import library
+```{r}
+library(icd.data)
+```
+
+# list the data chapters
+```{r Chapters of dataset}
+ls_icd_data()
+```
+
+
+# Plotly 
+```{r Plotly}
+library(plotly)
+fig <- plot_ly(midwest, x = ~percollege, color = ~state, type = "box")
+fig
+```
+
+
+# Scatterplot
+```{r scatterplot}
+library(plotly)
+
+data <- read.csv("https://raw.githubusercontent.com/plotly/datasets/master/school_earnings.csv")
+
+fig <- plot_ly(data, x = ~Women, y = ~Men, text = ~School, type = 'scatter', mode = 'markers',
+        marker = list(size = ~Gap, opacity = 0.5,
+                      color = 'rgb(255, 65, 54)'))
+fig <- fig %>% layout(title = 'Gender Gap in Earnings per University',
+         xaxis = list(showgrid = FALSE),
+         yaxis = list(showgrid = FALSE))
+
+fig
+```
+
+# mapping a color for continuous data variable
+```{r continuous variable}
+library(plotly)
+
+data <- read.csv("https://raw.githubusercontent.com/plotly/datasets/master/school_earnings.csv")
+
+fig <- plot_ly(data, x = ~Women, y = ~Men, text = ~School, type = 'scatter', mode = 'markers', color = ~Gap, colors = 'Reds',
+        marker = list(size = ~Gap, opacity = 0.5))
+fig <- fig %>% layout(title = 'Gender Gap in Earnings per University',
+         xaxis = list(showgrid = FALSE),
+         yaxis = list(showgrid = FALSE))
+
+fig
+```
+
+
+# mapping for a categorical variable
+```{r mapping categorical}
+library(plotly)
+
+data <- read.csv("https://raw.githubusercontent.com/plotly/datasets/master/school_earnings.csv")
+
+data$State <- as.factor(c('Massachusetts', 'California', 'Massachusetts', 'Pennsylvania', 'New Jersey', 'Illinois', 'Washington DC',
+                          'Massachusetts', 'Connecticut', 'New York', 'North Carolina', 'New Hampshire', 'New York', 'Indiana',
+                          'New York', 'Michigan', 'Rhode Island', 'California', 'Georgia', 'California', 'California'))
+
+fig <- plot_ly(data, x = ~Women, y = ~Men, text = ~School, type = 'scatter', mode = 'markers', size = ~Gap, color = '~State', colors = 'Paired',
+        marker = list(opacity = 0.5, sizemode = 'diameter'))
+fig <- fig %>% layout(title = 'Gender Gap in Earnings per University',
+         xaxis = list(showgrid = FALSE),
+         yaxis = list(showgrid = FALSE),
+         showlegend = FALSE)
+
+fig
+```
+
+
+
+
+# text over bubbles
+```{r bubble text}
+library(plotly)
+
+data <- read.csv("https://raw.githubusercontent.com/plotly/datasets/master/school_earnings.csv")
+
+data$State <- as.factor(c('Massachusetts', 'California', 'Massachusetts', 'Pennsylvania', 'New Jersey', 'Illinois', 'Washington DC',
+                          'Massachusetts', 'Connecticut', 'New York', 'North Carolina', 'New Hampshire', 'New York', 'Indiana',
+                          'New York', 'Michigan', 'Rhode Island', 'California', 'Georgia', 'California', 'California'))
+
+fig <- plot_ly(data, x = ~Women, y = ~Men, type = 'scatter', mode = 'markers', size = ~Gap, color = ~State, colors = 'Paired',
+        sizes = c(10, 50),
+        marker = list(opacity = 0.5, sizemode = 'diameter'),
+        hoverinfo = 'text',
+        text = ~paste('School:', School, '<br>Gender Gap:', Gap))
+fig <- fig %>% layout(title = 'Gender Gap in Earnings per University',
+         xaxis = list(showgrid = FALSE),
+         yaxis = list(showgrid = FALSE),
+         showlegend = FALSE)
+
+fig
+```
+
+
+
+# 2d plot
+```{r 2d plot}
+library(plotly)
+f <- list(
+  family = "Courier New, monospace",
+  size = 28,
+  color = "#7f7f7f"
+)
+x <- list(
+  title = "x Axis",
+  titlefont = f
+)
+y <- list(
+  title = "y Axis",
+  titlefont = f
+)
+fig <- plot_ly(x = ~rnorm(10), y = ~rnorm(10), mode = "markers")
+fig <- fig %>% layout(xaxis = x, yaxis = y)
+
+fig
+```
+
+
+# simple bar chart
+```{r bar chart}
+library(plotly)
+
+fig <- plot_ly(
+  x = c("giraffes", "orangutans", "monkeys"),
+  y = c(20, 14, 23),
+  name = "SF Zoo",
+  type = "bar",
+  color = "pink"
+)
+
+fig
+```
+
+
+# Grouped bar chart
+```{r grouped bar chart}
+library(plotly)
+
+Animals <- c("giraffes", "orangutans", "monkeys")
+SF_Zoo <- c(20, 14, 23)
+LA_Zoo <- c(12, 18, 29)
+data <- data.frame(Animals, SF_Zoo, LA_Zoo)
+
+fig <- plot_ly(data, x = ~Animals, y = ~SF_Zoo, type = 'bar', name = 'SF Zoo')
+fig <- fig %>% add_trace(y = ~LA_Zoo, name = 'LA Zoo')
+fig <- fig %>% layout(yaxis = list(title = 'Count'), barmode = 'group')
+
+fig
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
