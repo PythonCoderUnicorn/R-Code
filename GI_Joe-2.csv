@@ -1,0 +1,331 @@
+
+name, year, file_name, version, rank, birthplace, Primary_Specialty, Secondary_Speciality, Q_E, S_E, sex, race, team,
+
+
+
+ALLEY VIPER,1994,NA,3,NA,NA,"Urban Assault Trooper","Rage Vehicle Driver",NA,NA,male,White,COBRA
+BEACH-HEAD,1994,"Sneeden, Wayne R.",3,E-6,"Auburn, Alabama",Small Arms Armorer,Patriot Driver,Ranger,NA,male,NA,GI Joe
+DIAL TONE,1994,"Morelli, Jack S.",4,E-4,"Eugene, Oregon",Radio Telecommunications,Infantry,NA,NA,male,White,GI Joe
+FLINT,1994,"Faireborne, Dashiell R.",4,WO-2 (Warrant Officer),"Wichita, Kansas",L.A.V. (Land Assault Vehicles) Operator, Desert Paratrooper,NA,NA,male,White,GI Joe
+ICE CREAM SOLDIER,1994,"Ragan, Tom-Henry",1,E-5,"Providence, R.I.",Primary Specialty: Fire Operations Expert,Barbecue Chef,Flamethrower Commando,NA,male,NA,GI Joe
+LIFELINE,1994,"Steen, Edwin C.",4,E-5,"Seattle, Washington",Medic,Rescue Operations,Rescue Trooper,NA,male,White,GI Joe
+MAJOR BLUDD,1994,"Bludd, Sebastian",3,"O-4 Major","Sydney, Australia",Terrorist,"Weapons and Tactics",NA,NA,male,White,NA
+METAL-HEAD,1994,"Finlay, Stuart A.",2,NA,"Annapolis, Maryland",Tank Destruction,Hockey Fight Analyst,Anti-Tank Specialist,NA,male,White,GI Joe
+NIGHT CREEPER,1994,NA,2,NA,Arctic Field Operations,Ninja Supreme Master,NA,NA,NA,male,NA,COBRA
+SHIPWRECK,1994,"Delgado, Hector X.",2,CPO,"Chula Vista, CA",Navy SEAL,"Gunner's Mate",NA,NA,male,Latino,NA,
+SNOW STORM,1994,"Suarez, Guilermo",3,E-6,"Havana, Cuba",Arctic Warfare,Cold Weather Survival Instructor,Hi-Tech Snow Trooper,NA,male,Latino,GI Joe
+STALKER,1994,"Wilkinson, Lonzo R.",5,E-8,"Detroit, MI",Infantry,Medic/Interpreter,NA,NA,male,Black,GI Joe
+VIPER,1994,NA,4,NA,Infantry Trooper,NA,NA,NA,NA,male,White,COBRA
+WINDCHILL,1994,"McDonald, Jim",2,E-6,"Loch Lomond, Scotland",Blockbuster Driver,Cold Weather Survival Instructor,Blockbuster Driver,NA,male,White,GI Joe
+CARCASS,1994,NA,1,NA,"Quadrant 4, Planet Mirtonia",Mercenary Hunter,Planetary/Alien Destruction,NA,NA,male,Alien,GI Joe
+COBRA BLACKSTAR,1994,Unknown,1,NA,NA,Elite Space Pilot,Tactical Squad Leader,NA,NA,male,White,COBRA
+COBRA COMMANDER,1994,Classified,7,Cobra Supreme Leader,Classified,NA,NA,NA,NA,male,NA,COBRA
+COUNTDOWN,1994,"Dubosky, David D.",3,O-3 (USAF),"Plainfield, New Jersey",Astronaut/Fighter Pilot,Electrical Engineer,NA,NA,male,White,GI Joe
+DUKE,1994,"Hauser, Conrad S.",6,E-8,"St. Louis, MO",Airborne Infantryman,Artillery,NA,NA,male,White,NA
+EFFECTS,1994,"Beck, Aron",1,E-6,"Fort Worth, Texas",Explosives/Munitions Ordnance,Special Effects Coordinator,NA,NA,male,White,GI Joe
+GEARS,1994,"Morrone, Joseph A.",1,O-3,"Westerly, Rhode Island",Chief Engineer (Special Projects),Research and Development,Invention Technician,NA,male,White,GI Joe
+OZONE,1994,"Kunitz, David F.",4,E-4,"Three Mile Island, Pennsylvania",Environmental Health,Chemical Laboratory Expert,Astro-Infantry Trooper,NA,male,White,GI Joe
+PAYLOAD,1994,"Morgan, Mark Jr.",4,O-6 (Colonel),"Cape Canaveral, Florida",Space Shuttle Astronaut,F-4 Phantom Pilot,NA,NA,male,White,GI Joe
+PAYLOAD,1994,"Morgan, Mark Jr.",5,O-6 (Colonel),"Cape Canaveral, Florida",Space Shuttle Astronaut,F-4 Phantom Pilot,NA,NA,male,White,GI Joe
+ROADBLOCK,1994,"Hinton, Marvin F.",7,E-6,"Biloxi, Mississippi",Heavy Machine Gunner,Cook (Escoffier qualified Chef),Space Gunner,NA,male,White,GI Joe
+SCI-FI,1994,"Fine, Seymour P.",4,E-4,"Geraldine, Montana",Space Fighter Pilot,Laser Weapons Systems Operator,Star Brigade Pilot,NA,male,GI Joe
+SPACE SHOT,1994,"Roberts, George A.",1,E-4,"Everett, Massachusetts",Interstellar Pilot,Combat Operations Engineer,Combat Freighter Pilot,NA,male,White,GI Joe
+TECHNO-VIPER,1994,NA,2,NA,NA,Battlefield Technician,NA,NA,NA,male,NA,COBRA
+BUSHIDO,1994,"Goldfine, Lloyd S.",2,E-5,"Hollis Queens, N.Y.",Cold Weather Specialist,Strategist,NA,NA,male,White,GI Joe
+LT. GORKY,1994,"Gorky, Mikhail P.",1,Lieutenant,"Arkhangelsk, Russia, USSR",Naval Commando,Infantry,NA,NA,male,White,NA
+NIGHT CREEPER,1994,NA,3,NA,Arctic Field Operations,Covert Operations,NA,NA,NA,male,NA,COBRA
+NUNCHUK,1994,"Badducci, Ralph",2,E-5,"Brooklyn, New York",Self-Defense Instructor,Ordnance,NA,NA,male,White,GI Joe
+COBRA SLICE,1994,Classified,3,NA,"Jonestown, U.K.",Martial Arts,Ninja Swordfighting,Ninja Swordsman,NA,male,NA,COBRA
+SNAKE EYES,1994,Classified,6,E-7,Classified,Infantry,Hand-to-Hand Combat Instructor,NA,NA,male,NA,NA
+STORM SHADOW,1994,"Arashikage, Thomas S.",4,E-8,"St. Louis, MO",Covert Operations,Martial Arts Instructor,NA,NA,male,Japanese,GI Joe
+G.I. JOE,1994,"Colton, Joseph B.",1,O-2 (1st Lt.),"Central Falls, Rhode Island",G.I. Joe X-O (Executive Officer),Combat Infantry (Training and Intelligence),Combat,Secret Ops,male,White,GI Joe,
+ACTION MARINE,1994,NA,1,NA,NA,Marine Commando,NA,NA,NA,male,White,GI Joe
+ACTION PILOT,1994,NA,1,NA,NA,Air Force Fighter Pilot,NA,NA,NA,male,White,GI Joe
+ACTION PILOT,1994,NA,2,NA,NA,Air Force Fighter Pilot,NA,NA,NA,male,White,GI Joe
+ACTION PILOT ASTRONAUT,1994,NA,1,NA,NA,Astronaut Pilot,NA,NA,NA,male,White,GI Joe
+ACTION SAILOR,1994,NA,1,NA,NA,Navy Frogman,NA,NA,NA,male,White,GI Joe
+ACTION SAILOR,1994,NA,2,NA,NA,Navy Frogman,NA,NA,NA,male,White,GI Joe
+ACTION SOLDIER,1994,NA,1,NA,NA,Infantry,NA,NA,NA,male,White,GI Joe
+FIGHTER PILOT,1994,NA,1,NA,NA,NA,NA,NA,NA,male,White,GI Joe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BARONESS,1997,"Decobray, Anastasia",2,CLASSIFIED,Intelligence,Fixed Wing Pilot,NA,NA,NA,female,White,COBRA
+BLIZZARD,1997,"Natale, Gregory M.",2,E-8,"Wolfboro, New Hampshire",Arctic Warfare Training Instructor,Infantry,NA,NA,male,White,NA
+COBRA COMMANDER,1997,NA,8,Commander,NA,NA,NA,NA,NA,male,NA,COBRA
+DESTRO,1997,"James McCullen",5,NA,"Callander, Scotland",Intelligence,NA,NA,NA,male,White,COBRA
+ICEBERG,1997,"Nash, Clifton L.",3,E-6,"Brownsville, Texas",Infantry,Cold Weather Survival Instructor,NA,NA,male,Black,NA
+LADY JAYE,1997,"Hart-Burnett, Alison R.",2,E-7,"Martha's Vineyard, MA",Intelligence,Personnel Clerk,NA,NA,female,White,NA,
+SNAKE EYES,1997,Classified,8,E-8,Classified,Infantry,Hand-to-Hand Combat Instructor,NA,NA,male,NA,NA
+SNOW JOB,1997,"Moore, Harlan W.",2,E-7,"Rutland, VT",Arctic Ski Patrol,Rifle Instructor,"all NATO long range rifles and laser targeting systems",NA,male,White,NA
+STORM SHADOW,1997,"Arashikage, Thomas S.",5,E-8,"St. Louis, MO",Covert Operations,Martial Arts Instructor,NA,NA,male,Japanese,NA,
+DUKE,1997,"Hauser, Conrad S.",7,E-9,"St. Louis, MO",Airborne Infantryman,Artillery,NA,NA,male,White,NA
+TORPEDO,1997,"Leialoha, Edward W.",2,WO-4,"Aiea, Hawaii",Navy SEAL,Demolition,NA,NA,male,Pacific Islander,NA
+VIPER,1997,NA,5,NA,Infantry Trooper,NA,NA,NA,NA,male,White,COBRA
+ACE,1997,"Armbruster, Brad J.",4,"O-4 (Major, USAF)","Providence, RI",Fixed Wing Pilot, Intelligence Operations,"qualified to fly the F-5E, F-16, XP-14F and Ghost Striker X-16 jet.",NA,male,White,NA
+ALLEY VIPER,1997,NA,4,NA,NA,"Urban Assault Trooper","Rage Vehicle Driver",NA,NA,male,White,COBRA
+GENERAL HAWK,1997,"Abernathy, Clayton M.",5,O-7,"Denver, Colorado",Strategic Command Operations,Artillery,NA,NA,male,White,NA
+GUNG-HO,1997,"LaFitte, Ettienne R.",6,E-7,"Fer-de-Lance, LA.",Reconnaissance,Jungle Warfare,"All NATO Infantry small arms and most Warsaw Pact weapons.",NA,male,White,GI Joe
+BREAKER,1997,"Kibbey, Alvin R.",2,E-5,"Gatlinburg, Tennessee",Infantry,Computer Technology,Radio & Code Cracking,NA,male,White,NA
+GRUNT,1997,"Graves, Robert W.",4,E-6,"Columbus, Ohio",Infantry Squad Leader,Small Arms Repairman,NA,NA,male,White,NA
+"ROCK 'N ROLL",1997,"McConnel, Craig S.",5,E-7,"Malibu, California",Infantry,Physical Training Instructor,NA,NA,male,White,NA
+SCARLETT,1997,"O'Hara, Shana M.",3,E-6,"Atlanta, Georgia",Counterintelligence,CLASSIFIED,"black belt in the Tae Kwon Do",NA,female,White,NA
+SGT. ZAP,1997,"Melendez, Rafael J.",1,"E-7 (Staff Sergeant)","New York City, NY",Combat Engineer,Infantry,anti-tank weapon systems,NA,male,White,NA
+SHORT-FUSE,1997,"Freistadt, Eric W.",2,E-5,"Chicago, IL",Artillery,Infantry Engineer,NA,NA,male,White,NA
+SNAKE-EYES,1997,Classified,7,E-7,Classified,Infantry,Hand-to-Hand Combat Instructor,"NATO weapons and explosives, as well as edged weaponry",NA,male,NA,GI Joe,
+STALKER,1997,"Wilkinson, Lonzo R.",6,E-8,"Detroit, MI",Infantry,Medic/Interpreter,NA,NA,male,Black,GI Joe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+COBRA OFFICER,1998,NA,2,NA,Infantry,Command,NA,NA,male,White,NA,COBRA,
+COBRA TROOPER,1998,NA,1,NA,NA,Infantry,Terrorism,NA,NA,male,White,COBRA
+COLONEL BREKHOV,1998,"Brekhov, Ivan Nikolevich",1,Colonel,"Odessa, Ukraine, USSR",Command and Strategy,Infantry,NA,NA,male,White,NA
+FIREFLY,1998,Classified,4,Classified,Sabotage,Demolitions,NA,NA,NA,male,White,NA
+LT. GORKY,1998,"Gorky, Mikhail P.",1,Lieutenant,"Arkhangelsk, Russia, USSR",Naval Commando,Infantry,NA,NA,male,White,NA
+NIGHT CREEPER,1998,NA,4,NA,Arctic Field Operations,Covert Operations,NA,NA,NA,male,NA,COBRA
+SHIPWRECK,1998,"Delgado, Hector X.",3,CPO,"Chula Vista, CA",Navy SEAL,"Gunner's Mate",NA,NA,male,Latino,NA,
+SNOW SERPENT,1998,NA,4,NA,NA,Arctic Operations,Infantry,NA,NA,male,White,NA
+TORPEDO,1998,"Leialoha, Edward W.",3,WO-4,"Aiea, Hawaii",Navy SEAL,Command,NA,NA,male,Pacific Islander,NA
+VOLGA,1998,"Janack, Daina L.",1,Lieutenant,"Ostrava, Czechoslovakia","Small Arms Specialist",Helicopter Pilot,NA,NA,female,White,OKTOBER GUARD,
+WET-SUIT,1998,"Forrest, Brian M.",5,E-6,"Myrtle Beach, SC",Navy SEAL,"UDT (Underwater Demoltions)",NA,NA,male,White,NA,
+ACE,1998,"Armbruster, Brad J.",5,"O-4 (Major, USAF)","Providence, RI",Fixed Wing Pilot,Intelligence Operations,NA,NA,male,White,NA
+HEAVY DUTY,1998,"Morris, Lamont A.",3,E-5,"Chicago, Illinois","Armor Weapons Systems Operator","Indirect Fire Infantryman",NA,NA,male,Black,NA
+THUNDERWING,1998,"Crecelius, Spencer D.",1,O-1,"Las Vegas, Nevada","Armor Weapons Systems Operator","Heavy Equipment Operator",NA,NA,male,White,NA
+VYPRA,1998,"Conda, Ann A.",1,"New Orleans, LA",Intelligence,Martial Arts,NA,NA,NA,male,White,NA
+
+
+
+
+
+
+
+
+
+
+
+
+
+BIG BEN,2000,"Bennett, David J.",3,Staff Sergeant,"Burford, England",Infantry,Subversive Operations,NA,NA,male,White,NA
+CHAMELEON,2000,NA,1,CLASSIFIED,Intelligence,Computer Technologies,NA,NA,NA,female,White,NA
+COBRA COMMANDER,2000,Classified,9,"Commander-in-Chief",Classified,Intelligence,"Ordinance (Experimental Weaponry)",NA,NA,male,White,COBRA
+DIAL TONE,2000,"Morelli, Jack S.",5,E-4,"Eugene, Oregon",Radio Telecommunications,Infantry,NA,NA,male,White,NA
+DUKE,2000,"Hauser, Conrad S.",8,"E-8 (First Sergeant)","St. Louis, MO","Airborne Infantryman","Artillery, Small-arms armorer",NA,NA,male,White,NA
+DUSTY,2000,"Tadur, Ronald W.",4,E-4,"Las Vegas, Nevada",Infantry,"Refrigeration and air-conditioning maintenance",NA,NA,male,White,NA
+FIREFLY,2000,CLASSIFIED,5,CLASSIFIED,"Sabotage, Demolitions, and Terror","Expert in all NATO and Warsaw Pact explosives and detonators",NA,NA,NA,male,White,NA
+GENERAL TOMAHAWK,2000,"Abernathy, Clayton M.",1,"O-7 Brigadier General","Denver, Colorado",Artillery,Radar,NA,NA,male,White,NA
+LAW & ORDER,2000,"Lavigne, Christopher M.",4,E-4,"Houston, Texas",Military Police,Intelligence,NA,NA,male,White,NA
+MAJOR BLUDD,2000,"Bludd, Sebastian",4,"O-4 Major","Sydney, Australia",Terrorist,"Weapons and Tactics",NA,NA,male,White,NA
+ROCK VIPER,2000,NA,2,NA,NA,NA,NA,"Arctic and Wilderness Survival, Mountain Climbing, Bungee Jumping",NA,male,White,NA
+SIDE TRACK,2000,"McLaughlin, Sean C.",1,E-6,"Hingham, MA","Wilderness Survival Specialist",Demolition Expert,NA,NA,male,White,NA
+SNAKE-EYES,2000,Classified,9,E-5,Classified,Infantry,"Hand-to-Hand Combat Instructor","All NATO and Warsaw Pact small arms, black belt in 12 different fighting systems and highly skilled in the use of edged weapons.",NA,male,NA,NA
+STORM SHADOW,2000,CLASSIFIED,6,Assassin,Intelligence,"Qualified Expert: Long Bow, Samurai sword, Throwing Stars, Nunchaku sticks, 8th degree black belt in five martial arts",NA,NA,NA,male,NA,NA
+UNDERTOW,2000,NA,2,NA,NA,NA,NA,NA,NA,male,NA,COBRA
+WHITEOUT,2000,"Lee, Leonard J. III",1,"E-6 Sergeant","Bridgeport, Connecticut","Arctic Ski Patrol",Communications,NA,NA,male,White,NA
+HEAVY DUTY,2000,"Morris, Lamont A.",3,E-5,"Chicago, Illinois","Armor Weapons Systems Operator","Indirect Fire Infantryman",NA,NA,male,Black,NA
+LAMPREYS,2000,NA,3,NA,NA,NA,NA,NA,NA,male,NA,COBRA
+RIP IT,2000,"Booth, Fredd T. III",1,"Fall River, MA",Heavy Equipment Operator,NA,NA,NA,NA,male,NA,COBRA
+THUNDERWING,2000,"Crecelius, Spencer D",1,O-1,"Las Vegas, Nevada",Armor Weapons Systems Operator,Heavy Equipment Operator,NA,NA,male,White,NA
+WILD BILL,2000,"Hardy, William S.",4,"CW-4 (Chief Warrant Officer)","Brady, Texas",Helicopter Pilot,"Fixed Wing Pilot, Aircraft Armorer","M1911A auto pistol (prefers single action .45 long Colt revolvers), XM-16 attack rifle.","LRRP (Long Range Reconnaissance Patrol) operations",male,White,NA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+BIG BRAWLER,2001,"Mulholland, Brian K.",1,E-8 (First Sergeant),"New York City, NY",Counter Intelligence and Espionage,Jungle Survival Expert,Psychological Warfare,Hand-to-hand combat,male,White,GI Joe
+COBRA COMMANDER,2001,NA,10,Commander,NA,NA,NA,NA,NA,male,NA,COBRA
+COBRA FAST BLAST VIPER,2001,NA,1,NA,NA,Field Combat,"Hand-to-Hand combat, Field Weapons, Martial Arts, Demolitions, Night Recon",NA,NA,male,White,COBRA
+COBRA LASER VIPER,2001,NA,2,NA,NA,"Heat-Generated Weapons Systems, Laser Optics, Hand-to-Hand Combat, Covert Operations Specialist",NA,NA,NA,male,White,COBRA
+CROSSFIRE,2001,"White, Bill",1,E-7,"Long Island, NT",Heavy Weapons Operator,Demolitions,NA,NA,male,White,GI Joe
+DESTRO,2001,"James McCullen",6,NA,"Callander, Scotland",Intelligence,NA,NA,NA,male,White,COBRA
+DOUBLE BLAST,2001,"Griffith, Charles L.",1,E-8,"Dayton, Ohio",Heavy Machine Gunner,Electronics Engineering,NA,NA,male,Black,GI Joe
+GUNG-HO,2001,"LaFitte, Ettienne R.",7,E-7,"Fer-de-Lance, LA.",Reconnaissance,Jungle Warfare,"All NATO Infantry small arms and most Warsaw Pact weapons.",NA,male,White,GI Joe
+LEATHERNECK,2001,"Metzger, Wendell A.",4,Gunnery Sergeant,"Stromsburg, Nebraska",Weapons & Tactics Instructor, Drill Sergeant,Marine,NA,male,White,GI Joe
+LOW-LIGHT,2001,"MacBride, Cooper G.",5,E-6,"Crosby, North Dakota",Infantry,Marksmanship Instructor,"CID (Criminal Investigation Division",NA,male,White,GI Joe
+SHADOW VIPER,2001,NA,1,NA,NA,Counter Intelligence,Undercover Ops,NA,NA,male,White,COBRA
+SURE FIRE,2001,"Lane, David. S.",1,O-5,"Los Angeles, CA",CID (Criminal Investigation Division),Telecommunications,Military Police,NA,male,White,GI Joe
+TRIPWIRE,2001,"Skoog, Tormod S.",4,E-4 (Specialist),"Hibbing, Minnesota",Explosive Ordnance Disposal,Demolitions,NA,NA,male,White,GI Joe
+WET DOWN,2001,"Alexander, Daniel R.",1,WO-5,"Norfolk, VA",Covert Naval Operations,Martial Arts Instructor,Navy SEAL,NA,male,White,GI Joe
+WET-SUIT,2001,"Forrest, Brian M.",6,E-6,"Myrtle Beach, SC",Navy SEAL,"UDT (Underwater Demoltions)",NA,NA,male,White,GI Joe
+ZARTAN,2001,Unknown,3,"Nice, France",Infiltration,Espionage,NA,NA,NA,male,White,GI Joe
+CUTTER,2001,"Stone, Ronald 'Skip' A.",4,O-2 (Lieutenant J.G.),"Kinsley, Kansas",Aquatic Vehicle Operations,Coast Guard Officer,NA,NA,male,White,GI Joe
+FLINT,2001,"Faireborne, Dashiell R.",5,WO-2 (Warrant Officer),"Wichita, Kansas",L.A.V. (Land Assault Vehicles) Operator, Desert Paratrooper,NA,NA,male,White,GI Joe
+PATHFINDER,2001,"Iannotti, William V.",2,E-6,"Key West, Florida",All-Weather Assault Specialist,Forward Observer/Recon,NA,NA,male,White,GI Joe
+"ROCK 'N ROLL",2001,"McConnel, Craig S.",6,E-7,"Malibu, California",Infantry,Physical Training Instructor,NA,NA,male,White,GI Joe
+SUB VIPER,2001,NA,1,NA,NA,Underwater Demolitions,"Pressure-sensitive breathing techniques, aquatic assault and firearms, hand-to-hand combat and mine disposal",NA,NA,male,NA,COBRA
+
+
+
+
+
+
+
+//
+SCARLETT,2002,"O'Hara, Shana M.",2,E-6,"Atlanta, Georgia",Counterintelligence,CLASSIFIED,"black belt in the Tae Kwon Do",NA,female,White,NA
+ALLEY VIPER,2002,NA,5,NA,NA,"Urban Assault Trooper","Rage Vehicle Driver",NA,NA,male,White,COBRA
+ALLEY VIPER,2002,NA,6,NA,NA,"Urban Assault Trooper","Rage Vehicle Driver",NA,NA,male,White,COBRA
+COBRA COMMANDER,2002,NA,11,Commander,NA,NA,NA,NA,NA,male,NA,COBRA
+COBRA COMMANDER,2002,NA,12,Commander,NA,NA,NA,NA,NA,male,NA,COBRA
+COBRA COMMANDER,2002,NA,13,Commander,NA,NA,NA,NA,NA,male,NA,COBRA
+DESTRO,2002,"James McCullen",7,NA,"Callander, Scotland",Intelligence,NA,NA,NA,male,White,COBRA
+DESTRO,2002,"James McCullen",9,NA,"Callander, Scotland",Intelligence,NA,NA,NA,male,White,COBRA
+DUKE,2002,"Hauser, Conrad S.",9,E-9,"St. Louis, MO",Airborne Infantryman,Artillery,NA,NA,male,White,NA
+DUKE,2002,"Hauser, Conrad S.",10,E-9,"St. Louis, MO",Airborne Infantryman,Artillery,NA,NA,male,White,NA
+DUKE,2002,"Hauser, Conrad S.",11,E-9,"St. Louis, MO",Airborne Infantryman,Artillery,NA,NA,male,White,NA
+DUSTY,2002,"Tadur, Ronald W.",6,E-4,"Las Vegas, Nevada",Infantry,"Refrigeration and air-conditioning maintenance",NA,NA,male,White,NA
+DUSTY,2002,"Tadur, Ronald W.",7,E-4,"Las Vegas, Nevada",Infantry,"Refrigeration and air-conditioning maintenance",NA,NA,male,White,NA
+DUSTY,2002,"Tadur, Ronald W.",8,E-4,"Las Vegas, Nevada",Infantry,"Refrigeration and air-conditioning maintenance",NA,NA,male,White,NA
+DUSTY,2002,"Tadur, Ronald W.",9,E-4,"Las Vegas, Nevada",Infantry,"Refrigeration and air-conditioning maintenance",NA,NA,male,White,NA
+FIREFLY,2002,Classified,6,Classified,Sabotage,Demolitions,NA,NA,NA,male,White,NA
+FLINT,2002,"Faireborne, Dashiell R.",7,WO-2 (Warrant Officer),"Wichita, Kansas",L.A.V. (Land Assault Vehicles) Operator, Desert Paratrooper,NA,NA,male,White,GI Joe
+GUNG-HO,2002,"LaFitte, Ettienne R.",8,E-7,"Fer-de-Lance, LA.",Reconnaissance,Jungle Warfare,"All NATO Infantry small arms and most Warsaw Pact weapons.",NA,male,White,GI Joe
+GUNG-HO,2002,"LaFitte, Ettienne R.",9,E-7,"Fer-de-Lance, LA.",Reconnaissance,Jungle Warfare,"All NATO Infantry small arms and most Warsaw Pact weapons.",NA,male,White,GI Joe
+GUNG-HO,2002,"LaFitte, Ettienne R.",10,E-7,"Fer-de-Lance, LA.",Reconnaissance,Jungle Warfare,"All NATO Infantry small arms and most Warsaw Pact weapons.",NA,male,White,GI Joe
+SGT. STALKER,2002,"Wilkinson, Lonzo R.",1,E-7,"Detroit, MI",Explosive Ordinance Disposal,Medic/Interpreter,NA,NA,male,Black,GI Joe
+SGT. STALKER,2002,"Wilkinson, Lonzo R.",2,E-7,"Detroit, MI",Explosive Ordinance Disposal,Medic/Interpreter,NA,NA,male,Black,GI Joe
+SNAKE EYES,2002,Classified,10,E-7,Classified,Commando,Hand-to-Hand Combat Instructor,NA,NA,male,NA,GI Joe
+SNAKE EYES,2002,Classified,11,E-7,Classified,Commando,Hand-to-Hand Combat Instructor,NA,NA,male,NA,GI Joe
+SNAKE EYES,2002,Classified,12,E-7,Classified,Commando,Hand-to-Hand Combat Instructor,NA,NA,male,NA,GI Joe
+SNAKE EYES,2002,Classified,13,E-7,Classified,Commando,Hand-to-Hand Combat Instructor,NA,NA,male,NA,GI Joe
+SNAKE EYES,2002,Classified,14,E-7,Classified,Commando,Hand-to-Hand Combat Instructor,NA,NA,male,NA,GI Joe
+WET-SUIT,2002,"Forrest, Brian M.",7,E-6,"Myrtle Beach, SC",Navy SEAL,"UDT (Underwater Demoltions)",NA,NA,male,White,NA,
+WET-SUIT,2002,"Forrest, Brian M.",8,E-6,"Myrtle Beach, SC",Navy SEAL,"UDT (Underwater Demoltions)",NA,NA,male,White,NA,
+WET-SUIT,2002,"Forrest, Brian M.",9,E-6,"Myrtle Beach, SC",Navy SEAL,"UDT (Underwater Demoltions)",NA,NA,male,White,NA,
+ZARTAN,2002,Unknown,4,"Nice, France",Infiltration,Espionage,NA,NA,NA,male,White,GI Joe
+ZARTAN,2002,Unknown,5,"Nice, France",Infiltration,Espionage,NA,NA,NA,male,White,GI Joe
+DESTRO,2002,"James McCullen",8,NA,"Callander, Scotland",Intelligence,NA,NA,NA,male,White,COBRA
+HEAVY DUTY,2002,"Morris, Lamont A.",5,E-5,"Chicago, Illinois","Armor Weapons Systems Operator","Indirect Fire Infantryman",NA,NA,male,Black,NA
+"ROCK 'N ROLL",2002,"McConnel, Craig S.",6,E-7,"Malibu, California",Infantry,Physical Training Instructor,NA,NA,male,White,NA
+DIAL TONE,2002,"Morelli, Jack S.",6,E-6,"Eugene, Oregon",Radio Telecommunications,Comunication Expert,NA,NA,male,White,NA
+COBRA FAST BLAST VIPER,2002,NA,2,NA,NA,Field Combat,"Hand-to-Hand combat, Field Weapons, Martial Arts, Demolitions, Night Recon",NA,NA,male,White,COBRA
+FIREFLY,2002,Classified,7,Classified,Sabotage,Demolitions,NA,NA,NA,male,White,NA
+STORM SHADOW,2002,CLASSIFIED,9,Assassin,Intelligence,"Qualified Expert: Long Bow, Samurai sword, Throwing Stars, Nunchaku sticks, 8th degree black belt in five martial arts",NA,NA,NA,male,NA,NA
+UNDERTOW,2002,NA,3,NA,NA,Frogman,Underwater Ops,NA,NA,male,NA,COBRA
+G.I. JOE RESERVIST,2002,"Staples, David H.",1,1st Leutenant,"Hillsville, VA",Smart Weapons,Paratrooper,NA,NA,male,White,GI Joe
+BARONESS,2002,"Decobray, Anastasia",3,CLASSIFIED,Intelligence,Fixed Wing Pilot,NA,NA,NA,female,White,COBRA
+TOMAX,2002,Classified,2,NA,Mediterranean,"Espionage, Infiltration, sabotage",propaganda and corporate law,Strike Team Commander,NA,male,White,COBRA
+TOMAX,2002,Classified,3,NA,Mediterranean,"Espionage, Infiltration, sabotage",propaganda and corporate law,Strike Team Commander,NA,male,White,COBRA
+VIPER,2002,NA,7,NA,Infantry,NA,NA,NA,NA,male,White,COBRA
+XAMOT,2002,Classified,2,NA,Mediterranean,"Espionage, Infiltration, sabotage",propaganda and corporate law,Strike Team Commander,NA,male,White,COBRA
+XAMOT,2002,Classified,3,NA,Mediterranean,"Espionage, Infiltration, sabotage",propaganda and corporate law,Strike Team Commander,NA,male,White,COBRA
+SIDESWIPE,2002,"Frankel, Andrew",1,E-5A,"Philadelphia, Pennsylvania",Medical Specialist,Troop Transportation,NA,NA,male,White,GI Joe
+SHOCK VIPER,2002,NA,1,NA,NA,Cobra Fire Assault Trooper,NA,NA,NA,male,NA,COBRA
+AGENT SCARLETT,2002,"O'Hara, Shana M.",1,E-5,"Atlanta, Georgia",Counterintelligence,Classified,NA,NA,female,White,GI Joe
+BIG BEN,2002,"Bennet, David J.",5,Staff Sergeant,"Burford, England",Infantry,Subversive Operations,SAS Trooper,NA,male,White,GI Joe
+BLOWTORCH,2002,"Hanrahan, Timothy P.",2,E-6,"Tampa Bay, Florida",Infantry Special Weapons,Combat Engineer,Flamethrower,NA,male,White,GI Joe
+COBRA SLICE,2002,Classified,4,NA,"Jonestown, U.K.",Martial Arts,Ninja Swordfighting,Ninja Swordsman,NA,male,NA,COBRA
+DART,2002,"Tall Elk, Jimmy",1,E-6,"White Earth, Minnesota",Recon,Infantry,Pathfinder,NA,male,First Nations,GI Joe
+DR. MINDBENDER,2002,Classified,3,NA,Classified,Mind Control,NA,Interrogations,NA,male,White,COBRA
+DREADNOK RIPPER,2002,"Harry Nod",2,NA,"Grim Cape, Tasmania",Classified,NA,NA,NA,male,White,COBRA
+SKULL BUSTER,2002,NA,1,NA,NA,Range Viper Commander,NA,NA,NA,male,NA,COBRA
+WILD WEASEL,2002,Classified,1,NA,Classified,Ground support pilot,NA,NA,NA,male,NA,COBRA
+
+//
+2002
+    LIFELINE (v5)
+    SERPENTOR (v2)
+    SHIPWRECK (v4)
+    SIDETRACK (v2) RANGER 
+    DUSTY (v5) DESERT TROOPER 
+    BARONESS (v4) COBRA INTELLIGENCE OFFICER 
+    BEACH HEAD (v4) AMPHIBIOUS AND AIRBORNE ASSAULT TROOPER 
+    FROSTBITE (v4) TRANSPORTATION 
+    FROSTBITE (v5) TRANSPORTATION 
+    FROSTBITE (v6) TRANSPORTATION 
+    GENERAL TOMAHAWK (v2) G.I.JOE COMMANDER 
+    HEADMAN (v2) INTERNATIONAL SMUGGLER theif
+    HEAVY DUTY (v4) HEAVY ORDNANCE SPECIALIST 
+    HEAVY DUTY (v6) HEAVY ORDNANCE SPECIALIST 
+    MIRAGE (v2) WEAPONS EXPERT 
+    MIRAGE (v3) WEAPONS EXPERT 
+    NUNCHUK (v3) MARTIAL ARTS EXPERT 
+    SHIPWRECK (v5) SAILOR 
+    SHOCK VIPER (v2) COBRA FIRE ASSAULT TROOPER 
+    STORM SHADOW (v8) NINJA LEADER 
+    STORM SHADOW (v10) NINJA LEADER 
+    SURE FIRE (v2) MILITARY POLICE 
+    WILD BILL (v5) HELICOPTER PILOT 
+    ROADBLOCK (v8) ARMY MACHINE GUNNER 
+    TOMAX (v3) CRIMSON STRIKE TEAM COMMANDER 
+
+    COBRA B.A.T. (v3)  BATTLE ANDROID TROOPER (MARK III) 
+
+    COBRA C.L.A.W.S. (v1) [COMBAT LIGHT ARMORED WEAPONS SPECIALIST] HEAVY WEAPONS TROOPER 
+    COBRA C.L.A.W.S. (v2) [COMBAT LIGHT ARMORED WEAPONS SPECIALIST] HEAVY WEAPONS TROOPER 
+    COBRA C.L.A.W.S. (v3) [COMBAT LIGHT ARMORED WEAPONS SPECIALIST] HELICOPTER PILOT 
+    COBRA C.L.A.W.S. (v4) [COMBAT LIGHT ARMORED WEAPONS SPECIALIST] HEAVY WEAPONS TROOPER 
+
+    COBRA MORAY (v1) COBRA UNDERWATER ELITE OPERATIONS 
+    COBRA MORAY (v2) COBRA UNDERWATER ELITE OPERATIONS 
+    COBRA MORAY (v3) COBRA UNDERWATER ELITE OPERATIONS 
+
+    COBRA SNOW SERPENT (v5) COBRA POLAR ASSAULT ARCTIC ENVIRONMENT COMBAT SPECIALIST 
+
+    COBRA VIPER (v6)  COBRA INFANTRYMAN
+    COBRA VIPER (v8)  COBRA INFANTRYMAN
+
+    NEO-VIPER (v1) COBRA INFANTRY OFFICERS 
+    NEO-VIPER (v2) COBRA INFANTRY OFFICERS
+    NEO-VIPER (v3) COBRA INFANTRY OFFICERS  
+    NEO-VIPER (v4) COBRA INFANTRY OFFICERS 
+    NEO-VIPER COMMANDER (v1) NEO-VIPER LEADER 
+
+    DESERT COBRA C.L.A.W.S. (v1) [COMBAT LIGHT ARMORED WEAPONS SPECIALIST] HEAVY WEAPONS TROOPER 
+
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AMBUSH,2017,"McMahon, Aaron",4,E-3,"Walnut, California","Camouflage, Concealment and Decoys Specialist",Infantry,NA,NA,male,White,GI Joe
+ARCEE,2017,ARCEE,1,NA,CYBERTRON,"Combat,Advanced Scout",NA,NA,NA,female,White,GI Joe
+
