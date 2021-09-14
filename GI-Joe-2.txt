@@ -1,0 +1,22 @@
+
+https://www.yojoe.com/action/83/
+
+https://www.yojoe.com/action/94/gijoe.shtml
+
+B.A.T.S. (Battle Android Troopers)
+NA,Various,Black,White,COBRA,male,female,GI Joe
+
+name, year, file_name, version, rank,  
+birthplace, Primary_Specialty, Secondary_Speciality, 
+Q_E, S_E, sex, race, team 
+
+----- 1994
+
+
+
+
+
+
+
+
+
