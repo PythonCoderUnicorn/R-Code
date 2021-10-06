@@ -36,3 +36,19 @@ Not organized
 ![tidytues-lemurs](https://user-images.githubusercontent.com/55933131/136282715-6e33f5e4-e254-499c-ad22-df0aa6d7391d.png)
 
 
+
+## Red Hot Chili Peppers songs
+![RedHotChiliPeppers](https://user-images.githubusercontent.com/55933131/136284995-096a65f7-435f-4b2d-ac87-53e06c104503.png)
+
+
+## Prince songs
+![Prince_Songs](https://user-images.githubusercontent.com/55933131/136285070-063e0325-b216-44c7-9b15-2602997aa25b.png)
+
+
+## Lady Gaga songs
+![LadyGaga_songs](https://user-images.githubusercontent.com/55933131/136285161-c33008e3-2e89-4fe9-a1b8-e59e2e324b5f.png)
+
+## Garbage (band) songs
+![Garbage_songs](https://user-images.githubusercontent.com/55933131/136285351-9f56ed32-d78b-4454-849a-2506f18c430a.png)
+
+
