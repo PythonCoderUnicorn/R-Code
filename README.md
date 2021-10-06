@@ -16,3 +16,12 @@ main Data Science language instead of Python.
 ![TOOL song average](https://user-images.githubusercontent.com/55933131/136283266-5ab30748-8658-495a-a181-6c5b523ec3fc.png)
 
 ![TOOL songs](https://user-images.githubusercontent.com/55933131/136283313-9dbd5d4a-51bd-4c18-bd1b-57478d69dc3a.png)
+
+
+## rtweet data
+![tweets-FreqPlot](https://user-images.githubusercontent.com/55933131/136283495-3e0b90e9-e169-4803-9cf8-0074f7510bcd.png)
+
+### Climate Change tweets
+![Twitter_ClimateChange_wordcounts](https://user-images.githubusercontent.com/55933131/136283509-6b1a8b3e-fe97-497a-a4c9-2f62c2432361.png)
+
+![Twitter_VotePPC-analysis-chart](https://user-images.githubusercontent.com/55933131/136283555-f3238fe6-da9b-40ed-813f-47d0894961ae.png)
