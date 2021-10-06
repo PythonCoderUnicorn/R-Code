@@ -10,3 +10,9 @@ main Data Science language instead of Python.
 
 ## using the rtweet package for Twitter scraping
 ![rtweet-FemSci-plot](https://user-images.githubusercontent.com/55933131/136281488-4b6cd638-a002-48bb-8de6-2aac9185087c.png)
+
+
+## TOOL band 
+![TOOL song average](https://user-images.githubusercontent.com/55933131/136283266-5ab30748-8658-495a-a181-6c5b523ec3fc.png)
+
+![TOOL songs](https://user-images.githubusercontent.com/55933131/136283313-9dbd5d4a-51bd-4c18-bd1b-57478d69dc3a.png)
