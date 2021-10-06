@@ -30,3 +30,8 @@ main Data Science language instead of Python.
 ![Twitter_ClimateChange_networkgraph](https://user-images.githubusercontent.com/55933131/136283688-fb321af9-643a-49bb-b881-f9a39ca8d75c.png)
 
 ![Twitter_VotePPC-analysis](https://user-images.githubusercontent.com/55933131/136283721-ca374b7c-59bb-4d66-9a05-d470e1d763a3.png)
+
+
+## Star Wars
+![image](https://user-images.githubusercontent.com/55933131/136291144-1d54fb96-3668-463a-86cc-477bc809884a.png)
+
