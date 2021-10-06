@@ -25,3 +25,8 @@ main Data Science language instead of Python.
 ![Twitter_ClimateChange_wordcounts](https://user-images.githubusercontent.com/55933131/136283509-6b1a8b3e-fe97-497a-a4c9-2f62c2432361.png)
 
 ![Twitter_VotePPC-analysis-chart](https://user-images.githubusercontent.com/55933131/136283555-f3238fe6-da9b-40ed-813f-47d0894961ae.png)
+
+### Twitter word graphs
+![Twitter_ClimateChange_networkgraph](https://user-images.githubusercontent.com/55933131/136283688-fb321af9-643a-49bb-b881-f9a39ca8d75c.png)
+
+![Twitter_VotePPC-analysis](https://user-images.githubusercontent.com/55933131/136283721-ca374b7c-59bb-4d66-9a05-d470e1d763a3.png)
