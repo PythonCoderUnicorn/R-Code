@@ -3,6 +3,10 @@
 
 Not organized 
 
+### US Nurses Wage & Employment
+![image](https://user-images.githubusercontent.com/55933131/136475113-51f36082-e5ae-4462-8957-f24d10bc7bb8.png)
+
+
 ### Star Trek LCARS data
 ![TidyTues-StarTrek-LCARS-2](https://user-images.githubusercontent.com/55933131/136282838-10b295fc-a1a4-4ec8-82d6-a44f938c1b57.png)
 
