@@ -4,7 +4,7 @@
 Not organized 
 
 ### US Nurses Wage & Employment
-![image](https://user-images.githubusercontent.com/55933131/136475113-51f36082-e5ae-4462-8957-f24d10bc7bb8.png)
+![TidyTuesday-RN-MedianWage](https://user-images.githubusercontent.com/55933131/136475157-3b9b96a5-2804-4c89-ba05-19cee449e80b.png)
 
 
 ### Star Trek LCARS data
