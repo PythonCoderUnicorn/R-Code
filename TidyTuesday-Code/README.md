@@ -3,6 +3,10 @@
 
 Not organized 
 
+### US Wind Turbines
+![USWindTurbines-revised](https://user-images.githubusercontent.com/55933131/136594214-971da5e9-282e-4428-9cd5-6a182e1d4560.png)
+
+
 ### US Nurses Wage & Employment
 ![TidyTuesday-RN-MedianWage](https://user-images.githubusercontent.com/55933131/136475157-3b9b96a5-2804-4c89-ba05-19cee449e80b.png)
 
