@@ -14,6 +14,8 @@ Not organized
 
 ![TidyTues-TrekTNG-LCARS](https://user-images.githubusercontent.com/55933131/136283054-aaae75a4-ef5c-4568-bfc6-0d0ff18c2749.png)
 
+### Code by Moriah Taylor 
+![Rplot008](https://user-images.githubusercontent.com/55933131/136582119-7fd03659-ebad-48e2-a891-a505d9b5d7dd.png)
 
 
 ### US Nurses
