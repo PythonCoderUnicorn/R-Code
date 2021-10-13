@@ -32,6 +32,11 @@ Not organized
 ![USNurses-employed](https://user-images.githubusercontent.com/55933131/136276255-21c7333a-e8af-4221-8884-ba0f85f7e122.png)
 
 
+### geom_tile()
+![image](https://user-images.githubusercontent.com/55933131/137220236-a4477a22-247f-4700-b7f8-f18a52f56a74.png)
+
+
+
 ### US Wind Turbines (David Robinson Tutorial)
 
 ![TidyTiues_USwind_cap](https://user-images.githubusercontent.com/55933131/136282250-a40947e1-e54a-4312-9d55-a0b3b8fab66a.png)
