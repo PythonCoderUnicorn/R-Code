@@ -38,3 +38,6 @@ main Data Science language instead of Python.
 ## Nobel Prize 
 ![image](https://user-images.githubusercontent.com/55933131/136720500-5d71f716-baf6-4166-997f-0c11c097f1f7.png)
 
+## Bike Rental Sales
+![image](https://user-images.githubusercontent.com/55933131/137187034-351191ff-27c3-4208-8bae-921fec05e0d6.png)
+
