@@ -1,0 +1,119 @@
+---
+title: "Untitled"
+output:
+  flexdashboard::flex_dashboard:
+    theme:
+      version: 4
+      bg: "#101010"
+      fg: 'black' #"#FDF7F7" 
+      primary: "#ED79F9"
+      navbar-bg: "#3ADAC6"
+      base_font: 
+        google: Prompt
+      heading_font:
+        google: Sen
+      code_font:
+        google: 
+          # arguments to sass::font_google() 
+          family: JetBrains Mono
+          local: false
+
+---
+
+```{r setup, include=FALSE, context = "server"}
+library(flexdashboard)
+library(highcharter)
+library(dplyr)
+library(viridisLite)
+library(forecast)
+library(treemap)
+library(ggplot2)
+library(tidyverse)
+
+
+library(thematic)
+library(bslib)
+library(systemfonts)
+
+
+```
+
+```{r  }
+thm <- 
+  hc_theme(
+    colors = c("#1a6ecc", "#434348", "#90ed7d"),
+    chart = list(
+      backgroundColor = "transparent",
+      style = list(fontFamily = "Source Sans Pro")
+    ),
+    xAxis = list(
+      gridLineWidth = 1
+    )
+  )
+```
+
+
+
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+AirPassengers %>% 
+  forecast(level = 90) %>% 
+  hchart() %>% 
+  hc_add_theme(thm)
+```
+
+
+
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+# data("USArrests", package = "datasets")
+# data("usgeojson")
+# 
+# USArrests <- USArrests %>%
+#   mutate(state = rownames(.))
+# 
+# n <- 4
+# colstops <- data.frame(
+#   q = 0:n/n,
+#   c = substring(viridis(n + 1), 0, 7)) %>%
+#   list.parse2()
+# 
+# highchart() %>%
+#   hc_add_series_map(usgeojson, USArrests, name = "Sales",
+#                     value = "Murder", joinBy = c("woename", "state"),
+#                     dataLabels = list(enabled = TRUE,
+#                                       format = '{point.properties.postalcode}')) %>%
+#   hc_colorAxis(stops = colstops) %>%
+#   hc_legend(valueDecimals = 0, valueSuffix = "%") %>%
+#   hc_mapNavigation(enabled = TRUE)
+```
+
+
+
+
+
+
+
+
+Column {.tabset data-width=400}
+-----------------------------------------------------------------------
+
+
+
+### Chart C
+
+```{r}
+
+```
+

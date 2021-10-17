@@ -1,0 +1,247 @@
+---
+title: "Flexdashboard 1"
+output: flexdashboard::flex_dashboard
+theme: 
+  version: 4
+  bg: "#101010"
+  fg: "#FDF7F7" 
+  primary: "#ED79F9"
+  navbar-bg: "#3ADAC6"
+orientation: columns
+runtime: shiny
+---
+
+
+
+
+```{r,setup, include = FALSE, context = "server"}
+library(bslib)
+library(thematic)
+
+# shiny::bootstrapLib()
+# bslib::bs_theme()
+# bs_theme()
+# thematic::thematic_rmd()
+# solar_theme <- bs_theme(
+#   , , p,
+#   base_font = font_google("Pacifico")
+# )
+
+# thematic_shiny()
+
+# bs_theme_preview(bs_theme(bg = "#444444", fg = "#E4E4E4", primary = "#E39777"))
+
+```
+
+
+
+
+
+
+```{r,  include=FALSE}
+library(tidyverse)
+library(DT)
+startData <- starwars
+GBChoices <- as.list(names(startData))
+names(GBChoices) <- paste(names(startData),map(startData,~length(unique(.x))))
+updateData <- reactive(
+  startData %>% group_by(!!! rlang::syms(input$GB)) %>% summarise_if(is.numeric,sum,na.rm=T))
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Page 1
+====================
+
+Column {.sidebar} 
+------------------------------------------------------------------
+```{r}
+# inputs go here 
+
+selectInput(inputId = "GB",
+            label = "Group By",
+            choices = GBChoices)
+
+selectInput(inputId = "Metric",
+            label = "Metric",
+            choices = names(select_if(startData,is.numeric)))
+```
+
+Column 
+------------------------------------------------------------------
+
+
+
+
+### chart 1 {data-pading=30}
+```{r fig.height=15, fig.width=5}
+renderPlot({
+ updateData() %>% 
+  ggplot(aes(y=!! rlang::sym(input$GB),
+             x=!! rlang::sym(input$Metric),
+             fill=!! rlang::sym(input$GB))) +
+  geom_col()+
+    theme(legend.position = "none")
+})
+```
+
+
+
+
+
+Page 2
+====================
+
+
+### Chart 2  {data-pading=30}
+```{r}
+starwars %>% 
+  select(name, homeworld) %>% 
+  count(homeworld, sort = T) %>% 
+  ggplot( aes(x= n, y=  reorder(homeworld, n )) )+
+  geom_col(fill='#b9d11d')+
+  ggdark::dark_mode()+
+  labs(title = "Starwars count of homeworlds by name")
+```
+
+
+
+
+
+
+Page 3 {data-icon="fa-hashtag"}
+====================
+
+### Table  {data-pading=30}
+```{r}
+renderDT(
+  updateData(), rownames = F, extensions = 'Buttons', filter="top", editable=T,
+  options = list(
+    dom = 'Blfrtip',
+    buttons = c('copy', 'csv', 'excel', 'pdf', 'print'),
+    lengthMenu = list(c(10,50,100,-1),c(10,50,100,"All"))
+  )
+)
+```
+
+
+
+
+
+page 4 {data-icon="fa-list"}
+=================
+```{r , include=FALSE}
+library(dygraphs)
+library(flexdashboard)
+```
+
+### Lung Deaths (All)
+
+```{r}
+dygraph(ldeaths)
+```
+
+### Lung Deaths (Male)
+
+```{r}
+dygraph(mdeaths)
+```
+
+### Lung Deaths (Female)
+
+```{r}
+dygraph(fdeaths)
+```
+
+
+
+Page 5
+=============
+i put words here 
+
+### Cars
+
+i put words here too!
+```{r}
+knitr::kable(mtcars)
+```
+
+
+### Cars 2
+
+```{r}
+renderTable({
+  head(mtcars, n = input$rows)
+})
+```
+
+
+
+
+Page 11 {data-navmenu="Menu A"}
+=====================================
+You can link to a dashboard page with either of the following syntaxes:
+
+[Page 2]
+
+[Page Two](#page-2)
+
+The second syntax is used when you want a custom name for the link 
+(rather than just using the page title).
+
+Page 12 {data-navmenu="Menu A"}
+=====================================  
+
+
+Page 13 {data-navmenu="Menu B"}
+=====================================
+
+
+Page 14 {.storyboard}
+=====================================  
+
+### Frame 1 heey
+
+Starwars Eye Colors
+```{r}
+knitr::kable(starwars$eye_color) 
+```
+
+***
+comments go here
+
+
+
+### Frame 2 over here is the stuff
+more data analysis things 
+```{r}
+knitr::kable(starwars$name) 
+```
+
+Details
+=========================================
+
+Column
+-----------------------------------------
+
+
+
+
+
+
+
