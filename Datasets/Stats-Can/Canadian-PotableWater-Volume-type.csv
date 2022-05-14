@@ -1,0 +1,115 @@
+﻿"Potable water volumes processed by drinking water plants, by source water type (x 1,000,000) 1 2 3 4"
+"Frequency: Occasional"
+"Table: 38-10-0092-01 (formerly CANSIM 153-0105)"
+"Release date: 2021-08-17"
+"Geography: Canada, Province or territory, Drainage region"
+""
+""
+
+"Geography","Type of water source","2011","2013","2015","2017","2019"
+"Canada 5",,"Cubic metres",,,,
+,"All source water types","5,123.7","5,032.8","5,020.8","4,888.4","4,866.1"
+,"Surface water 6","4,542.7","4,436.9","4,426.5","4,291.1","4,280.3"
+,"Groundwater and groundwater under the direct influence of surface water (GUDI) 7 8","..","..","..","..",".."
+,"Groundwater 7","513.2","509.8","505.5","503.4","479.9"
+,"Groundwater under the direct influence of surface water (GUDI) 8","67.7","86.1","88.8","93.9","105.9"
+"Newfoundland and Labrador","All source water types","121.8","130.8","128.1","127.4","120.8"
+,"Surface water 6","115.8","126.4","119.6","120.4","113.8"
+,"Groundwater and groundwater under the direct influence of surface water (GUDI) 7 8","..","..","..","..",".."
+,"Groundwater 7","5.6","3.5","7.4","6.8","6.7"
+,"Groundwater under the direct influence of surface water (GUDI) 8","0.4","0.9","1.1","0.3","0.3"
+"Prince Edward Island","All source water types","11.4","12.1","11.3","11.3","11.4"
+,"Surface water 6","0.0","0.0","0.0","0.0","0.0"
+,"Groundwater and groundwater under the direct influence of surface water (GUDI) 7 8","..","..","..","..",".."
+,"Groundwater 7","11.4","12.1","11.3","11.2","11.3"
+,"Groundwater under the direct influence of surface water (GUDI) 8","0.0","0.0","0.0","0.1","0.1"
+"Nova Scotia","All source water types","97.2","94.0","90.6","84.0","84.6"
+,"Surface water 6","82.0","77.9","75.7","69.1","69.0"
+,"Groundwater and groundwater under the direct influence of surface water (GUDI) 7 8","..","..","..","..",".."
+,"Groundwater 7","14.9","15.6","14.5","13.6","14.5"
+,"Groundwater under the direct influence of surface water (GUDI) 8","0.3","0.5","0.5","1.2","1.2"
+"New Brunswick","All source water types","89.6","94.7","100.1","92.5","74.1"
+,"Surface water 6","60.6","65.4","70.8","60.7","39.1"
+,"Groundwater and groundwater under the direct influence of surface water (GUDI) 7 8","..","..","..","..",".."
+,"Groundwater 7","26.0","27.3","28.3","27.4","30.6"
+,"Groundwater under the direct influence of surface water (GUDI) 8","3.0","2.0","0.9","4.4","4.4"
+"Quebec","All source water types","1,645.7","1,577.4","1,551.0","1,457.5","1,477.3"
+,"Surface water 6","1,480.3","1,393.2","1,369.3","1,281.0","1,300.5"
+,"Groundwater and groundwater under the direct influence of surface water (GUDI) 7 8","..","..","..","..",".."
+,"Groundwater 7","152.3","166.3","159.7","155.7","158.6"
+,"Groundwater under the direct influence of surface water (GUDI) 8","13.1","17.9","22.0","20.8","18.2"
+"Ontario","All source water types","1,670.0","1,627.7","1,623.4","1,575.7","1,603.0"
+,"Surface water 6","1,496.4","1,455.3","1,458.6","1,407.6","1,439.1"
+,"Groundwater and groundwater under the direct influence of surface water (GUDI) 7 8","..","..","..","..",".."
+,"Groundwater 7","144.1","133.4","130.0","130.0","121.5"
+,"Groundwater under the direct influence of surface water (GUDI) 8","29.5","39.0","34.8","38.1","42.3"
+"Manitoba","All source water types","117.2","115.5","109.3","113.4","116.7"
+,"Surface water 6","101.7","101.3","97.8","98.7","102.3"
+,"Groundwater and groundwater under the direct influence of surface water (GUDI) 7 8","..","..","..","..",".."
+,"Groundwater 7","13.6","11.1","10.1","13.1","13.0"
+,"Groundwater under the direct influence of surface water (GUDI) 8","1.9","3.1","1.5","1.5","1.3"
+"Saskatchewan","All source water types","121.9","122.3","121.5","120.3","115.0"
+,"Surface water 6","101.6","101.6","101.6","100.6","95.8"
+,"Groundwater and groundwater under the direct influence of surface water (GUDI) 7 8","..","..","..","..",".."
+,"Groundwater 7","18.8","19.1","18.2","17.5","18.1"
+,"Groundwater under the direct influence of surface water (GUDI) 8","1.5","1.6","1.6","2.3","1.1"
+"Alberta","All source water types","440.5","455.8","474.2","472.1","458.9"
+,"Surface water 6","414.1","429.6","443.7","445.9","434.7"
+,"Groundwater and groundwater under the direct influence of surface water (GUDI) 7 8","..","..","..","..",".."
+,"Groundwater 7","17.0","16.7","18.4","16.0","14.6"
+,"Groundwater under the direct influence of surface water (GUDI) 8","9.4","9.4","12.1","10.2","9.6"
+"British Columbia","All source water types","792.2","786.3","796.1","818.5","788.9"
+,"Surface water 6","682.7","678.1","681.5","697.8","677.1"
+,"Groundwater and groundwater under the direct influence of surface water (GUDI) 7 8","..","..","..","..",".."
+,"Groundwater 7","101.8","97.5","102.7","107.2","86.2"
+,"Groundwater under the direct influence of surface water (GUDI) 8","7.7","10.7","11.9","13.5","25.7"
+"Yukon and Northwest Territories","All source water types","..","..","..","..",".."
+,"Surface water 6","..","..","..","..",".."
+,"Groundwater and groundwater under the direct influence of surface water (GUDI) 7 8","..","..","..","..",".."
+,"Groundwater 7","..","..","..","..",".."
+,"Groundwater under the direct influence of surface water (GUDI) 8","..","..","..","..",".."
+"Yukon","All source water types","8.7","8.1","7.1","6.4","6.4"
+,"Surface water 6","..","0.0","0.0","0.0","0.0"
+,"Groundwater and groundwater under the direct influence of surface water (GUDI) 7 8","..","..","..","..",".."
+,"Groundwater 7","7.8","6.9","4.8","4.8","4.8"
+,"Groundwater under the direct influence of surface water (GUDI) 8","0.9","1.1","2.4","1.5","1.6"
+"Northwest Territories","All source water types","5.5","5.5","5.4","6.1","5.5"
+,"Surface water 6","5.5","5.5","5.3","6.0","5.5"
+,"Groundwater and groundwater under the direct influence of surface water (GUDI) 7 8","..","..","..","..",".."
+,"Groundwater 7","..","0.0","0.0","0.0","0.0"
+,"Groundwater under the direct influence of surface water (GUDI) 8","0.0","0.0","0.0","0.0","0.0"
+"Nunavut","All source water types","2.0","2.6","2.7","3.4","3.3"
+,"Surface water 6","1.9","2.6","2.7","3.4","3.3"
+,"Groundwater and groundwater under the direct influence of surface water (GUDI) 7 8","..","..","..","..",".."
+,"Groundwater 7","0.0","0.0","0.0","0.0","0.0"
+,"Groundwater under the direct influence of surface water (GUDI) 8","0.0","0.0","0.0","0.0","0.0"
+
+Symbol legend:
+.., not available for a specific reference period
+E, use with caution
+A, data quality: excellent
+B, data quality: very good
+C, data quality: good
+D, data quality: acceptable
+
+
+
+Footnotes:
+1,"Source: Statistics Canada, Environment, Energy and Transportation Statistics Division, Survey of Drinking Water Plants. Beginning with the 2013 collection, for Quebec, estimates were produced from data collected by the ministère des Affaires municipales et de l'Occupation du territoire. Readers are advised, with the change in data collection for Québec respondents, comparisons from a time series perspective should be made with caution."
+2,"Figures may not add up to totals due to rounding."
+3,"All estimates contained in this table have been assigned a letter value to indicate the quality of the estimate, as measured by the coefficient of variation (CV, expressed as a percentage). A = Excellent (0.01% to 4.99%), B = Very good (5.00% to 9.99%), C = Good (10.00% to 14.99%), D = Acceptable (15.00% to 24.99%), E = Use with caution (25.00% to 49.99%), F = Too unreliable to be published (> 49.99% data are suppressed). Any value of 0 (zero) with a letter value represents a value rounded to 0 where there is a meaningful distinction between the true zero and the value that was rounded. All other values of 0 are true zeros. The 95% confidence interval associated with an estimate (assuming a normal distribution) is given by: Estimate ± 1.96 * (CV in %) * Estimate. Beginning with the 2017 collection, since this statistical activity is a census and all non-response has been imputed, the sampling error is zero (0) which give a CV of zero (0).  To take into account that imputation has occurred, both the sampling error (which is 0 for every estimate) and the non-response rate are combined into one quality rating code for each estimate.  This code uses letters that range from A to E where A means the estimate is of excellent quality and E means it is to be used with caution.
+A:  excellent data quality (CV is 0 and non-response rate is 10% or lower)
+B:  very good data quality (CV is 0 and non-response rate is 10.01% to 33%)
+C:  good data quality (CV is 0 and non-response rate is 33.01% to 60%)
+E:  use with caution (CV is 0 and non-response rate is greater than 60%)    
+"
+4,"Revisions are made for the previous survey reference period, with the initial release of the current data, as required. For the most current data please refer to tables 38100009, 38100092, 38100093, 38100094, 38100103, 38100269, 38100270, 38100271, 38100272.  "
+5,"Due to a low response rate, data for 2005 to 2007 excludes Nunavut."
+6,"Water from sources open to the atmosphere such as rivers, lakes and reservoirs."
+7,"Water found in underground aquifers which supplies wells and springs."
+8,"Groundwater supply sources under conditions where microbial pathogens are able to travel from surface water to the groundwater source."
+
+
+
+"How to cite: Statistics Canada. Table 38-10-0092-01  Potable water volumes processed by drinking water plants, by source water type (x 1,000,000)"
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3810009201

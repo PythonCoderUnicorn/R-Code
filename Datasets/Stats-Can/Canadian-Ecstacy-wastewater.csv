@@ -1,0 +1,36 @@
+﻿"Drug metabolites in wastewater in select Canadian cities, by month 1 2"
+"Frequency: Monthly"
+"Table: 13-10-0820-01"
+"Release date: 2021-07-26"
+"Geography:"
+""
+""
+
+,"Ecstasy (MDMA)",,,,,,,,,,
+,"Load per capita (grams per one million people per day)",,,,,,,,,,
+"Geography 5","March 2019","April 2019","May 2019","June 2019","July 2019","August 2019","September 2019","October 2019","November 2019","December 2019","January 2020"
+,"Grams per one million people per day",,,,,,,,,,
+"Halifax, Nova Scotia","37.84","34.27","40.87","40.68","39.63","..","..","..","..","..","47.22"
+"Montreal, Quebec","28.86","29.52","40.77","30.55","34.39","..","..","..","..","..","29.55"
+"Toronto, Ontario","16.37","12.36","13.55","21.83","13.48","..","..","..","..","..","17.61"
+"Edmonton, Alberta","13.69","25.90","23.34","28.98","30.35","..","..","..","..","..","23.99"
+"Vancouver, British Columbia","58.91","195.16","108.53","103.45","45.36","..","..","..","..","..","74.82"
+
+Symbol legend:
+.., not available for a specific reference period
+E, use with caution
+
+
+
+Footnotes:
+1,"Source: Canadian Wastewater Survey - Drug component.
+"
+2,"Wastewater samples were collected daily for a period of 7 days, starting on the second Monday of each month."
+3,"Missing samples were multiply imputed to create valid monthly estimates and variances. The imputation model accounts for the location, month, and day of week of the missing samples. Imputation is done independently for each compound."
+4,"Load per capita is the load divided by the population residing in the catchment area of the treatment plant (in millions). The catchment population is estimated from the 2016 Census and projected forward using a combination of census subdivision growth estimates for the municipality and dwelling growth estimates within each treatment plant catchment area."
+5,"The number of wastewater treatment plants from which samples were collected in each municipality is as follows: Halifax (3), Montreal (2), Toronto (4), Edmonton (1), Vancouver (5)."
+
+
+
+"How to cite: Statistics Canada. Table 13-10-0820-01  Drug metabolites in wastewater in select Canadian cities, by month"
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310082001

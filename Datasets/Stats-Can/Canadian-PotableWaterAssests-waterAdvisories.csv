@@ -1,0 +1,75 @@
+﻿"Municipal owners of potable water assets by drinking water advisories issued, urban and rural, and population size, Infrastructure Canada 1 2 3"
+"Frequency: Occasional"
+"Table: 34-10-0205-01"
+"Release date: 2020-11-23"
+"Geography: Canada, Province or territory"
+""
+""
+
+,,"Number",,,,,,,,,,,,,,,
+,,"2016",,,,,,,,"2018",,,,,,,
+"Geography","Type of municipality by population size","Total number of organizations who own potable water assets","No drinking water advisories","One drinking water advisory","2 to 5 drinking water advisories","6 to 10 drinking water advisories","11 to 20 drinking water advisories","More than 20 drinking water advisories","Number of drinking water advisories unknown","Total number of organizations who own potable water assets","No drinking water advisories","One drinking water advisory","2 to 5 drinking water advisories","6 to 10 drinking water advisories","11 to 20 drinking water advisories","More than 20 drinking water advisories","Number of drinking water advisories unknown"
+,,"Number",,,,,,,,,,,,,,,
+"Canada","All municipalities","1,494","954","146","260","52","F","43","6","2,983","1,419","304","439","84","39","42","655"
+,"All urban municipalities","555","344","64","86","18","10","28","5","791","416","70","78","16","19","30","161"
+,"All rural municipalities","938","610","82","175","33","F","F","F","2,191","1,003","234","362","67","20","12","494"
+"Newfoundland and Labrador ","All municipalities","62","24","12","18","4","2","1","F","284","70","42","81","13","2","1","74"
+,"All urban municipalities","26","9","10","5","1","0","1","0","37","9","6","8","3","0","1","10"
+,"All rural municipalities","36","15","F","13","F","2","0","F","246","61","37","73","10","2","0","64"
+"Prince Edward Island ","All municipalities","7","5","2","0","0","0","0","0","40","34","0","1","0","0","0","5"
+,"All urban municipalities","4","2","2","0","0","0","0","0","9","3","0","1","0","0","0","5"
+,"All rural municipalities","3","3","0","0","0","0","0","0","31","31","0","0","0","0","0","0"
+"Nova Scotia ","All municipalities","30","24","4","2","0","0","0","0","53","39","5","2","0","0","0","8"
+,"All urban municipalities","9","6","2","1","0","0","0","0","28","20","1","2","0","0","0","5"
+,"All rural municipalities","21","18","2","1","0","0","0","0","25","18","3","0","0","0","0","4"
+"New Brunswick ","All municipalities","51","23","7","15","4","1","1","0","150","50","14","43","2","0","1","39"
+,"All urban municipalities","23","8","2","11","1","0","1","0","41","8","5","12","1","0","1","14"
+,"All rural municipalities","28","15","5","4","3","1","0","0","109","43","9","31","1","0","0","24"
+"Quebec ","All municipalities","573","310","F","144","F","F","F","5","847","356","98","146","24","27","27","169"
+,"All urban municipalities","186","86","17","43","9","8","18","5","157","49","14","26","7","12","18","31"
+,"All rural municipalities","387","224","F","101","F","F","F","0","691","307","85","120","18","15","9","138"
+"Ontario","All municipalities","246","175","40","22","F","0","2","0","301","185","22","29","1","0","2","61"
+,"All urban municipalities","108","86","12","6","1","0","2","0","91","62","7","5","0","0","1","15"
+,"All rural municipalities","138","89","28","16","F","0","0","0","210","124","15","24","1","0","1","46"
+"Manitoba","All municipalities","92","77","F","F","0","0","0","0","119","63","8","16","3","1","1","27"
+,"All urban municipalities","22","21","1","0","0","0","0","0","26","15","3","2","0","0","0","6"
+,"All rural municipalities","70","56","F","F","0","0","0","0","93","48","4","14","3","1","1","21"
+"Saskatchewan","All municipalities","112","42","16","33","11","5","5","0","490","142","77","97","40","10","7","118"
+,"All urban municipalities","52","16","9","14","6","2","5","0","98","25","23","13","6","7","7","17"
+,"All rural municipalities","60","26","7","19","5","3","0","0","392","117","54","84","35","2","0","100"
+"Alberta","All municipalities","184","161","18","5","0","0","1","0","336","259","9","5","0","0","2","59"
+,"All urban municipalities","59","50","7","1","0","0","1","0","144","112","2","1","0","0","2","25"
+,"All rural municipalities","125","111","11","4","0","0","0","0","192","147","7","4","0","0","0","34"
+"British Columbia","All municipalities","120","101","7","9","2","0","0","0","303","209","30","19","0","0","0","46"
+,"All urban municipalities","64","58","2","4","0","0","0","0","149","111","9","8","0","0","0","21"
+,"All rural municipalities","56","44","5","5","2","0","0","0","154","98","20","11","0","0","0","25"
+"Yukon","All municipalities","2","2","0","0","0","0","0","0","3","0","0","0","0","0","0","3"
+,"All urban municipalities","1","1","0","0","0","0","0","0","1","0","0","0","0","0","0","1"
+,"All rural municipalities","1","1","0","0","0","0","0","0","2","0","0","0","0","0","0","2"
+"Northwest Territories","All municipalities","6","6","0","0","0","0","0","0","35","6","0","0","0","0","0","29"
+,"All urban municipalities","1","1","0","0","0","0","0","0","4","2","0","0","0","0","0","2"
+,"All rural municipalities","5","5","0","0","0","0","0","0","31","4","0","0","0","0","0","27"
+"Nunavut","All municipalities","8","3","2","2","0","0","0","0","22","F","0","0","0","0","0","15"
+,"All urban municipalities","..","..","..","..","..","..","..","..","F","0","0","0","0","0","0","F"
+,"All rural municipalities","8","3","2","2","0","0","0","0","16","F","0","0","0","0","0","F"
+
+Symbol legend:
+.., not available for a specific reference period
+E, use with caution
+F, too unreliable to be published
+A, data quality: excellent
+B, data quality: very good
+C, data quality: good
+D, data quality: acceptable
+
+
+
+Footnotes:
+1,"Figures may not add to totals due to rounding."
+2,"Estimates for 2018 may not be comparable to those for 2016 due to improved coverage and definitions as well as changes in survey methodology."
+3,"As of 2018, drinking water advisories include precautionary and emergency boil water advisories."
+
+
+
+"How to cite: Statistics Canada. Table 34-10-0205-01  Municipal owners of potable water assets by drinking water advisories issued, urban and rural, and population size, Infrastructure Canada"
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3410020501

@@ -1,0 +1,42 @@
+﻿"Revenues from environmental and clean technology goods and services exports, Canada and regions (x 1,000) c 1 2 3 4 5"
+"Frequency: Occasional"
+"Table: 38-10-0031-01 (formerly CANSIM 153-0302)"
+"Release date: 2021-05-05"
+"Geography: Canada, Geographical region of Canada, Province or territory"
+""
+""
+
+,"Canada",,,
+"Environmental and clean technology exports","2015","2017","2018","2019"
+,"Dollars",,,
+"Total goods and services exports","1,182,068","7,192,417","6,823,064","7,372,486"
+"Total goods exports","..","6,915,272","6,411,908","6,937,501"
+"Total services exports","..","277,145","411,155","434,985"
+
+Symbol legend:
+.., not available for a specific reference period
+E, use with caution
+B, data quality: very good
+C, data quality: good
+D, data quality: acceptable
+
+"Table Corrections:"
+Date,Note
+"2017-12-12","On December 12, 2017, a correction was made to the scalar factor for the entire table. The data were meant to be published in thousands of dollars (dollars x 1000) and not in dollars."
+
+
+
+Footnotes:
+1,"Figures may not add up to total due to rounding."
+2,"2017 estimates contained in this table have been assigned a letter value to indicate the quality of the estimate, as measured by the coefficient of variation (expressed as a percentage). A = excellent (0.00% to 4.99%), B = very good (5.00% to 9.99%), C = good (10.00% to 14.99%), D = acceptable (15.00% to 24.99%), E = use with caution (25.00% to 49.99%). 
+
+As of 2018, estimates contained in this table have been assigned a letter value (A to F) to indicate the quality of the estimate, as provided by the combination of the coefficient of variation and the non-response rate."
+3,"On December 12, 2017, a correction was made to the scalar factor for the entire table. The data were meant to be published in thousands of dollars (dollars x 1000) and not in dollars."
+4,"2017 data were revised on May 22nd, 2020. "
+5,"2018 data were revised on May 5th, 2021.
+"
+
+
+
+"How to cite: Statistics Canada. Table 38-10-0031-01  Revenues from environmental and clean technology goods and services exports, Canada and regions (x 1,000)"
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3810003101

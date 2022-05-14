@@ -1,0 +1,95 @@
+﻿"Population served by drinking water plants 1 2 3 4"
+"Frequency: Occasional"
+"Table: 38-10-0093-01 (formerly CANSIM 153-0106)"
+"Release date: 2021-08-17"
+"Geography: Canada, Province or territory, Drainage region"
+""
+""
+
+"Geography","Type of water source","2011","2013","2015","2017","2019"
+"Canada 5",,"Persons",,,,
+,"All source water types","28,970,736","29,985,567","30,809,242","31,373,194","32,465,687"
+,"Surface water 6","25,173,370","26,004,263","26,811,490","27,251,747","28,285,350"
+,"Groundwater 7","3,354,724","3,403,152","3,449,205","3,468,713","3,413,471"
+,"Groundwater under the direct influence of surface water (GUDI) 8","442,641","578,152","548,548","652,734","766,866"
+"Newfoundland and Labrador","All source water types","412,090","420,262","428,982","440,935","442,341"
+,"Surface water 6","379,755","400,873","402,646","413,786","414,244"
+,"Groundwater 7","28,096","17,942","23,396","25,709","27,437"
+,"Groundwater under the direct influence of surface water (GUDI) 8","F","1,447","2,940","1,440","660"
+"Prince Edward Island","All source water types","63,807","67,776","68,876","70,079","82,191"
+,"Surface water 6","0","0","0","0","0"
+,"Groundwater 7","63,807","67,776","68,876","69,355","81,467"
+,"Groundwater under the direct influence of surface water (GUDI) 8","0","0","0","724","724"
+"Nova Scotia","All source water types","576,221","579,763","583,051","583,519","599,355"
+,"Surface water 6","500,351","501,547","510,872","501,084","512,521"
+,"Groundwater 7","71,370","75,945","69,900","80,093","83,435"
+,"Groundwater under the direct influence of surface water (GUDI) 8","4,500","2,271","2,279","2,342","3,399"
+"New Brunswick","All source water types","380,920","385,141","388,957","412,221","420,147"
+,"Surface water 6","224,393","220,242","229,305","235,166","230,646"
+,"Groundwater 7","140,923","153,363","153,620","155,925","168,009"
+,"Groundwater under the direct influence of surface water (GUDI) 8","15,604","11,537","6,031","21,130","21,492"
+"Quebec","All source water types","7,184,732","7,267,882","7,515,166","7,590,609","7,686,429"
+,"Surface water 6","6,165,044","6,154,361","6,392,941","6,435,518","6,568,419"
+,"Groundwater 7","935,925","1,021,951","1,018,924","1,036,693","1,013,299"
+,"Groundwater under the direct influence of surface water (GUDI) 8","83,763","91,570","103,301","118,398","104,711"
+"Ontario","All source water types","11,231,770","11,793,835","12,027,748","12,164,015","12,805,996"
+,"Surface water 6","9,708,702","10,212,792","10,482,565","10,588,710","11,185,521"
+,"Groundwater 7","1,288,678","1,255,966","1,229,860","1,231,422","1,227,498"
+,"Groundwater under the direct influence of surface water (GUDI) 8","234,390","325,077","315,323","343,883","392,977"
+"Manitoba","All source water types","966,327","972,114","999,082","1,064,042","1,133,538"
+,"Surface water 6","841,893","858,236","891,848","937,880","1,008,236"
+,"Groundwater 7","110,680","88,985","91,679","108,944","109,370"
+,"Groundwater under the direct influence of surface water (GUDI) 8","13,754","24,893","15,555","17,218","15,932"
+"Saskatchewan","All source water types","807,787","818,569","822,996","843,487","876,127"
+,"Surface water 6","658,470","667,792","675,030","701,052","728,149"
+,"Groundwater 7","139,162","141,747","138,275","130,329","140,784"
+,"Groundwater under the direct influence of surface water (GUDI) 8","10,155","9,030","9,692","12,106","7,194"
+"Alberta","All source water types","3,238,725","3,424,263","3,565,891","3,637,050","3,733,638"
+,"Surface water 6","3,093,062","3,276,464","3,423,861","3,491,251","3,599,697"
+,"Groundwater 7","98,341","91,179","104,940","89,669","79,962"
+,"Groundwater under the direct influence of surface water (GUDI) 8","47,322","56,620","37,090","56,130","53,979"
+"British Columbia","All source water types","4,000,060","4,145,545","4,297,518","4,460,902","4,578,641"
+,"Surface water 6","3,524,400","3,632,557","3,723,327","3,871,844","3,963,061"
+,"Groundwater 7","450,246","459,416","522,154","512,824","452,182"
+,"Groundwater under the direct influence of surface water (GUDI) 8","25,413","53,572","52,036","76,234","163,398"
+"Yukon and Northwest Territories","All source water types","..","..","..","..",".."
+,"Surface water 6","..","..","..","..",".."
+,"Groundwater 7","..","..","..","..",".."
+,"Groundwater under the direct influence of surface water (GUDI) 8","..","..","..","..",".."
+"Yukon","All source water types","30,596","30,449","31,296","30,829","31,350"
+,"Surface water 6","..","0","0","450","422"
+,"Groundwater 7","27,096","28,314","26,996","27,250","28,528"
+,"Groundwater under the direct influence of surface water (GUDI) 8","3,500","2,135","4,300","3,129","2,400"
+"Northwest Territories","All source water types","40,511","42,104","42,454","40,860","40,374"
+,"Surface water 6","40,511","41,536","41,870","40,360","39,874"
+,"Groundwater 7","..","568","584","500","500"
+,"Groundwater under the direct influence of surface water (GUDI) 8","0","0","0","0","0"
+"Nunavut","All source water types","37,190","37,864","37,225","34,646","35,560"
+,"Surface water 6","36,790","37,864","37,225","34,646","34,560"
+,"Groundwater 7","400","0","0","0","1,000"
+,"Groundwater under the direct influence of surface water (GUDI) 8","0","0","0","0","0"
+
+Symbol legend:
+.., not available for a specific reference period
+E, use with caution
+F, too unreliable to be published
+A, data quality: excellent
+B, data quality: very good
+C, data quality: good
+
+
+
+Footnotes:
+1,"Source: Statistics Canada, Environment, Energy and Transportation Statistics Division, Survey of Drinking Water Plants. Beginning with the 2013 collection, for Quebec, estimates were produced from data collected by the ministère des Affaires municipales et de l'Occupation du territoire. Readers are advised, with the change in data collection for Québec respondents, comparisons from a time series perspective should be made with caution."
+2,"Figures may not add up to totals due to rounding."
+3,"All estimates contained in this table have been assigned a letter value to indicate the quality of the estimate, as measured by the coefficient of variation (CV, expressed as a percentage). A = Excellent (0.01% to 4.99%), B = Very good (5.00% to 9.99%), C = Good (10.00% to 14.99%), D = Acceptable (15.00% to 24.99%), E = Use with caution (25.00% to 49.99%), F = Too unreliable to be published (> 49.99% data are suppressed). Any value of 0 (zero) with a letter value represents a value rounded to 0 where there is a meaningful distinction between the true zero and the value that was rounded. All other values of 0 are true zeros. The 95% confidence interval associated with an estimate (assuming a normal distribution) is given by: Estimate ± 1.96 * (CV in %) * Estimate. Beginning with the 2017 collection, since this statistical activity is a census and all non-response has been imputed, the sampling error is zero (0) which give a CV of zero (0).  To take into account that imputation has occurred, both the sampling error (which is 0 for every estimate) and the non-response rate are combined into one quality rating code for each estimate.  This code uses letters that range from A to E where A means the estimate is of excellent quality and E means it is to be used with caution. A: excellent data quality (CV is 0 and non-response rate is 10% or lower), B: very good data quality (CV is 0 and non-response rate is 10.01% to 33%), C: good data quality (CV is 0 and non-response rate is 33.01% to 60%), E: use with caution (CV is 0 and non-response rate is greater than 60%)."
+4,"Revisions are made for the previous survey reference period, with the initial release of the current data, as required. For the most current data please refer to tables 38100009, 38100092, 38100093, 38100094, 38100103, 38100269, 38100270, 38100271, 38100272."
+5,"Due to a low response rate, data for 2005 to 2007 excludes Nunavut."
+6,"Water from sources open to the atmosphere such as rivers, lakes and reservoirs."
+7,"Water found in underground aquifers which supplies wells and springs."
+8,"Groundwater supply sources under conditions where microbial pathogens are able to travel from surface water to the groundwater source."
+
+
+
+"How to cite: Statistics Canada. Table 38-10-0093-01  Population served by drinking water plants"
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3810009301

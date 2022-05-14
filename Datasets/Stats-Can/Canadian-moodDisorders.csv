@@ -1,0 +1,32 @@
+﻿"Mood disorders, by age group 1 2 3 4 5"
+"Frequency: Occasional"
+"Table: 13-10-0096-18"
+"Release date: 2021-09-08"
+"Geography: Province or territory"
+""
+""
+
+,"Canada (excluding territories) 3",,,,,,,,,,,
+,"Both sexes",,,,,,,,,,,
+,"Mood disorder 6",,,,,,,,,,,
+,"Number of persons",,,,,,"Percent",,,,,
+"Age group","2015","2016","2017","2018","2019","2020","2015","2016","2017","2018","2019","2020"
+"Total, 12 years and over","2,400,500","2,564,700","2,645,900","2,802,000","2,863,500","2,909,600","7.9","8.4","8.6","8.9","9.0","9.0"
+"12 to 17 years","118,200","102,300","100,200","101,700","111,600","102,100","5.3","4.6","4.5","4.6","4.9","4.3"
+"18 to 34 years","627,800","746,900","724,000","838,200","974,200","924,800","7.8","9.2","8.9","10.1","11.6","11.0"
+"35 to 49 years","632,700","627,800","645,900","695,400","651,600","709,000","9.0","8.9","9.1","9.7","9.0","9.7"
+"50 to 64 years","688,100","734,600","747,900","780,200","721,000","743,700","9.2","9.8","9.9","10.3","9.5","9.8"
+"65 years and over","333,800","353,100","427,900","386,400","405,100","429,900","6.1","6.2","7.3","6.3","6.4","6.6"
+
+Footnotes:
+1,"Source: Statistics Canada, Canadian Community Health Survey (CCHS)"
+2,"All estimates in this table are calculated excluding non-response categories ("refusal", "don't know", and "not stated") in the denominator."
+3,"Data for the Canadian Community Health Survey (CCHS) are collected yearly from a sample of approximately 65,000 respondents. The Canadian Health Indicators are tabulated by sex and age group in two main tables. The table 13-10-0096-01 presents the most up-to-date population health estimates for the ten provinces and is updated yearly. The table 13-10-0113-01 (to be released in autumn of 2017) presents estimates from two-year combined data and features breakdowns by all provinces and territories as well as by health regions. These estimates are less current than annual estimates, but have higher precision given the larger sample (less variability). Users should refer to the annual data table 13-10-0096-01 as the primary source for the most current estimates from the survey as well as to obtain data from previous years (where available). However, where data quality flags indicate suppression (F) or higher variability (E), the two-year data table 13-10-0113-01 should be used."
+4,"As a result of the 2015 redesign, CCHS has a new collection strategy, a new sample design, and has undergone major content revisions. With all these factors taken together, caution should be taken when comparing data from previous cycles to data released for the 2015 cycle onwards."
+5,"The COVID-19 pandemic had major impacts on the data collection operations for the Canadian Community Health Survey (CCHS) 2020. The collection was stopped mid-March, towards the end of the first collection period, and did not resume until September. The second, third and fourth quarterly samples were collected during very short collection periods, each of about five weeks, from September to December. The impossibility of conducting in-person interviews, the shorter collection periods and collection capacity issues resulted in a significant decrease in the response rates. As for previous CCHS cycles, survey weights were adjusted to minimise any potential bias that could arise from survey non-response; non-response adjustments and calibration using available auxiliary information were applied and are reflected in the survey weights provided with the data file. Extensive validations of survey estimates were also performed and examined from a bias analysis perspective. Despite these rigorous adjustments and validations, the high non-response increases the risk of a remaining bias and the magnitude with which such a bias could impact estimates produced using the survey data. Therefore, users are advised to use the CCHS 2020 data with caution, especially when creating estimates for small sub-populations or when comparing to other CCHS years."
+6,"Population aged 12 and over who reported that they have been diagnosed by a health professional as having a mood disorder, such as depression, bipolar disorder, mania or dysthymia."
+
+
+
+"How to cite: Statistics Canada. Table 13-10-0096-18  Mood disorders, by age group"
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310009618
