@@ -45,3 +45,7 @@ main Data Science language instead of Python.
 ## Roffomonas tutorial
 ![image](https://user-images.githubusercontent.com/55933131/143976500-bc5a61f0-920c-40d7-b9bf-99b5482e1669.png)
 
+## CinemaSins
+![cinema sins 2](https://user-images.githubusercontent.com/55933131/168446747-66b11c00-40de-48b1-ba5f-2021da3203a8.png)
+
+
