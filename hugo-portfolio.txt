@@ -1,0 +1,18 @@
+
+Home            portfolio/ < the .md files >
+About           about/_index.md 
+Get in touch    contact/_index.md 
+
+
+# place images into 
+static/img/portfolio 
+
+# inside the yaml 
+image: img/portfolio/tron.png
+
+# inside the markdown 
+![future](/img/portfolio/tRek-hex.png)
+
+
+TD bank accnt closed: 
+need new one , new card at branch 
