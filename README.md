@@ -49,3 +49,4 @@ main Data Science language instead of Python.
 ![cinema sins 2](https://user-images.githubusercontent.com/55933131/168446747-66b11c00-40de-48b1-ba5f-2021da3203a8.png)
 
 
+![cinema sins](https://user-images.githubusercontent.com/55933131/168446771-ea2e4bae-2a56-4e1c-b067-4a2da61808cb.png)
