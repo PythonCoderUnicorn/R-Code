@@ -1,0 +1,368 @@
+---
+title: "Using Stringr for strings"
+output: 
+  html_document:
+    toc: yes
+    code_folding: show
+    theme:
+      bg: "#202123" # black
+      fg: "#B8BCC2" # grey
+      primary: "#EA80FC" # purple
+      pre: "#99ff66"
+      code: "#99ff66"
+      span: "#99ff66"
+      a: "#66ffcc"
+      base_font:
+        google: Ubuntu
+      heading_font:
+        google: Raleway
+      version: 3
+---
+
+```{r setup, include=FALSE}
+if (requireNamespace("thematic")) 
+  thematic::thematic_rmd(font = "auto")
+```
+
+## Load stringr 
+
+Text are strings and the R package stringr and/ stringi are libraries to help deal with string data as part of data analysis.
+
+Note:*Text string color is red and is not customizable, I tried to have another color while having a dark mode.*
+
+```{r echo=TRUE, warning=FALSE, message=FALSE, include=TRUE}
+library(stringi)
+library(stringr)
+library(tidyverse)
+
+# stringr had built in data
+fruit = stringr::fruit
+head(fruit)
+
+head(sentences)
+```
+
+
+## Text strings
+
+Messy text 
+```{r}
+txt = "YOU CAN HAVE ALL CAPS DATA edit edit edit"
+text2 = "// YoU nEvEr kNöw //"
+text3 = "2-009.89.0."
+text4 = "<p> ...Text strings  </p> "
+text5 = "|| * * * <br> \n didyouseeThis?! {stringr} z = 6 *9"
+text6 = "http://www.link.com/strings"
+text7 = "bill total $400,35 [07/08/01]"
+folder = c("results-001-2020.csv", "results-002-2020.csv", "results-003-2020.csv", "results-004-2020.csv", "results-005-2020.csv")
+```
+
+
+## Stringr Functions
+
+Will use fruits data and text strings.
+
+### detect matches
+
+Detection methods return Boolean array or index location
+
+- `str_detect(string, pattern) `
+- `str_detect(fruit, pattern = "a")`
+- `str_detect(txt, pattern = "<h1>")`
+- `str_starts(fruit, pattern = "ap" )`
+
+```{r}
+str_starts(text2, pattern = "//")
+```
+More detection functions:
+
+- `str_which()` finds the indexes of strings that contain match
+- `str_locate()` locates the positions of pattern match
+- `str_locate_all(fruit, pattern = "an")`
+- `str_coount() `count the number of matches in string
+- `str_count(fruit, pattern = "an")`
+
+```{r}
+str_which(fruit, pattern = "ma")
+```
+
+### Subset strings
+
+- `str_sub(string, start= , end= )` extract substrings from character vector
+- `str_subset(string, pattern= )` returns only string in pattern match
+- `str_extract()`/ `str_extract_all()` returns 1st match in string as a vector / returns all matches
+- `str_match()` / `str_match_all()`  return 1st pattern match as a matrix
+
+```{r}
+str_sub(text2, start = 4, end = 17)
+
+str_subset(fruit, pattern = "bl")
+
+str_extract_all(txt, "edit")
+
+```
+
+
+### manage string lengths
+
+- `str_length(string)`  returns length (width) of entire strings
+- `str_pad(string, width= , side= c('left','right','both') ')` add string apdding
+- `str_trunc(string, width= , side= )` truncate a string
+- `str_squish(string)` trim whitespace from each end
+
+```{r}
+str_length(txt)
+
+str_pad(fruit[1], width=15, side='left')  # pad on left side of 1st element in fruits
+
+
+sentences[1]
+str_trunc(sentences[1], width = 17, side='right')
+
+str_squish(sentences[1])
+```
+
+
+### Mutate strings
+
+- `str_replace(string, pattern= ,replacement= )` / `str_replace_all()`
+- `str_to_lower()` converts strings to lowercase
+- `str_to_upper()` converts strings to uppercase
+- `str_to_title()` convert strings to title case
+
+```{r}
+str_replace(text2, pattern = "nEvEr", replacement = "always")
+
+str_to_lower(txt, locale = 'en')
+
+str_to_upper(txt)
+
+str_to_title(txt)
+```
+
+
+### Join & Split strings
+
+- `str_c(string1, string2, sep= )` join multiple strings into single string
+- `str_flatten(string, collapse= )` combines into a single string
+- `str_dup(string, times= n)` repeat strings by **n** times
+- `str_split_fixed(string, pattern= , n= )` /`str_split()` / `str_split_()`
+- `str_glue()` create string from strings and {expressions}
+- `str_glue_data()` use a dataframe/ list to create a string from strings and {expressions}
+
+```{r}
+str_c(letters[1:5], LETTERS[1:5], sep = "^")
+
+str_c(txt, text4, sep = " :: ")
+
+str_flatten(fruit[1:5], collapse = " % ")
+
+str_dup(text3, times = 3)
+
+str_split_fixed(txt, pattern = "YOU", n= 3)
+
+str_glue("Pi is {pi}")
+str_glue(text2, text7)
+
+# starwars data is from dplyr
+str_glue_data(head(starwars), "starwars has {head(name)}")
+```
+
+
+### Order Strings 
+
+```{r}
+str_order(letters[1:10], decreasing = F, numeric = T)
+
+str_sort(letters[10:1])
+```
+
+
+### Helpers
+
+`str_view_all(fruit, pattern = "berry")` returns a page with highlight matches. 
+
+```{r}
+# override existing encoding of letter
+str_conv(fruit[1:4], encoding = "ISO-8859-1")
+
+str_wrap(txt, width = 5, indent = 2, exdent = 3)
+str_wrap(letters, width = 5, indent = 7)
+```
+
+
+
+
+
+
+
+
+
+
+
+## Regular Expressions (RegEx)
+
+This section is **need to know** :
+
+- regular expressions go in " "
+- special characters, run `?"'"` in RStudio terminal for full list
+    - `\\` = `\`
+    - `\"` = "
+    - `\n` = new line
+- use `writeLines("\\.")` to see what is viewed
+
+### Match character
+
+To match a specific character, use `"\\{char}"` example `"\\!"`
+
+- {char} = . ! ? ( ) `{` `}` `\n` `\t` 
+- `\d` (any digit) 
+- `\w` (any word character)
+- need 4 backslashes for 1 back slash `\\\\` 
+
+Note that the '.' expression returns everything except for new line.
+
+### RegEx Helpers
+
+- `"[:digit:]"` matches digits
+- `"[:letters:]"` matches letters
+- `"[:lower:]"` matches lowercase letters
+- `"[:upper:]"` matches uppercase letters
+- `"[:alnum:]"` matches letters and numbers
+- `"[:punct:]"` matches punctuation
+- `"[:graph:]"` matches letters, numbers, punctuation
+- `"[:space;]"` matches space characters 
+- `"[:blank:]"` matches space and tab (not new line)
+
+
+
+```{r}
+expressions = c("abc ABC 123\t!?\\(){}\n")
+
+str_extract_all(text7, "[:digit:]")
+
+str_extract_all(text2, "[:alnum:]")
+
+str_extract_all(text2, "[:lower:]")
+
+str_extract_all(text6, "[:alpha:]")
+
+```
+
+
+### Alternates
+
+Custom searches of strings
+
+```{r}
+# match A or B
+# str_match(fruit, "apple|pear")
+str_count(text3, "0|9")
+
+# match one of
+str_match_all(text3, "[09]")
+
+# match anything but
+str_extract_all(text6, "[^http://]")
+
+# match a string between a range
+str_extract_all(text4, "[Text - strings]")
+
+
+```
+
+
+### Quantifiers 
+
+
+```{r}
+# match 0 or more  
+str_match_all(txt, "edit?")
+str_match(folder, "2020?")
+
+# match ZERO or more
+str_match(text3, "8*")
+
+# match exactly n times
+str_match_all(text6, "w[2]")
+
+# match n or more times
+str_match_all(txt, "edit[2,]")
+
+# match between n and m times
+str_match_all(text3, "0[1,3]")
+
+
+```
+
+
+
+
+### Anchors !
+
+This is the specialized part
+
+```{r}
+# match at start of string
+str_count(folder, "^results")
+
+# match at end of string
+str_detect(folder, ".csv$")
+```
+
+In the folder vector is a list of csv files, to extract each of them properly need to use special formatting. In the pattern `\\d{n}` d is for digit and there are 3 digits after results and 4 digits after that. This is useful when running a `purrr` function. 
+
+```{r}
+folder
+
+str_extract_all(folder, "^results-\\d{3}-\\d{4}.csv$")
+```
+
+
+
+
+
+
+
+
+
+
+### Look arounds
+
+```{r}
+s ="bacad"
+
+# match followed by a char
+str_match(s, "a(?=c)")
+
+# match not followed by a char
+str_extract_all(s, "a(?!c)")
+
+# match preceded by
+str_extract_all(s, "(?<!b)a")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
