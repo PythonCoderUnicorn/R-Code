@@ -50,3 +50,10 @@ main Data Science language instead of Python.
 
 
 ![cinema sins](https://user-images.githubusercontent.com/55933131/168446771-ea2e4bae-2a56-4e1c-b067-4a2da61808cb.png)
+
+
+## McDonalds sugary drinks
+
+![mcdonalds](https://user-images.githubusercontent.com/55933131/168447277-b4cf22c4-553d-44b8-9dd1-d99728412ffd.png)
+
+
