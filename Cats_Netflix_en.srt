@@ -1,0 +1,5834 @@
+﻿1
+00:00:54,763 --> 00:00:58,391
+[thrilling music]
+
+2
+00:01:14,324 --> 00:01:17,911
+[car engine revving]
+
+3
+00:01:31,758 --> 00:01:32,884
+[engine stops]
+
+4
+00:01:49,651 --> 00:01:51,903
+[thrilling music]
+
+5
+00:01:51,986 --> 00:01:52,987
+[hisses]
+
+6
+00:02:13,758 --> 00:02:14,843
+[hissing]
+
+7
+00:02:19,597 --> 00:02:20,849
+[all hissing]
+
+8
+00:02:30,942 --> 00:02:33,486
+[panting]
+
+9
+00:02:37,198 --> 00:02:39,617
+[clattering]
+
+10
+00:02:45,248 --> 00:02:47,458
+[light music]
+
+11
+00:02:50,211 --> 00:02:51,963
+<i>♪ Are you blind when you're born? ♪</i>
+
+12
+00:02:52,547 --> 00:02:54,549
+<i>♪ Can you see in the dark? ♪</i>
+
+13
+00:02:56,551 --> 00:02:57,969
+<i>♪ Can you look at a king? ♪</i>
+
+14
+00:02:58,636 --> 00:03:00,555
+<i>♪ Would you sit on his throne? ♪</i>
+
+15
+00:03:02,265 --> 00:03:07,186
+<i>♪ Can you say of your bite
+That it's worse than your bark? ♪</i>
+
+16
+00:03:09,397 --> 00:03:13,318
+<i>♪ Are you cock of the walk
+When you're walking alone? ♪</i>
+
+17
+00:03:13,401 --> 00:03:15,862
+<i>-♪ When you fall on your head ♪</i>
+-[whimpers]
+
+18
+00:03:15,945 --> 00:03:17,739
+<i>♪ Do you land on your feet? ♪</i>
+
+19
+00:03:18,239 --> 00:03:19,741
+[sniffs]
+
+20
+00:03:19,824 --> 00:03:23,578
+<i>♪ Are you tense when you sense
+There's a storm in the air? ♪</i>
+
+21
+00:03:24,579 --> 00:03:28,333
+<i>♪ Can you find your way blind
+When you're lost in the street? ♪</i>
+
+22
+00:03:28,416 --> 00:03:31,878
+<i>♪ Do you know how to go
+To the Heaviside Layer? ♪</i>
+
+23
+00:03:31,961 --> 00:03:35,548
+<i>♪ Because Jellicles can and Jellicles do ♪</i>
+
+24
+00:03:35,632 --> 00:03:37,884
+<i>♪ Jellicles do and Jellicles can ♪</i>
+
+25
+00:03:37,967 --> 00:03:40,929
+<i>♪ Jellicles can and Jellicles do ♪</i>
+
+26
+00:03:41,012 --> 00:03:43,139
+<i>♪ Jellicles do and Jellicles can ♪</i>
+
+27
+00:03:43,223 --> 00:03:45,892
+<i>♪ Jellicles can and Jellicles do ♪</i>
+
+28
+00:03:45,975 --> 00:03:49,479
+<i>♪ Can you ride on a broomstick
+To places far distant? ♪</i>
+
+29
+00:03:49,562 --> 00:03:51,397
+<i>♪ Familiar with candle ♪</i>
+
+30
+00:03:51,481 --> 00:03:53,149
+<i>-♪ With book ♪
+-♪ And with bell? ♪</i>
+
+31
+00:03:53,233 --> 00:03:54,525
+<i>♪ Were you Whittington's friend? ♪</i>
+
+32
+00:03:54,609 --> 00:03:56,611
+<i>♪ The Pied Piper's assistant? ♪</i>
+
+33
+00:03:56,694 --> 00:03:59,822
+<i>♪ Have you been an alumnus
+Of heaven or hell? ♪</i>
+
+34
+00:03:59,906 --> 00:04:01,532
+<i>♪ Are you mean like a minx? ♪</i>
+
+35
+00:04:01,616 --> 00:04:03,034
+<i>♪ Are you lean like a lynx? ♪</i>
+
+36
+00:04:03,117 --> 00:04:05,203
+<i>♪ Are you keen to be seen ♪</i>
+
+37
+00:04:05,286 --> 00:04:06,412
+<i>♪ When you're smelling a rat? ♪</i>
+
+38
+00:04:06,496 --> 00:04:10,041
+<i>♪ Were you there when the pharaohs
+Commissioned the Sphinx? ♪</i>
+
+39
+00:04:10,124 --> 00:04:13,628
+<i>♪ If you were and you are
+You're a Jellicle cat ♪</i>
+
+40
+00:04:13,711 --> 00:04:18,633
+<i>♪ Jellicle songs for Jellicle cats
+Jellicle songs for Jellicle cats ♪</i>
+
+41
+00:04:18,716 --> 00:04:23,680
+<i>♪ Jellicle songs for Jellicle cats
+Jellicle songs for Jellicle cats ♪</i>
+
+42
+00:04:23,763 --> 00:04:25,765
+<i>♪ Jellicle songs for Jellicle cats ♪</i>
+
+43
+00:04:25,848 --> 00:04:28,351
+<i>♪ We can dive through the air ♪</i>
+
+44
+00:04:29,394 --> 00:04:31,646
+<i>♪ Like a flying trapeze ♪</i>
+
+45
+00:04:32,855 --> 00:04:36,442
+<i>♪ We can turn double somersaults
+Bounce on a tire ♪</i>
+
+46
+00:04:37,860 --> 00:04:41,489
+<i>♪ We can run up a wall
+We can swing through the trees ♪</i>
+
+47
+00:04:42,740 --> 00:04:46,369
+<i>♪ We can balance on bars
+We can walk on a wire ♪</i>
+
+48
+00:04:46,953 --> 00:04:51,916
+<i>♪ Jellicles can and Jellicles do
+Jellicles can and Jellicles do ♪</i>
+
+49
+00:04:52,000 --> 00:04:57,046
+<i>♪ Jellicles can and Jellicles do
+Jellicles can and Jellicles do ♪</i>
+
+50
+00:04:57,130 --> 00:05:01,467
+<i>♪ Jellicle songs for Jellicle cats
+Jellicle songs for Jellicle cats ♪</i>
+
+51
+00:05:01,551 --> 00:05:06,848
+<i>♪ Jellicle songs for Jellicle cats
+Jellicle songs for Jellicle cats ♪</i>
+
+52
+00:05:06,931 --> 00:05:10,351
+<i>♪ Can you sing at the same time
+In more than one key? ♪</i>
+
+53
+00:05:10,435 --> 00:05:12,061
+<i>♪ Duets by Rossini ♪</i>
+
+54
+00:05:12,145 --> 00:05:14,355
+<i>♪ And waltzes by Strauss ♪</i>
+
+55
+00:05:14,439 --> 00:05:15,481
+<i>♪ Ah-ah-ah, ah-ah ♪</i>
+
+56
+00:05:15,565 --> 00:05:18,943
+<i>♪ And can you, as cats do
+Begin with a "C" ♪</i>
+
+57
+00:05:19,027 --> 00:05:19,861
+[high-pitched singing]
+
+58
+00:05:19,944 --> 00:05:22,739
+<i>♪ That always triumphantly
+Brings down the house? ♪</i>
+
+59
+00:05:23,323 --> 00:05:26,159
+<i>♪ Jellicle cats are queens of the night ♪</i>
+
+60
+00:05:26,242 --> 00:05:29,704
+<i>♪ Singing at astronomical heights ♪</i>
+
+61
+00:05:29,787 --> 00:05:32,623
+<i>♪ Handling pieces from the Messiah ♪</i>
+
+62
+00:05:33,207 --> 00:05:37,754
+<i>♪ Hallelujah, angelical choir ♪</i>
+
+63
+00:05:40,840 --> 00:05:43,134
+{\an8}[warbling]
+
+64
+00:05:47,263 --> 00:05:51,934
+<i>♪ The mystical divinity ♪</i>
+
+65
+00:05:52,018 --> 00:05:57,899
+<i>♪ Of unashamed felinity ♪</i>
+
+66
+00:05:57,982 --> 00:06:02,945
+<i>♪ Round the cathedral ♪</i>
+
+67
+00:06:03,029 --> 00:06:07,658
+<i>♪ Rang "Vivat" ♪</i>
+
+68
+00:06:07,742 --> 00:06:14,707
+<i>♪ Life to the Everlasting ♪</i>
+
+69
+00:06:15,208 --> 00:06:18,461
+<i>♪ Cat! ♪</i>
+
+70
+00:06:18,961 --> 00:06:23,966
+<i>♪ Feline, fearless, faithful and true ♪</i>
+
+71
+00:06:24,050 --> 00:06:26,677
+<i>♪ To others who do ♪</i>
+
+72
+00:06:27,261 --> 00:06:28,387
+<i>♪ What ♪</i>
+
+73
+00:06:28,888 --> 00:06:31,390
+<i>♪ Jellicles do and Jellicles can ♪</i>
+
+74
+00:06:31,474 --> 00:06:34,143
+<i>♪ Jellicles can and Jellicles do ♪</i>
+
+75
+00:06:34,227 --> 00:06:36,479
+<i>♪ Jellicle cats sing Jellicle chants ♪</i>
+
+76
+00:06:36,562 --> 00:06:38,606
+<i>♪ Jellicles old and Jellicles new ♪</i>
+
+77
+00:06:38,689 --> 00:06:41,150
+<i>♪ Jellicle song and Jellicle dance ♪</i>
+
+78
+00:06:41,234 --> 00:06:45,905
+<i>♪ Jellicle songs for Jellicle cats
+Jellicle songs for Jellicle cats ♪</i>
+
+79
+00:06:45,988 --> 00:06:50,535
+<i>♪ Jellicle songs for Jellicle cats
+Jellicle songs for Jellicle cats ♪</i>
+
+80
+00:06:51,119 --> 00:06:52,078
+<i>♪ Practical cats ♪</i>
+
+81
+00:06:52,161 --> 00:06:53,871
+<i>♪ Dramatical cats ♪</i>
+
+82
+00:06:53,955 --> 00:06:55,498
+<i>♪ Pragmatical cats ♪</i>
+
+83
+00:06:55,581 --> 00:06:56,582
+<i>♪ Fanatical cats ♪</i>
+
+84
+00:06:56,666 --> 00:06:58,584
+<i>♪ Oratorical cats ♪</i>
+
+85
+00:06:58,668 --> 00:07:00,169
+<i>♪ Delphicoracle cats ♪</i>
+
+86
+00:07:00,253 --> 00:07:01,546
+<i>♪ Skeptical cats ♪</i>
+
+87
+00:07:01,629 --> 00:07:03,339
+<i>♪ Dyspeptical cats ♪</i>
+
+88
+00:07:03,422 --> 00:07:04,841
+<i>♪ Romantical cats ♪</i>
+
+89
+00:07:04,924 --> 00:07:06,050
+<i>♪ Pedantical cats ♪</i>
+
+90
+00:07:06,134 --> 00:07:07,135
+<i>♪ Critical cats ♪</i>
+
+91
+00:07:07,218 --> 00:07:08,886
+<i>♪ Parasitical cats ♪</i>
+
+92
+00:07:08,970 --> 00:07:11,848
+<i>♪ Allegorical cats, metaphorical cats ♪</i>
+
+93
+00:07:11,931 --> 00:07:14,517
+<i>-♪ Statistical cats ♪
+-♪ And mystical cats ♪</i>
+
+94
+00:07:14,600 --> 00:07:16,185
+<i>♪ Political cats ♪</i>
+
+95
+00:07:16,269 --> 00:07:17,603
+<i>♪ Hypocritical cats ♪</i>
+
+96
+00:07:17,687 --> 00:07:20,022
+<i>-♪ Clerical cats ♪
+-♪ Hysterical cats! ♪</i>
+
+97
+00:07:20,106 --> 00:07:21,149
+<i>♪ Cynical cats ♪</i>
+
+98
+00:07:21,232 --> 00:07:22,358
+<i>♪ Rabbinical cats ♪</i>
+
+99
+00:07:22,442 --> 00:07:24,152
+<i>♪ And magical cats! ♪</i>
+
+100
+00:07:24,777 --> 00:07:29,198
+<i>♪ Jellicle songs for Jellicle cats
+Jellicle songs for Jellicle cats ♪</i>
+
+101
+00:07:29,282 --> 00:07:34,287
+<i>♪ Jellicle songs for Jellicle cats
+Jellicle songs for Jellicle cats ♪</i>
+
+102
+00:07:34,370 --> 00:07:37,081
+<i>♪ Jellicle songs for Jellicle cats... ♪</i>
+
+103
+00:07:38,583 --> 00:07:39,500
+[gasps]
+
+104
+00:07:44,338 --> 00:07:45,715
+[Macavity] Going to the ball?
+
+105
+00:07:45,798 --> 00:07:47,091
+I wouldn't if I were you.
+
+106
+00:07:47,175 --> 00:07:49,552
+Could get dangerous.
+
+107
+00:07:51,387 --> 00:07:54,974
+You know, they say Macavity
+will win this year.
+
+108
+00:07:55,057 --> 00:07:56,225
+Macavity?
+
+109
+00:07:57,143 --> 00:08:01,314
+<i>♪ There's no one like Macavity ♪</i>
+
+110
+00:08:02,356 --> 00:08:03,649
+A wonderful magician.
+
+111
+00:08:04,942 --> 00:08:10,823
+<i>♪ But a monster of depravity ♪</i>
+
+112
+00:08:12,366 --> 00:08:13,993
+One moment you see him...
+
+113
+00:08:16,954 --> 00:08:18,080
+Come on!
+
+114
+00:08:18,831 --> 00:08:19,832
+[Macavity] <i>Magic!</i>
+
+115
+00:08:19,916 --> 00:08:22,376
+-[Macavity laughing]
+-[gasps]
+
+116
+00:08:29,800 --> 00:08:32,011
+So, what's your name?
+
+117
+00:08:34,805 --> 00:08:36,140
+[hissing]
+
+118
+00:08:37,517 --> 00:08:38,768
+Cat got your tongue?
+
+119
+00:08:40,269 --> 00:08:42,438
+-Victoria.
+-Victoria?
+
+120
+00:08:44,357 --> 00:08:45,733
+You must have another.
+
+121
+00:08:46,984 --> 00:08:48,110
+Another?
+
+122
+00:08:50,154 --> 00:08:55,159
+The naming of cats is a difficult matter.
+
+123
+00:08:55,826 --> 00:08:59,121
+It isn't just one of your holiday games.
+
+124
+00:08:59,664 --> 00:09:03,834
+You may think at first
+I'm as mad as a hatter
+
+125
+00:09:03,918 --> 00:09:07,672
+when I tell you a cat must have
+three different names.
+
+126
+00:09:08,339 --> 00:09:12,009
+First of all, there's the name
+that the family use daily.
+
+127
+00:09:12,093 --> 00:09:13,219
+-Such as...
+-Peter.
+
+128
+00:09:13,302 --> 00:09:15,054
+-Augustus.
+-Alonzo.
+
+129
+00:09:15,137 --> 00:09:16,055
+Or James.
+
+130
+00:09:16,138 --> 00:09:20,142
+But I tell you, a cat
+needs a name that's particular.
+
+131
+00:09:20,226 --> 00:09:23,896
+A name that's peculiar and more dignified.
+
+132
+00:09:23,980 --> 00:09:27,650
+Else how can he keep up
+his tail perpendicular,
+
+133
+00:09:27,733 --> 00:09:31,988
+or spread out his whiskers
+or cherish his pride?
+
+134
+00:09:32,071 --> 00:09:35,825
+But above and beyond,
+there's still one name left over.
+
+135
+00:09:35,908 --> 00:09:39,495
+And that is the name
+that you never will guess.
+
+136
+00:09:39,579 --> 00:09:43,082
+The name that no human research
+can discover.
+
+137
+00:09:43,165 --> 00:09:46,919
+But the cat herself knows
+and will never confess.
+
+138
+00:09:47,003 --> 00:09:50,923
+When you notice a cat
+in profound meditation,
+
+139
+00:09:51,007 --> 00:09:54,218
+the reason, I tell you as always the same.
+
+140
+00:09:54,302 --> 00:09:58,014
+Her mind is engaged
+in a rapt contemplation
+
+141
+00:09:58,097 --> 00:09:59,223
+of the thought,
+
+142
+00:09:59,807 --> 00:10:01,392
+of the thought,
+
+143
+00:10:01,475 --> 00:10:03,144
+of the thought
+
+144
+00:10:03,227 --> 00:10:04,687
+of her name.
+
+145
+00:10:05,187 --> 00:10:06,647
+Her ineffable,
+
+146
+00:10:07,148 --> 00:10:08,524
+effable,
+
+147
+00:10:09,275 --> 00:10:12,028
+effanineffable,
+
+148
+00:10:12,653 --> 00:10:15,656
+deep, and inscrutable,
+
+149
+00:10:16,824 --> 00:10:19,035
+singular name,
+
+150
+00:10:19,118 --> 00:10:23,414
+name, name, name...
+
+151
+00:10:23,497 --> 00:10:27,376
+name, name, name...
+
+152
+00:10:27,460 --> 00:10:32,089
+name, name, name...
+
+153
+00:10:34,133 --> 00:10:36,135
+[light music]
+
+154
+00:11:00,076 --> 00:11:02,119
+[light music continues]
+
+155
+00:11:33,109 --> 00:11:36,987
+Mr. Mistoffelees, the magical cat!
+
+156
+00:11:37,571 --> 00:11:39,865
+<i>♪ Jellicle cats come out tonight ♪</i>
+
+157
+00:11:39,949 --> 00:11:42,201
+<i>♪ Jellicle cats, come one, come all ♪</i>
+
+158
+00:11:42,284 --> 00:11:44,912
+<i>♪ The Jellicle moon is shining bright ♪</i>
+
+159
+00:11:44,995 --> 00:11:47,456
+<i>♪ Jellicles come to the Jellicle Ball ♪</i>
+
+160
+00:11:47,540 --> 00:11:49,959
+<i>♪ Jellicle cats come out tonight ♪</i>
+
+161
+00:11:50,042 --> 00:11:51,544
+Je...
+[yells]
+
+162
+00:11:51,627 --> 00:11:53,462
+<i>♪ Jellicles come to the... ♪</i>
+
+163
+00:11:53,546 --> 00:11:54,588
+[groans]
+
+164
+00:11:55,548 --> 00:11:58,175
+<i>♪ Jellicle Ball ♪</i>
+
+165
+00:12:01,303 --> 00:12:05,349
+<i>♪ Jellicle cats meet once a year ♪</i>
+
+166
+00:12:05,433 --> 00:12:09,687
+<i>♪ At the Jellicle Ball
+Where we all rejoice ♪</i>
+
+167
+00:12:09,770 --> 00:12:13,774
+<i>♪ And the Jellicle leader
+Will soon appear ♪</i>
+
+168
+00:12:13,858 --> 00:12:17,820
+<i>♪ And make what is known
+As the Jellicle choice ♪</i>
+
+169
+00:12:19,321 --> 00:12:23,909
+<i>♪ When Old Deuteronomy just before dawn ♪</i>
+
+170
+00:12:23,993 --> 00:12:27,705
+<i>♪ Through a silence
+You feel you could cut with a knife ♪</i>
+
+171
+00:12:27,788 --> 00:12:31,917
+<i>♪ Announces the cat
+Who can now be reborn ♪</i>
+
+172
+00:12:32,001 --> 00:12:36,380
+<i>♪ And come back
+To a different Jellicle life ♪</i>
+
+173
+00:12:37,173 --> 00:12:41,427
+<i>♪ For waiting up there
+Is the Heaviside Layer ♪</i>
+
+174
+00:12:41,510 --> 00:12:44,889
+Full of wonders
+one Jellicle only will see.
+
+175
+00:12:45,389 --> 00:12:49,268
+And Jellicles ask because Jellicles dare.
+
+176
+00:12:50,394 --> 00:12:52,062
+Who will it be?
+
+177
+00:12:52,730 --> 00:12:54,273
+[Jellicles] Who will it be?
+
+178
+00:12:56,317 --> 00:12:58,194
+The Heaviside Layer?
+
+179
+00:12:58,277 --> 00:13:00,404
+Far, far up in the sky.
+
+180
+00:13:00,488 --> 00:13:04,116
+From where the most deserving cat
+will be reborn into another life.
+
+181
+00:13:04,200 --> 00:13:06,785
+So they can be
+who they've always dreamed of being.
+
+182
+00:13:08,287 --> 00:13:10,122
+How will they be chosen?
+
+183
+00:13:10,206 --> 00:13:12,875
+By singing the song of themselves,
+of course.
+
+184
+00:13:12,958 --> 00:13:15,628
+Who they are and what they do.
+
+185
+00:13:16,212 --> 00:13:18,214
+[dramatic music]
+
+186
+00:13:20,257 --> 00:13:21,091
+Come.
+
+187
+00:13:21,175 --> 00:13:24,428
+Come and see a cat who's competing
+to be the Jellicle choice tonight.
+
+188
+00:13:31,435 --> 00:13:36,482
+<i>♪ I have a Gumbie Cat in mind ♪</i>
+
+189
+00:13:36,565 --> 00:13:40,986
+<i>-♪ Her name is Jennyanydots ♪</i>
+-[yawns]
+
+190
+00:13:41,070 --> 00:13:44,740
+<i>♪ Her coat is of the tabby kind ♪</i>
+
+191
+00:13:45,407 --> 00:13:49,578
+<i>♪ With tiger stripes and leopard spots ♪</i>
+
+192
+00:13:50,412 --> 00:13:54,875
+<i>♪ All day she sits upon the stair ♪</i>
+
+193
+00:13:54,959 --> 00:13:59,171
+<i>-♪ Or on the step or on the mat ♪</i>
+-[grunting]
+
+194
+00:14:00,339 --> 00:14:06,637
+<i>♪ She sits and sits and sits and sits ♪</i>
+
+195
+00:14:07,555 --> 00:14:11,559
+<i>♪ And that's what makes a Gumbie Cat ♪</i>
+
+196
+00:14:12,476 --> 00:14:16,939
+<i>♪ That's what makes a Gumbie Cat ♪</i>
+
+197
+00:14:17,022 --> 00:14:21,443
+[grunting]
+
+198
+00:14:23,404 --> 00:14:26,740
+<i>♪ But... ♪</i>
+
+199
+00:14:27,408 --> 00:14:30,077
+<i>♪ When the day's hustle
+And bustle is done ♪</i>
+
+200
+00:14:30,160 --> 00:14:33,873
+<i>♪ Then the Gumbie Cat's work
+Is but hardly begun ♪</i>
+
+201
+00:14:33,956 --> 00:14:36,876
+<i>♪ And when all the family's
+In bed and asleep ♪</i>
+
+202
+00:14:36,959 --> 00:14:39,920
+<i>♪ I tuck up my skirts
+To the basement to creep ♪</i>
+
+203
+00:14:40,004 --> 00:14:45,217
+<i>♪ I am deeply concerned
+With the ways of the mice ♪</i>
+
+204
+00:14:46,093 --> 00:14:51,056
+<i>♪ Their behavior's not good
+And their manners not nice ♪</i>
+
+205
+00:14:52,057 --> 00:14:55,561
+<i>♪ So when I have got them
+Lined up on the matting ♪</i>
+
+206
+00:14:55,644 --> 00:14:58,772
+<i>♪ I teach them music
+Crocheting and tatting ♪</i>
+
+207
+00:14:58,856 --> 00:15:01,734
+<i>♪ Diddly-dot, diddly-dot
+Diddly-dot, whap-whoo ♪</i>
+
+208
+00:15:01,817 --> 00:15:04,403
+<i>♪ Diddly-dot, diddly-dot
+Diddly-dot, whap-whoo ♪</i>
+
+209
+00:15:04,486 --> 00:15:07,781
+<i>♪ Diddly-dot, diddly-dot
+Diddly-dot, whap-whoo ♪</i>
+
+210
+00:15:07,865 --> 00:15:10,659
+[scatting]
+
+211
+00:15:10,743 --> 00:15:13,871
+<i>-♪ Woodly-wah, woodly-wah ♪
+-It's dinner and a show.</i>
+
+212
+00:15:13,954 --> 00:15:17,041
+<i>♪ Woodly-wah, woodly-wah
+Woodly-wah, wah-wah ♪</i>
+
+213
+00:15:17,124 --> 00:15:20,210
+<i>♪ A-dooby-dooby-doo
+A-diddly-diddly-diddly-diddly ♪</i>
+
+214
+00:15:20,294 --> 00:15:23,297
+[scatting]
+
+215
+00:15:23,380 --> 00:15:26,550
+[panting]
+
+216
+00:15:26,634 --> 00:15:27,509
+-[trap snaps]
+-Aah!
+
+217
+00:15:27,593 --> 00:15:30,346
+[mice giggling]
+
+218
+00:15:30,930 --> 00:15:35,601
+[Munkustrap]
+<i>♪ I have a Gumbie Cat in mind ♪</i>
+
+219
+00:15:35,684 --> 00:15:39,772
+<i>♪ Her name is Jennyanydots ♪</i>
+
+220
+00:15:39,855 --> 00:15:44,276
+<i>♪ The curtain cord she likes to wind ♪</i>
+
+221
+00:15:44,360 --> 00:15:48,113
+<i>-♪ And tie it into sailor knots ♪</i>
+-[groaning]
+
+222
+00:15:48,697 --> 00:15:52,618
+<i>♪ She sits upon the windowsill ♪</i>
+
+223
+00:15:52,701 --> 00:15:57,206
+<i>♪ Or anything that's smooth and flat ♪</i>
+
+224
+00:15:57,289 --> 00:16:04,088
+<i>♪ She sits and sits and sits and sits ♪</i>
+
+225
+00:16:04,171 --> 00:16:05,172
+[groans]
+
+226
+00:16:05,255 --> 00:16:09,426
+<i>♪ And that's what makes a Gumbie Cat! ♪</i>
+
+227
+00:16:10,010 --> 00:16:14,765
+<i>♪ That's what makes a Gumbie Cat! ♪</i>
+
+228
+00:16:14,848 --> 00:16:15,808
+[clangs]
+
+229
+00:16:15,891 --> 00:16:19,019
+<i>♪ But... ♪</i>
+
+230
+00:16:19,103 --> 00:16:22,106
+<i>♪ When the day's hustle
+And bustle is done ♪</i>
+
+231
+00:16:22,189 --> 00:16:25,359
+<i>♪ Then the Gumbie Cat's work
+Is but hardly begun ♪</i>
+
+232
+00:16:25,442 --> 00:16:28,404
+<i>♪ I think that the cockroaches
+Need employment ♪</i>
+
+233
+00:16:28,487 --> 00:16:31,281
+<i>♪ To prevent them from idle
+And wanton destroyment ♪</i>
+
+234
+00:16:31,365 --> 00:16:34,118
+<i>♪ So I formed from that lot
+Of disorderly louts ♪</i>
+
+235
+00:16:34,702 --> 00:16:37,705
+<i>♪ A troop of well-disciplined
+Helpful boy scouts ♪</i>
+
+236
+00:16:37,788 --> 00:16:41,083
+<i>♪ With a purpose in life
+And a good deed to do ♪</i>
+
+237
+00:16:41,166 --> 00:16:44,253
+<i>♪ And I've even created ♪</i>
+
+238
+00:16:44,336 --> 00:16:48,549
+<i>♪ A Beetles' Tattoo! ♪</i>
+
+239
+00:16:48,632 --> 00:16:51,677
+[rhythmic drumbeat]
+
+240
+00:17:00,894 --> 00:17:02,771
+[Jennyanydots] Cockroaches!
+
+241
+00:17:02,855 --> 00:17:03,856
+Faces!
+
+242
+00:17:07,484 --> 00:17:08,360
+Mmm.
+
+243
+00:17:14,825 --> 00:17:16,952
+And now for the icing on the cake.
+
+244
+00:17:18,037 --> 00:17:19,496
+Why does she want another Jellicle life?
+
+245
+00:17:19,580 --> 00:17:21,874
+I cannot keep being in this kitchen.
+
+246
+00:17:23,876 --> 00:17:25,461
+Don't get cocky!
+
+247
+00:17:29,173 --> 00:17:30,632
+[Jennyanydots] Ha-ha!
+
+248
+00:17:41,185 --> 00:17:43,187
+[lively music]
+
+249
+00:17:48,984 --> 00:17:52,237
+<i>♪ So for Old Gumbie Cats
+Let's now give three cheers ♪</i>
+
+250
+00:17:52,321 --> 00:17:56,617
+<i>♪ On whom well-ordered households depend
+It appears ♪</i>
+
+251
+00:17:56,700 --> 00:17:59,369
+<i>♪ Three cheers, three cheers
+Three cheers ♪</i>
+
+252
+00:17:59,995 --> 00:18:01,455
+<i>♪ Thank you, my dears ♪</i>
+
+253
+00:18:02,164 --> 00:18:04,458
+[Rum Tum Tugger] Hmm. Meow.
+
+254
+00:18:05,125 --> 00:18:05,959
+[Jennyanydots] Hmm?
+
+255
+00:18:06,043 --> 00:18:08,295
+It's a little old-fashioned,
+don't you think?
+
+256
+00:18:08,921 --> 00:18:12,007
+With the cockroaches dancing
+and the mice singing.
+
+257
+00:18:12,091 --> 00:18:14,051
+Well, actually, the mice were really good.
+
+258
+00:18:14,134 --> 00:18:15,594
+[giggling]
+
+259
+00:18:15,677 --> 00:18:16,970
+But it's all a bit old-school.
+
+260
+00:18:17,054 --> 00:18:18,055
+Get out.
+
+261
+00:18:18,138 --> 00:18:20,432
+[Rum Tum Tugger] I'm just trying
+to offer you some feedback here.
+
+262
+00:18:21,016 --> 00:18:22,810
+Well... Well, actually,
+
+263
+00:18:23,310 --> 00:18:25,104
+I just thought
+I'd have a feed at the back.
+
+264
+00:18:25,187 --> 00:18:26,897
+Get out of this kitchen now.
+
+265
+00:18:26,980 --> 00:18:28,065
+Let's dance!
+
+266
+00:18:28,148 --> 00:18:30,150
+[upbeat music]
+
+267
+00:18:30,734 --> 00:18:34,363
+<i>-♪ The Rum Tum Tugger is a curious cat ♪
+-♪ A curious cat ♪</i>
+
+268
+00:18:34,446 --> 00:18:36,824
+[both grunting rhythmically]
+
+269
+00:18:36,907 --> 00:18:38,200
+Hmm. Hmm.
+
+270
+00:18:38,283 --> 00:18:40,744
+<i>♪ If you offer me pheasant
+I'd rather have grouse ♪</i>
+
+271
+00:18:41,787 --> 00:18:46,500
+<i>♪ If you put me in a house
+I would much prefer a flat ♪</i>
+
+272
+00:18:46,583 --> 00:18:50,129
+<i>♪ If you put me in a flat
+Then I'd rather have a house ♪</i>
+
+273
+00:18:50,212 --> 00:18:51,713
+-<i>♪ If you set me on a mouse ♪</i>
+-[shrieking]
+
+274
+00:18:51,797 --> 00:18:53,924
+-<i>♪ Then I only want a rat ♪</i>
+-[Jennyanydots] Aah! No, no!
+
+275
+00:18:54,007 --> 00:18:56,552
+<i>♪ If you set me on a rat
+Then I'd rather chase a mouse ♪</i>
+
+276
+00:18:56,635 --> 00:18:57,553
+Thanks, Tugger!
+
+277
+00:18:57,636 --> 00:19:01,306
+[Jellicles]
+<i>♪ The Rum Tum Tugger is a curious cat ♪</i>
+
+278
+00:19:01,890 --> 00:19:03,767
+<i>♪ And there isn't any call
+For me to shout it ♪</i>
+
+279
+00:19:05,185 --> 00:19:08,647
+[Jellicles] <i>♪ For he will do as he do do ♪</i>
+
+280
+00:19:08,730 --> 00:19:13,861
+<i>♪ And there's no doing anything about it ♪</i>
+
+281
+00:19:13,944 --> 00:19:14,903
+No!
+
+282
+00:19:22,452 --> 00:19:26,165
+<i>♪ The Rum Tum Tugger is a terrible bore ♪</i>
+
+283
+00:19:26,665 --> 00:19:28,667
+<i>♪ When you let me in then I wanna go out ♪</i>
+
+284
+00:19:30,627 --> 00:19:34,214
+<i>♪ I'm always on the wrong side
+Of every door ♪</i>
+
+285
+00:19:34,298 --> 00:19:37,968
+<i>♪ As soon as I get home
+Then I like to get about ♪</i>
+
+286
+00:19:38,051 --> 00:19:41,805
+<i>♪ I like to lie in a bureau drawer ♪</i>
+
+287
+00:19:41,889 --> 00:19:44,349
+<i>♪ But I make such a fuss
+If I can't get out ♪</i>
+
+288
+00:19:45,267 --> 00:19:47,561
+-Ooh!
+-Do you think he just got neutered?
+
+289
+00:19:47,644 --> 00:19:48,770
+'Cause those notes are, like...
+
+290
+00:19:48,854 --> 00:19:49,855
+[high-pitched voice]
+...high.
+
+291
+00:19:49,938 --> 00:19:51,982
+-[chuckling]
+-You know...
+
+292
+00:19:52,733 --> 00:19:55,402
+<i>♪ The Rum Tum Tugger is a curious cat ♪</i>
+
+293
+00:19:55,485 --> 00:19:56,737
+[grunts]
+
+294
+00:19:56,820 --> 00:19:58,697
+<i>♪ And there isn't any use
+For you to doubt it ♪</i>
+
+295
+00:20:00,115 --> 00:20:03,702
+-Lights.
+<i>-♪ For he will do as he do do ♪</i>
+
+296
+00:20:03,785 --> 00:20:09,458
+<i>♪ And there's no doing anything
+About-awow-awow it ♪</i>
+
+297
+00:20:11,627 --> 00:20:13,503
+I can dance how he dances, too.
+
+298
+00:20:13,587 --> 00:20:14,713
+-Look.
+-[Munkustrap] Let me see.
+
+299
+00:20:14,796 --> 00:20:17,049
+[hip-hop music]
+
+300
+00:20:17,132 --> 00:20:18,008
+It's easy.
+
+301
+00:20:18,091 --> 00:20:22,095
+<i>♪ The Rum Tum Tugger is a curious beast ♪</i>
+
+302
+00:20:22,179 --> 00:20:24,389
+<i>♪ My disobliging ways
+Is a matter of habit ♪</i>
+
+303
+00:20:25,933 --> 00:20:29,728
+<i>♪ If you offer me fish
+Then I always want a feast ♪</i>
+
+304
+00:20:29,811 --> 00:20:33,607
+<i>♪ When there isn't any fish
+Well, darling, I'm not having a rabbit ♪</i>
+
+305
+00:20:33,690 --> 00:20:37,819
+<i>♪ If you offer me cream
+Then I sniff and sneer ♪</i>
+
+306
+00:20:37,903 --> 00:20:40,364
+<i>♪ For I only like... ♪</i>
+
+307
+00:20:41,949 --> 00:20:43,408
+<i>♪ What I find ♪</i>
+
+308
+00:20:44,826 --> 00:20:47,996
+<i>♪ For myself ♪</i>
+
+309
+00:20:48,872 --> 00:20:49,998
+Uh!
+
+310
+00:20:51,041 --> 00:20:57,172
+<i>-♪ Victoria ♪</i>
+-[Jellicles sighing]
+
+311
+00:20:58,465 --> 00:21:00,050
+Stop milking it.
+
+312
+00:21:00,634 --> 00:21:02,803
+<i>♪ So you'll catch me in it
+Right up to my ears ♪</i>
+
+313
+00:21:02,886 --> 00:21:06,098
+<i>♪ If you put it away on the larder shelf ♪</i>
+
+314
+00:21:06,181 --> 00:21:07,015
+Whoo!
+
+315
+00:21:07,099 --> 00:21:09,017
+<i>♪ The Rum Tum Tugger ♪</i>
+
+316
+00:21:09,101 --> 00:21:10,769
+<i>♪ Is artful and knowing ♪</i>
+
+317
+00:21:10,852 --> 00:21:12,521
+<i>♪ The Rum Tum Tugger ♪</i>
+
+318
+00:21:12,604 --> 00:21:14,481
+<i>♪ Doesn't care for a cuddle ♪</i>
+
+319
+00:21:14,564 --> 00:21:16,692
+<i>♪ But I'll leap up in your lap
+In the middle of your sewing ♪</i>
+
+320
+00:21:16,775 --> 00:21:18,986
+<i>♪ For there's nothing I enjoy
+Like a horrible muddle ♪</i>
+
+321
+00:21:19,069 --> 00:21:20,529
+Yeah!
+
+322
+00:21:24,032 --> 00:21:25,701
+[bell dinging]
+
+323
+00:21:33,583 --> 00:21:37,212
+<i>♪ The Rum Tum Tugger is a curious cat ♪</i>
+
+324
+00:21:37,796 --> 00:21:42,134
+<i>♪ The Rum Tum Tugger
+Doesn't care for a cuddle ♪</i>
+
+325
+00:21:42,634 --> 00:21:44,303
+Nah, nah. No more milk.
+
+326
+00:21:48,056 --> 00:21:50,225
+Milk!
+
+327
+00:21:50,892 --> 00:21:52,352
+Whoo!
+
+328
+00:21:52,894 --> 00:21:56,315
+<i>♪ The Rum Tum Tugger is a curious cat ♪</i>
+
+329
+00:21:56,815 --> 00:21:58,900
+<i>♪ And there isn't any need
+For me to spout it ♪</i>
+
+330
+00:22:00,319 --> 00:22:03,780
+<i>♪ For he will do as he do do ♪</i>
+
+331
+00:22:03,864 --> 00:22:09,411
+<i>♪ And there's no ♪</i>
+
+332
+00:22:09,995 --> 00:22:16,543
+<i>♪ Doing anything ♪</i>
+
+333
+00:22:17,294 --> 00:22:20,589
+<i>♪ About ♪</i>
+
+334
+00:22:21,548 --> 00:22:27,387
+<i>♪ About ♪</i>
+
+335
+00:22:29,014 --> 00:22:30,057
+Wow.
+
+336
+00:22:31,349 --> 00:22:38,065
+<i>♪ There's no doing anything, yeah ♪</i>
+
+337
+00:22:38,982 --> 00:22:43,695
+<i>♪ About ♪</i>
+
+338
+00:22:43,779 --> 00:22:45,113
+[meowing]
+
+339
+00:22:45,197 --> 00:22:46,156
+<i>♪ About it ♪</i>
+
+340
+00:22:46,239 --> 00:22:47,532
+[whines]
+
+341
+00:22:51,244 --> 00:22:52,704
+[laughing]
+
+342
+00:22:55,207 --> 00:22:56,958
+[hissing]
+
+343
+00:23:00,462 --> 00:23:02,506
+[foreboding music]
+
+344
+00:23:16,770 --> 00:23:18,939
+[foreboding music continues]
+
+345
+00:23:30,033 --> 00:23:33,161
+<i>♪ Remark the cat ♪</i>
+
+346
+00:23:34,704 --> 00:23:41,253
+<i>♪ Who hesitates towards you ♪</i>
+
+347
+00:23:42,295 --> 00:23:45,799
+<i>♪ In the light of the door ♪</i>
+
+348
+00:23:45,882 --> 00:23:49,970
+<i>♪ Which opens on her ♪</i>
+
+349
+00:23:51,471 --> 00:23:53,765
+<i>♪ Like a grin ♪</i>
+
+350
+00:23:59,062 --> 00:24:05,068
+<i>♪ You see the border of her coat ♪</i>
+
+351
+00:24:05,152 --> 00:24:10,949
+<i>♪ Is torn and stained with sand ♪</i>
+
+352
+00:24:13,201 --> 00:24:16,705
+<i>♪ And you see ♪</i>
+
+353
+00:24:16,788 --> 00:24:20,750
+<i>♪ The corner of her eye ♪</i>
+
+354
+00:24:20,834 --> 00:24:26,381
+<i>♪ Twist like a crooked pin ♪</i>
+
+355
+00:24:35,974 --> 00:24:36,975
+<i>♪ And-- ♪</i>
+
+356
+00:24:37,058 --> 00:24:43,982
+<i>♪ She haunted many a low resort ♪</i>
+
+357
+00:24:44,065 --> 00:24:50,197
+<i>♪ Near the grimy road of Tottenham Court ♪</i>
+
+358
+00:24:50,280 --> 00:24:56,161
+<i>♪ She flitted about the no-man's land ♪</i>
+
+359
+00:24:56,995 --> 00:25:02,918
+<i>♪ From the Rising Sun
+To the Friend At Hand ♪</i>
+
+360
+00:25:03,001 --> 00:25:09,132
+<i>♪ And the postman sighed
+As he scratched his head ♪</i>
+
+361
+00:25:09,841 --> 00:25:15,597
+<i>♪ You'd really have thought
+She'd ought to be dead ♪</i>
+
+362
+00:25:16,473 --> 00:25:22,771
+<i>♪ And who'd have ever supposed that that ♪</i>
+
+363
+00:25:24,564 --> 00:25:28,276
+<i>♪ Was Grizabella ♪</i>
+
+364
+00:25:28,360 --> 00:25:32,030
+<i>♪ The glamor cat ♪</i>
+
+365
+00:25:32,113 --> 00:25:37,285
+<i>♪ Grizabella the glamor cat ♪</i>
+
+366
+00:25:38,620 --> 00:25:44,000
+<i>♪ Grizabella the glamor cat ♪</i>
+
+367
+00:25:45,252 --> 00:25:47,796
+<i>♪ Who'd have ever ♪</i>
+
+368
+00:25:47,879 --> 00:25:54,719
+<i>♪ Supposed that that ♪</i>
+
+369
+00:25:54,803 --> 00:25:56,263
+[hisses]
+
+370
+00:25:57,514 --> 00:26:00,809
+<i>♪ Was Grizabella ♪</i>
+
+371
+00:26:00,892 --> 00:26:05,647
+<i>♪ The glamor cat ♪</i>
+
+372
+00:26:07,983 --> 00:26:10,068
+[breathing shakily]
+
+373
+00:26:17,659 --> 00:26:19,035
+[Victoria] Who was she?
+
+374
+00:26:19,119 --> 00:26:21,538
+She used to be the star of the Windmill.
+
+375
+00:26:22,956 --> 00:26:25,083
+Then she went with Macavity.
+
+376
+00:26:25,667 --> 00:26:28,461
+[Cassandra] Now, she lives
+on the wasteland.
+
+377
+00:26:31,589 --> 00:26:34,301
+[heavy footsteps]
+
+378
+00:26:34,384 --> 00:26:36,344
+[tense music]
+
+379
+00:26:41,266 --> 00:26:42,642
+[Bustopher] Good evening, all.
+
+380
+00:26:43,810 --> 00:26:44,811
+Meow!
+
+381
+00:26:44,894 --> 00:26:47,897
+Oh, no. Look what the cat dragged in.
+
+382
+00:26:47,981 --> 00:26:50,942
+Oh, my. You look absolutely starving.
+
+383
+00:26:51,026 --> 00:26:53,570
+You can't attend the ball
+on an empty stomach.
+
+384
+00:26:54,154 --> 00:26:55,739
+So, you're hoping to be chosen?
+
+385
+00:26:55,822 --> 00:27:00,076
+Yeah. He wants to be reborn as a thin cat,
+so he can get fat all over again,
+
+386
+00:27:00,160 --> 00:27:01,870
+but he's going to lose!
+
+387
+00:27:01,953 --> 00:27:03,288
+How dare you! Don't listen to her.
+
+388
+00:27:03,371 --> 00:27:05,665
+Don't you listen to him
+because he is a complete and utter--
+
+389
+00:27:05,749 --> 00:27:10,128
+<i>♪ I'm Bustopher Jones
+I'm not skin and bones ♪</i>
+
+390
+00:27:10,211 --> 00:27:13,173
+<i>♪ In fact, I'm remarkably fat ♪</i>
+
+391
+00:27:14,466 --> 00:27:18,094
+<i>♪ I don't haunt pubs
+I have eight or nine clubs ♪</i>
+
+392
+00:27:18,178 --> 00:27:21,348
+<i>♪ For I'm the St. James's Street cat ♪</i>
+
+393
+00:27:21,973 --> 00:27:25,977
+<i>♪ I'm the cat they all greet
+As I walk down the street ♪</i>
+
+394
+00:27:26,061 --> 00:27:29,272
+<i>♪ In my coat of fastidious black ♪</i>
+
+395
+00:27:30,106 --> 00:27:34,235
+<i>♪ No commonplace mousers
+Have such well-cut trousers ♪</i>
+
+396
+00:27:34,319 --> 00:27:36,946
+<i>♪ Or such an impeccable back ♪</i>
+
+397
+00:27:37,030 --> 00:27:38,782
+Yeah, you've got it. Here we go.
+
+398
+00:27:38,865 --> 00:27:39,908
+Ha-ha!
+
+399
+00:27:40,825 --> 00:27:42,118
+Ready?
+
+400
+00:27:42,202 --> 00:27:43,286
+Whoo!
+
+401
+00:27:44,579 --> 00:27:45,789
+[Macavity] 'Scuse me.
+
+402
+00:27:45,872 --> 00:27:48,750
+Are you, by any chance, Jennyanydots?
+
+403
+00:27:49,501 --> 00:27:50,752
+[chuckles]
+Yes.
+
+404
+00:27:50,835 --> 00:27:54,172
+You know, your work should be
+on the world stage.
+
+405
+00:27:54,255 --> 00:27:55,507
+Yes.
+
+406
+00:27:55,590 --> 00:27:59,302
+And that face should be on a poster.
+
+407
+00:27:59,386 --> 00:28:01,388
+[suspenseful music]
+
+408
+00:28:03,223 --> 00:28:04,307
+Meow!
+
+409
+00:28:04,391 --> 00:28:08,395
+<i>♪ In the whole of St. James's
+The smartest of names is ♪</i>
+
+410
+00:28:08,478 --> 00:28:12,232
+<i>-♪ The name of this Brummell of cats ♪</i>
+-[sipping]
+
+411
+00:28:12,315 --> 00:28:16,194
+<i>♪ And we're all of us proud
+To be nodded or bowed to ♪</i>
+
+412
+00:28:16,277 --> 00:28:20,240
+<i>♪ By Bustopher Jones in white spats ♪</i>
+
+413
+00:28:25,078 --> 00:28:26,413
+[sighs]
+
+414
+00:28:27,414 --> 00:28:32,001
+<i>♪ My visits are occasional
+To the Senior Educational ♪</i>
+
+415
+00:28:32,085 --> 00:28:36,089
+<i>♪ And it is against the rules ♪</i>
+
+416
+00:28:36,923 --> 00:28:41,428
+<i>♪ For any one cat to belong both to that ♪</i>
+
+417
+00:28:41,511 --> 00:28:45,306
+<i>♪ And the Joint Superior Schools ♪</i>
+
+418
+00:28:45,390 --> 00:28:47,767
+[inhales deeply]
+
+419
+00:28:47,851 --> 00:28:48,685
+[clattering]
+
+420
+00:28:48,768 --> 00:28:53,022
+<i>♪ For a similar reason
+When game is in season ♪</i>
+
+421
+00:28:53,106 --> 00:28:56,693
+<i>♪ I'm found not at Fox's but Blimp's ♪</i>
+
+422
+00:28:56,776 --> 00:28:57,777
+Oh!
+
+423
+00:28:57,861 --> 00:29:02,574
+<i>♪ I am frequently seen
+At the gay Stage and Screen ♪</i>
+
+424
+00:29:02,657 --> 00:29:06,119
+<i>♪ Which is famous
+For winkles and shrimps ♪</i>
+
+425
+00:29:07,203 --> 00:29:12,041
+<i>♪ In the season of venison
+I give my ben'son ♪</i>
+
+426
+00:29:12,125 --> 00:29:15,587
+<i>♪ To the Pothunter's succulent bones ♪</i>
+
+427
+00:29:16,713 --> 00:29:21,384
+<i>♪ And just before noon's
+Not a moment too soon ♪</i>
+
+428
+00:29:21,468 --> 00:29:22,594
+[music stops]
+
+429
+00:29:24,345 --> 00:29:27,265
+Right. That's not going to work,
+is it? Okay?
+
+430
+00:29:27,348 --> 00:29:29,851
+Look at you, and look at me, and you know,
+
+431
+00:29:29,934 --> 00:29:32,979
+you know that I'm sensitive
+about my size, okay?
+
+432
+00:29:33,062 --> 00:29:35,440
+And yet you embarrass me. You...
+[hisses]
+
+433
+00:29:35,523 --> 00:29:36,733
+That's what I say to you.
+[hisses]
+
+434
+00:29:36,816 --> 00:29:38,026
+Okay? Now, listen.
+
+435
+00:29:38,109 --> 00:29:40,153
+You'll never get me up there on your own.
+
+436
+00:29:40,236 --> 00:29:44,115
+So let's gather up
+a few more of the... cats,
+
+437
+00:29:44,199 --> 00:29:46,242
+and we'll try again, shall we?
+
+438
+00:29:46,826 --> 00:29:48,161
+Yeah. Okay. Nice and good.
+
+439
+00:29:48,244 --> 00:29:50,455
+Everybody ready? And... Five, six, seven.
+
+440
+00:29:50,538 --> 00:29:54,417
+<i>♪ And just before noon's
+Not a moment too soon... ♪</i>
+
+441
+00:29:54,501 --> 00:29:56,836
+Hey! Ooh!
+
+442
+00:29:56,920 --> 00:29:59,339
+Gah!
+
+443
+00:30:00,548 --> 00:30:02,300
+Oh!
+
+444
+00:30:02,383 --> 00:30:06,387
+<i>♪ To drop in for a drink at the Dro... ♪</i>
+
+445
+00:30:06,471 --> 00:30:12,227
+<i>♪ Oh, oh, oh, ...ones ♪</i>
+
+446
+00:30:12,310 --> 00:30:13,144
+Thanks, Tugger.
+
+447
+00:30:13,228 --> 00:30:17,273
+<i>♪ When I'm seen in a hurry
+There's probably curry ♪</i>
+
+448
+00:30:17,357 --> 00:30:21,236
+<i>♪ At the Siamese or at the Glutton ♪</i>
+
+449
+00:30:21,319 --> 00:30:22,278
+Ooh!
+
+450
+00:30:22,362 --> 00:30:27,367
+<i>♪ If I look full of gloom
+Then I've lunched at the Tomb ♪</i>
+
+451
+00:30:27,450 --> 00:30:33,414
+<i>♪ On cabbage, rice pudding, and mutton ♪</i>
+
+452
+00:30:33,498 --> 00:30:37,418
+<i>♪ In the whole of St. James's
+The smartest of names is ♪</i>
+
+453
+00:30:37,502 --> 00:30:41,422
+<i>♪ The name of this Brummell of cats ♪</i>
+
+454
+00:30:41,506 --> 00:30:45,260
+<i>♪ And we're all of us proud
+To be nodded or bowed to ♪</i>
+
+455
+00:30:45,343 --> 00:30:48,096
+<i>♪ By Bustopher Jones in white ♪</i>
+
+456
+00:30:48,179 --> 00:30:50,098
+<i>♪ Bustopher Jones in white ♪</i>
+
+457
+00:30:50,181 --> 00:30:54,853
+<i>♪ Bustopher Jones in white spats ♪</i>
+
+458
+00:30:54,936 --> 00:30:56,521
+Yah!
+
+459
+00:30:56,604 --> 00:30:58,398
+Ha-ha! Hoo-hoo!
+
+460
+00:30:59,899 --> 00:31:01,693
+[laughing]
+
+461
+00:31:01,776 --> 00:31:05,697
+<i>♪ So, much in this way
+Passes Bustopher's day ♪</i>
+
+462
+00:31:05,780 --> 00:31:08,867
+<i>-♪ At one club ♪
+-♪ Or another I'm found ♪</i>
+
+463
+00:31:09,492 --> 00:31:13,371
+<i>♪ It can be no surprise
+That under our eyes ♪</i>
+
+464
+00:31:13,454 --> 00:31:16,833
+<i>♪ He has grown unmistakably round ♪</i>
+
+465
+00:31:16,916 --> 00:31:21,004
+<i>♪ I'm a 25-pounder or I am a bounder ♪</i>
+
+466
+00:31:21,087 --> 00:31:24,549
+<i>♪ And I'm putting on weight every day ♪</i>
+
+467
+00:31:24,632 --> 00:31:28,511
+<i>♪ But I'm so well preserved
+Because I've observed ♪</i>
+
+468
+00:31:28,595 --> 00:31:31,764
+<i>♪ All my life a routine and I'd say ♪</i>
+
+469
+00:31:34,434 --> 00:31:38,187
+<i>♪ I am still in my prime
+I shall last out my time ♪</i>
+
+470
+00:31:38,271 --> 00:31:41,941
+<i>♪ That's the word
+From the stoutest of cats ♪</i>
+
+471
+00:31:42,025 --> 00:31:46,321
+<i>♪ It must and it shall
+Be spring in Pall Mall ♪</i>
+
+472
+00:31:46,404 --> 00:31:48,740
+<i>♪ While Bustopher Jones wears white ♪</i>
+
+473
+00:31:48,823 --> 00:31:50,867
+<i>♪ Bustopher Jones wears white ♪</i>
+
+474
+00:31:50,950 --> 00:31:54,412
+<i>♪ Bustopher Jones wears white ♪</i>
+
+475
+00:31:54,495 --> 00:31:55,747
+Spats?
+
+476
+00:31:56,497 --> 00:31:57,707
+Macavity!
+
+477
+00:31:57,790 --> 00:31:59,542
+[chuckles]
+Puss in Spats.
+
+478
+00:32:00,043 --> 00:32:01,002
+I love it.
+
+479
+00:32:04,213 --> 00:32:07,258
+[gasping]
+
+480
+00:32:07,342 --> 00:32:08,718
+Hungry?
+
+481
+00:32:09,677 --> 00:32:12,096
+Look like you haven't eaten for days.
+
+482
+00:32:12,805 --> 00:32:14,057
+Go for it.
+
+483
+00:32:14,557 --> 00:32:16,643
+[Macavity] Look at it. Smell it.
+
+484
+00:32:16,726 --> 00:32:19,771
+-Really tasty.
+-[sniffing]
+
+485
+00:32:19,854 --> 00:32:22,899
+Well, come on, Puss in Spats.
+You can do it.
+
+486
+00:32:24,150 --> 00:32:25,777
+Ha-ha!
+
+487
+00:32:31,240 --> 00:32:32,325
+Ineffable.
+
+488
+00:32:36,162 --> 00:32:37,121
+[grunts]
+
+489
+00:32:37,872 --> 00:32:38,957
+Can we help you?
+
+490
+00:32:39,040 --> 00:32:40,667
+You really shouldn't be out alone.
+
+491
+00:32:41,459 --> 00:32:43,628
+I'm not alone. I'm with my friends.
+
+492
+00:32:43,711 --> 00:32:44,796
+-Friends?
+-[gasps]
+
+493
+00:32:45,380 --> 00:32:47,632
+[Mungojerrie] Looks like they've run away
+and left you.
+
+494
+00:32:47,715 --> 00:32:51,177
+[Rumpleteazer] Don't worry.
+We'll look after you. Won't we?
+
+495
+00:32:51,678 --> 00:32:53,221
+Why don't you come inside?
+
+496
+00:32:55,056 --> 00:32:56,224
+<i>♪ Mungojerrie ♪</i>
+
+497
+00:32:56,307 --> 00:32:57,850
+<i>♪ And Rumpleteazer ♪</i>
+
+498
+00:32:57,934 --> 00:33:00,103
+<i>♪ We're a notorious couple of cats ♪</i>
+
+499
+00:33:00,186 --> 00:33:01,771
+<i>♪ As knockabout clowns ♪</i>
+
+500
+00:33:01,854 --> 00:33:03,189
+<i>♪ Quick-change comedians ♪</i>
+
+501
+00:33:03,272 --> 00:33:04,315
+<i>♪ Tightrope walkers ♪</i>
+
+502
+00:33:04,399 --> 00:33:05,858
+<i>♪ And acrobats ♪</i>
+
+503
+00:33:05,942 --> 00:33:08,695
+<i>♪ We have an extensive reputation ♪</i>
+
+504
+00:33:08,778 --> 00:33:11,531
+<i>♪ We make our home in Victoria Grove ♪</i>
+
+505
+00:33:11,614 --> 00:33:14,158
+<i>♪ This is merely our center of operation ♪</i>
+
+506
+00:33:14,242 --> 00:33:18,287
+<i>♪ For we are incurably given to rove ♪</i>
+
+507
+00:33:21,082 --> 00:33:24,711
+<i>♪ We are very well known
+In Cornwall Gardens ♪</i>
+
+508
+00:33:24,794 --> 00:33:27,338
+<i>♪ In Launceston Place
+And in Kensington Square ♪</i>
+
+509
+00:33:27,422 --> 00:33:30,133
+<i>♪ We have really
+A little more reputation ♪</i>
+
+510
+00:33:30,216 --> 00:33:33,469
+<i>♪ Than a couple of cats
+Can very well bear ♪</i>
+
+511
+00:33:33,553 --> 00:33:34,846
+No photos, right?
+
+512
+00:33:37,056 --> 00:33:39,851
+<i>♪ If the area window is found ajar ♪</i>
+
+513
+00:33:39,934 --> 00:33:42,520
+<i>♪ And the bedroom looks
+Like a field of war ♪</i>
+
+514
+00:33:43,104 --> 00:33:45,898
+<i>♪ If a tile or two comes loose
+On the roof ♪</i>
+
+515
+00:33:45,982 --> 00:33:47,525
+<i>♪ Which presently fails to be waterproof ♪</i>
+
+516
+00:33:47,608 --> 00:33:48,443
+[tiles clattering]
+
+517
+00:33:48,526 --> 00:33:51,237
+<i>♪ If the drawers are pulled out
+From the bedroom chest ♪</i>
+
+518
+00:33:51,320 --> 00:33:53,990
+<i>♪ And you can't find
+One of your winter vests ♪</i>
+
+519
+00:33:54,073 --> 00:33:56,784
+<i>♪ Or after supper one of the girls ♪</i>
+
+520
+00:33:56,868 --> 00:33:59,537
+<i>♪ Suddenly misses her Woolworth pearls ♪</i>
+
+521
+00:33:59,620 --> 00:34:01,789
+<i>♪ The family will say ♪</i>
+
+522
+00:34:01,873 --> 00:34:04,542
+<i>♪ "It's that horrible cat" ♪</i>
+
+523
+00:34:04,625 --> 00:34:07,670
+<i>♪ It was Mungojerrie ♪</i>
+
+524
+00:34:08,546 --> 00:34:11,257
+<i>♪ Or Rumpleteazer ♪</i>
+
+525
+00:34:11,883 --> 00:34:14,510
+<i>♪ And most of the time
+They leave it at that ♪</i>
+
+526
+00:34:17,305 --> 00:34:18,848
+[laughing]
+
+527
+00:34:25,646 --> 00:34:26,689
+[giggles]
+
+528
+00:34:46,250 --> 00:34:50,838
+<i>♪ Mungojerrie and Rumpleteazer
+Have a very unusual gift of the gab ♪</i>
+
+529
+00:34:50,922 --> 00:34:53,758
+<i>♪ We're highly efficient
+Cat burglars as well ♪</i>
+
+530
+00:34:53,841 --> 00:34:56,177
+<i>♪ And remarkably smart
+At the smash-and-grab ♪</i>
+
+531
+00:34:56,260 --> 00:34:58,971
+<i>♪ We make our home in Victoria Grove ♪</i>
+
+532
+00:34:59,055 --> 00:35:01,516
+<i>♪ We have no regular occupation ♪</i>
+
+533
+00:35:01,599 --> 00:35:03,893
+<i>♪ We are plausible fellows
+Who like to engage ♪</i>
+
+534
+00:35:03,976 --> 00:35:07,271
+<i>♪ A friendly policeman in conversation ♪</i>
+
+535
+00:35:07,355 --> 00:35:09,899
+Hello, police officer.
+I bought these for her myself.
+
+536
+00:35:09,982 --> 00:35:10,983
+-You did what?
+-Wait.
+
+537
+00:35:11,067 --> 00:35:13,736
+<i>♪ When the family assembles
+For Sunday dinner ♪</i>
+
+538
+00:35:13,820 --> 00:35:15,988
+<i>♪ Their minds made up
+That they won't get thinner ♪</i>
+
+539
+00:35:16,072 --> 00:35:19,075
+<i>♪ On Argentine joint potatoes and greens ♪</i>
+
+540
+00:35:19,158 --> 00:35:21,327
+<i>♪ Then the cook would appear
+From behind the scenes ♪</i>
+
+541
+00:35:21,410 --> 00:35:24,288
+<i>♪ And say, in a voice
+That is broken with sorrow ♪</i>
+
+542
+00:35:24,372 --> 00:35:26,666
+<i>♪ "I'm afraid you must wait
+And have dinner tomorrow ♪</i>
+
+543
+00:35:26,749 --> 00:35:29,544
+<i>♪ For the joint
+Has gone from the oven like that!" ♪</i>
+
+544
+00:35:30,044 --> 00:35:32,130
+<i>♪ Then the family will say ♪</i>
+
+545
+00:35:32,213 --> 00:35:34,799
+<i>♪ "It's that horrible cat" ♪</i>
+
+546
+00:35:34,882 --> 00:35:37,218
+<i>♪ It was Mungojerrie ♪</i>
+
+547
+00:35:38,511 --> 00:35:40,721
+<i>♪ Or Rumpleteazer ♪</i>
+
+548
+00:35:40,805 --> 00:35:43,516
+<i>♪ And most of the time
+They leave it at that ♪</i>
+
+549
+00:35:43,599 --> 00:35:44,642
+<i>♪ Mungojerrie ♪</i>
+
+550
+00:35:44,725 --> 00:35:45,852
+<i>♪ And Rumpleteazer ♪</i>
+
+551
+00:35:45,935 --> 00:35:48,271
+<i>♪ Have a wonderful way
+Of working together ♪</i>
+
+552
+00:35:48,354 --> 00:35:50,648
+<i>♪ And some of the time
+You would say it was luck ♪</i>
+
+553
+00:35:50,731 --> 00:35:53,276
+<i>♪ And some of the time
+You would say it was weather ♪</i>
+
+554
+00:35:53,359 --> 00:35:55,695
+<i>♪ We go through the house
+Like a hurricane ♪</i>
+
+555
+00:35:55,778 --> 00:35:57,738
+<i>♪ And no sober person
+Could take his oath ♪</i>
+
+556
+00:35:57,822 --> 00:35:59,323
+<i>♪ Was it Mungojerrie? ♪</i>
+
+557
+00:35:59,407 --> 00:36:00,908
+<i>♪ Or Rumpleteazer? ♪</i>
+
+558
+00:36:00,992 --> 00:36:03,411
+<i>♪ Or could you have sworn
+That it might have been both? ♪</i>
+
+559
+00:36:05,705 --> 00:36:08,249
+<i>♪ And when you hear a dining-room smash ♪</i>
+
+560
+00:36:08,332 --> 00:36:10,501
+<i>♪ Or up from the pantry
+There comes a loud crash ♪</i>
+
+561
+00:36:10,585 --> 00:36:13,379
+<i>♪ Or down from the library
+There comes a loud ping ♪</i>
+
+562
+00:36:13,462 --> 00:36:15,423
+<i>♪ From a vase
+That was commonly said to be Ming ♪</i>
+
+563
+00:36:15,506 --> 00:36:17,425
+<i>♪ Then the family will say ♪</i>
+
+564
+00:36:17,508 --> 00:36:20,011
+[Victoria] <i>♪ "Now, which was which cat?" ♪</i>
+
+565
+00:36:20,094 --> 00:36:22,722
+<i>♪ It was Mungojerrie ♪</i>
+
+566
+00:36:22,805 --> 00:36:24,056
+<i>♪ And ♪</i>
+
+567
+00:36:24,140 --> 00:36:26,184
+<i>♪ Rumpleteazer ♪</i>
+
+568
+00:36:26,267 --> 00:36:29,061
+<i>♪ And there's nothing at all
+To be done about that ♪</i>
+
+569
+00:36:29,812 --> 00:36:30,813
+[music stops]
+
+570
+00:36:30,897 --> 00:36:33,900
+[rumbling]
+
+571
+00:36:35,276 --> 00:36:36,736
+[shatters]
+
+572
+00:36:36,819 --> 00:36:39,322
+[dog barking]
+
+573
+00:36:41,616 --> 00:36:43,242
+[grunting]
+
+574
+00:36:51,250 --> 00:36:54,795
+[Mistoffelees] I'm coming, Victoria!
+
+575
+00:36:54,879 --> 00:36:56,547
+[grunting]
+
+576
+00:36:58,549 --> 00:37:01,302
+[groans]
+Don't worry! Stay there!
+
+577
+00:37:01,385 --> 00:37:03,179
+[dog barking louder]
+
+578
+00:37:07,308 --> 00:37:08,684
+[dog growling]
+
+579
+00:37:10,102 --> 00:37:11,103
+[grunting]
+
+580
+00:37:16,776 --> 00:37:18,611
+[gasps]
+Here, doggy! Fetch!
+
+581
+00:37:25,952 --> 00:37:28,412
+[both panting]
+
+582
+00:37:47,807 --> 00:37:49,141
+I've been looking for you everywhere.
+
+583
+00:37:51,519 --> 00:37:54,772
+Uh, I thought you'd miss the arrival.
+
+584
+00:37:54,855 --> 00:37:56,190
+What arrival?
+
+585
+00:37:56,691 --> 00:37:58,025
+Of Old Deuteronomy.
+
+586
+00:37:58,109 --> 00:38:00,569
+[dog growling]
+
+587
+00:38:07,243 --> 00:38:08,202
+Oh!
+
+588
+00:38:08,786 --> 00:38:10,663
+[gasps]
+Where am I?
+
+589
+00:38:10,746 --> 00:38:11,789
+[ship horn blows]
+
+590
+00:38:11,872 --> 00:38:15,042
+[Jennyanydots] It seems we're on a barge
+in the middle of the Thames.
+
+591
+00:38:15,126 --> 00:38:16,419
+[Bustopher] What are you doing here?
+
+592
+00:38:16,502 --> 00:38:18,671
+[Jennyanydots sighs]
+I haven't got the faintest clue.
+
+593
+00:38:19,213 --> 00:38:20,756
+And I've lost all of my cockroaches.
+
+594
+00:38:20,840 --> 00:38:23,301
+I can't be on a barge
+in the middle of the Thames.
+
+595
+00:38:23,384 --> 00:38:25,052
+I'm supposed to be going to the ball.
+
+596
+00:38:25,136 --> 00:38:28,431
+Oh, no.
+You're not going anywhere, Puss in Spats.
+
+597
+00:38:29,015 --> 00:38:33,602
+I'm determined to win,
+and I prefer my competition chained up.
+
+598
+00:38:34,520 --> 00:38:37,231
+Growltiger. Keep 'em here.
+
+599
+00:38:37,315 --> 00:38:38,566
+Meow!
+
+600
+00:38:39,400 --> 00:38:42,528
+He's called me that twice now.
+"Puss in Spats."
+
+601
+00:38:42,611 --> 00:38:44,739
+Like it's sort of a joke.
+I rather like it.
+
+602
+00:38:44,822 --> 00:38:45,906
+So the joke's on him.
+
+603
+00:38:49,660 --> 00:38:50,911
+Who are you?
+
+604
+00:38:53,122 --> 00:38:54,582
+Growltiger.
+
+605
+00:38:54,665 --> 00:38:58,169
+<i>♪ I'm a Bravo Cat, I travel on a barge ♪</i>
+
+606
+00:38:58,252 --> 00:39:03,215
+<i>♪ In fact, I am the roughest cat
+Whoever roamed at large ♪</i>
+
+607
+00:39:03,299 --> 00:39:08,763
+<i>♪ From Gravesend up to Oxford
+I pursue my evil aims ♪</i>
+
+608
+00:39:08,846 --> 00:39:15,436
+<i>♪ Rejoicing in my title
+of "The Terror of the Thames" ♪</i>
+
+609
+00:39:15,519 --> 00:39:17,480
+Right, no, see, that doesn't rhyme.
+
+610
+00:39:18,439 --> 00:39:22,026
+You can't just say "Taymes"
+'cause it rhymes with "aims."
+
+611
+00:39:22,109 --> 00:39:23,027
+It's the River Thames.
+
+612
+00:39:23,110 --> 00:39:25,071
+-[snarls]
+-[whimpers]
+
+613
+00:39:25,154 --> 00:39:26,155
+[Griddlebone giggles]
+
+614
+00:39:26,238 --> 00:39:29,450
+Ow! Okay, so, it's Growltiger, you say?
+
+615
+00:39:29,533 --> 00:39:31,702
+Yep. I think I've got it.
+I think that's it.
+
+616
+00:39:32,912 --> 00:39:34,872
+I fully understand now who it is.
+
+617
+00:39:35,373 --> 00:39:36,999
+Thank you for telling me.
+
+618
+00:39:38,084 --> 00:39:40,252
+[dramatic music]
+
+619
+00:39:42,421 --> 00:39:43,589
+Where have you been?
+
+620
+00:39:48,677 --> 00:39:50,054
+Oh, it's mine.
+
+621
+00:39:50,888 --> 00:39:53,474
+Yet another trick that went wrong.
+[chuckles]
+
+622
+00:39:55,101 --> 00:39:57,395
+You're just in time
+to see Old Deuteronomy.
+
+623
+00:39:58,020 --> 00:40:00,106
+Who is Old Deuteronomy?
+
+624
+00:40:04,402 --> 00:40:10,032
+<i>♪ Old Deuteronomy's lived a long time ♪</i>
+
+625
+00:40:10,116 --> 00:40:16,122
+<i>♪ She's a cat who has lived
+Many lives in succession ♪</i>
+
+626
+00:40:16,205 --> 00:40:21,627
+<i>♪ She was famous in proverb
+And famous in rhyme ♪</i>
+
+627
+00:40:21,710 --> 00:40:26,549
+<i>♪ A long while before
+Queen Victoria's accession ♪</i>
+
+628
+00:40:28,175 --> 00:40:33,264
+<i>♪ Old Deuteronomy's lived many lives ♪</i>
+
+629
+00:40:33,347 --> 00:40:38,602
+<i>♪ You know, I am tempted to say 99♪</i>
+
+630
+00:40:38,686 --> 00:40:44,984
+<i>♪ And her numerous progeny
+Prospers and thrives ♪</i>
+
+631
+00:40:45,067 --> 00:40:49,655
+<i>♪ And the village is proud of her
+In her decline ♪</i>
+
+632
+00:40:50,614 --> 00:40:55,744
+<i>♪ At the sight of that placid
+And bland physiognomy ♪</i>
+
+633
+00:40:55,828 --> 00:41:00,833
+<i>♪ When she sits in the sun ♪</i>
+
+634
+00:41:00,916 --> 00:41:03,252
+<i>♪ On the vicarage wall ♪</i>
+
+635
+00:41:03,752 --> 00:41:07,923
+<i>♪ The oldest inhabitant croaks ♪</i>
+
+636
+00:41:09,300 --> 00:41:14,305
+<i>♪ "Well, of all things ♪</i>
+
+637
+00:41:14,388 --> 00:41:17,057
+<i>♪ Can it be really? ♪</i>
+
+638
+00:41:17,141 --> 00:41:21,395
+<i>♪ Yes, no, ho, hi, oh, my eye! ♪</i>
+
+639
+00:41:22,438 --> 00:41:27,985
+<i>♪ My mind may be wandering but I confess ♪</i>
+
+640
+00:41:28,068 --> 00:41:32,698
+<i>♪ I believe it is Old Deuteronomy!" ♪</i>
+
+641
+00:41:33,324 --> 00:41:39,663
+<i>♪ Well, of all things, can it be really? ♪</i>
+
+642
+00:41:39,747 --> 00:41:44,293
+<i>♪ Yes, no, ho, hi, oh, my eye! ♪</i>
+
+643
+00:41:44,793 --> 00:41:50,758
+<i>♪ My mind may be wandering but I confess ♪</i>
+
+644
+00:41:50,841 --> 00:41:55,262
+<i>♪ I believe it is Old Deuteronomy! ♪</i>
+
+645
+00:41:55,346 --> 00:42:01,936
+<i>♪ Well, of all things, can it be really? ♪</i>
+
+646
+00:42:02,019 --> 00:42:06,774
+<i>♪ Yes, no, ho, hi, oh, my eye! ♪</i>
+
+647
+00:42:07,399 --> 00:42:12,613
+<i>♪ My mind may be wandering but I confess ♪</i>
+
+648
+00:42:13,197 --> 00:42:17,952
+<i>♪ I believe it is Old Deuteronomy! ♪</i>
+
+649
+00:42:18,035 --> 00:42:24,792
+<i>♪ Well, of all things, can it be really? ♪</i>
+
+650
+00:42:24,875 --> 00:42:30,673
+<i>♪ Yes, no, ho, hi, oh, my eye! ♪</i>
+
+651
+00:42:30,756 --> 00:42:36,345
+<i>♪ My legs may be tottery, I must go slow ♪</i>
+
+652
+00:42:36,428 --> 00:42:41,517
+<i>♪ And be careful of Old Deuteronomy ♪</i>
+
+653
+00:42:43,185 --> 00:42:46,522
+<i>♪ Jellicle cats meet once a year ♪</i>
+
+654
+00:42:46,605 --> 00:42:50,484
+<i>♪ On the night
+We make the Jellicle choice ♪</i>
+
+655
+00:42:50,568 --> 00:42:54,613
+<i>♪ And now the Jellicle leader is here ♪</i>
+
+656
+00:42:54,697 --> 00:42:58,784
+<i>♪ Jellicle cats can all rejoice! ♪</i>
+
+657
+00:42:58,867 --> 00:43:00,035
+-Who will it be?
+-Who will it be?
+
+658
+00:43:00,119 --> 00:43:01,120
+Who will it be?
+
+659
+00:43:01,704 --> 00:43:03,747
+-Who will it be?
+-Who will it be?
+
+660
+00:43:11,797 --> 00:43:13,924
+[dramatic music]
+
+661
+00:43:16,510 --> 00:43:19,305
+<i>♪ Jellicle cats come out tonight ♪</i>
+
+662
+00:43:19,388 --> 00:43:22,099
+<i>♪ Jellicle cats, come one, come all ♪</i>
+
+663
+00:43:22,182 --> 00:43:25,102
+<i>♪ The Jellicle moon is shining bright ♪</i>
+
+664
+00:43:25,185 --> 00:43:28,022
+<i>♪ Jellicles come to the Jellicle Ball ♪</i>
+
+665
+00:43:28,105 --> 00:43:30,774
+[Jellicles]
+<i>♪ Jellicle cats are black and white ♪</i>
+
+666
+00:43:30,858 --> 00:43:33,319
+<i>♪ Jellicle cats are rather small ♪</i>
+
+667
+00:43:33,402 --> 00:43:35,904
+<i>♪ Jellicle cats are merry and bright ♪</i>
+
+668
+00:43:35,988 --> 00:43:38,657
+<i>♪ And pleasant to hear
+When they caterwaul ♪</i>
+
+669
+00:43:38,741 --> 00:43:41,118
+-[yowls]
+-<i>♪ Jellicle cats have cheerful faces ♪</i>
+
+670
+00:43:41,201 --> 00:43:43,162
+<i>♪ Jellicle cats have bright, black eyes ♪</i>
+
+671
+00:43:43,245 --> 00:43:45,664
+<i>♪ We like to practice
+Our airs and graces ♪</i>
+
+672
+00:43:45,748 --> 00:43:47,958
+<i>♪ And wait for the Jellicle moon to rise ♪</i>
+
+673
+00:43:48,042 --> 00:43:50,461
+<i>-♪ Jellicle cats develop slowly ♪</i>
+-Meow, meow, meow, meow!
+
+674
+00:43:50,544 --> 00:43:53,047
+<i>♪ Jellicle cats are not too big ♪</i>
+
+675
+00:43:53,130 --> 00:43:55,132
+<i>♪ Jellicle cats are roly-poly ♪</i>
+
+676
+00:43:55,215 --> 00:43:57,635
+<i>♪ We know how to dance
+A gavotte and a jig ♪</i>
+
+677
+00:43:57,718 --> 00:44:00,137
+<i>♪ Until the Jellicle moon appears ♪</i>
+
+678
+00:44:00,220 --> 00:44:02,348
+<i>♪ We make our toilette
+And take our repose ♪</i>
+
+679
+00:44:02,431 --> 00:44:04,850
+<i>♪ Jellicles wash behind their ears ♪</i>
+
+680
+00:44:04,933 --> 00:44:07,394
+<i>♪ Jellicles dry between their toes ♪</i>
+
+681
+00:44:07,478 --> 00:44:09,605
+<i>♪ Jellicle cats are white and black ♪</i>
+
+682
+00:44:09,688 --> 00:44:12,024
+<i>♪ Jellicle cats are of moderate size ♪</i>
+
+683
+00:44:12,107 --> 00:44:14,193
+<i>♪ Jellicles jump like a jumping jack ♪</i>
+
+684
+00:44:14,276 --> 00:44:16,570
+<i>♪ Jellicle cats have moonlit eyes ♪</i>
+
+685
+00:44:16,654 --> 00:44:18,822
+<i>♪ Jellicle cats are black and white ♪</i>
+
+686
+00:44:18,906 --> 00:44:20,908
+<i>♪ Jellicle cats, as we said, are small ♪</i>
+
+687
+00:44:20,991 --> 00:44:23,285
+<i>♪ If it happens to be a stormy night ♪</i>
+
+688
+00:44:23,369 --> 00:44:25,537
+<i>♪ We will practice
+A caper or two in the hall ♪</i>
+
+689
+00:44:25,621 --> 00:44:27,706
+<i>♪ If it happens the sun
+Is shining bright ♪</i>
+
+690
+00:44:27,790 --> 00:44:30,125
+<i>♪ You would say
+We had nothing to do at all ♪</i>
+
+691
+00:44:30,209 --> 00:44:32,294
+<i>♪ We are resting
+And saving ourselves to be right ♪</i>
+
+692
+00:44:32,378 --> 00:44:34,880
+<i>♪ For the Jellicle moon
+And the Jellicle Ball! ♪</i>
+
+693
+00:44:34,963 --> 00:44:36,965
+<i>♪ Jellicle cats come out tonight! ♪</i>
+
+694
+00:44:37,049 --> 00:44:39,635
+<i>♪ Jellicle cats, come one, come all! ♪</i>
+
+695
+00:44:39,718 --> 00:44:42,179
+<i>♪ The Jellicle moon is shining bright ♪</i>
+
+696
+00:44:42,262 --> 00:44:46,642
+<i>♪ Jellicles come to the Jellicle Ball! ♪</i>
+
+697
+00:44:46,725 --> 00:44:50,771
+<i>♪ Jellicle cats come out tonight ♪</i>
+
+698
+00:44:50,854 --> 00:44:55,150
+<i>♪ Jellicle cats, come one, come all ♪</i>
+
+699
+00:44:55,234 --> 00:44:59,655
+<i>♪ The Jellicle moon is shining bright ♪</i>
+
+700
+00:44:59,738 --> 00:45:06,161
+<i>♪ Jellicles come to the Jellicle Ball ♪</i>
+
+701
+00:45:06,245 --> 00:45:07,413
+[gasps]
+
+702
+00:45:12,626 --> 00:45:13,460
+[rhythmic breathing]
+
+703
+00:45:13,544 --> 00:45:15,462
+[all purring]
+
+704
+00:45:19,133 --> 00:45:21,176
+[lively music]
+
+705
+00:45:22,761 --> 00:45:25,431
+[rhythmic breathing]
+
+706
+00:45:32,104 --> 00:45:33,480
+[gasping]
+
+707
+00:45:43,031 --> 00:45:45,367
+[lively music]
+
+708
+00:46:04,470 --> 00:46:06,472
+[lively music continues]
+
+709
+00:46:21,445 --> 00:46:24,031
+[light music]
+
+710
+00:47:07,950 --> 00:47:09,993
+[upbeat music]
+
+711
+00:47:16,083 --> 00:47:17,292
+It's party time!
+
+712
+00:47:18,001 --> 00:47:20,546
+With your permission, of course.
+
+713
+00:47:30,931 --> 00:47:33,016
+[upbeat music]
+
+714
+00:47:56,456 --> 00:47:58,000
+[hissing]
+
+715
+00:48:04,798 --> 00:48:07,676
+[both snarling]
+
+716
+00:48:40,375 --> 00:48:42,419
+[upbeat music]
+
+717
+00:49:15,661 --> 00:49:16,995
+[gasps]
+
+718
+00:49:19,915 --> 00:49:22,334
+[rhythmic breathing]
+
+719
+00:49:31,760 --> 00:49:33,970
+[distant howling]
+
+720
+00:49:43,480 --> 00:49:46,650
+[rhythmic breathing]
+
+721
+00:50:14,970 --> 00:50:17,848
+[all panting]
+
+722
+00:50:30,694 --> 00:50:32,738
+[somber music]
+
+723
+00:50:37,117 --> 00:50:39,661
+[pants]
+
+724
+00:50:43,457 --> 00:50:46,001
+<i>♪ Silence ♪</i>
+
+725
+00:50:47,294 --> 00:50:51,882
+<i>♪ Not a sound from the pavement ♪</i>
+
+726
+00:50:53,759 --> 00:50:58,472
+<i>♪ Has the moon lost her memory? ♪</i>
+
+727
+00:51:00,682 --> 00:51:05,312
+<i>♪ She is smiling alone ♪</i>
+
+728
+00:51:07,522 --> 00:51:10,942
+<i>♪ In the lamplight ♪</i>
+
+729
+00:51:11,026 --> 00:51:16,990
+<i>♪ The withered leaves collect at my feet ♪</i>
+
+730
+00:51:18,533 --> 00:51:22,829
+<i>♪ And the wind ♪</i>
+
+731
+00:51:23,622 --> 00:51:27,167
+<i>♪ Begins to moan ♪</i>
+
+732
+00:51:28,043 --> 00:51:34,674
+<i>♪ Every street lamp seems to beat ♪</i>
+
+733
+00:51:34,758 --> 00:51:41,306
+<i>♪ A fatalistic warning ♪</i>
+
+734
+00:51:42,641 --> 00:51:46,186
+<i>♪ Someone mutters ♪</i>
+
+735
+00:51:46,269 --> 00:51:50,232
+<i>♪ And the street lamp gutters ♪</i>
+
+736
+00:51:50,315 --> 00:51:54,528
+<i>♪ And soon it will ♪</i>
+
+737
+00:51:54,611 --> 00:51:59,699
+<i>♪ Be morning ♪</i>
+
+738
+00:52:03,036 --> 00:52:06,540
+<i>♪ Memory ♪</i>
+
+739
+00:52:06,623 --> 00:52:12,170
+<i>♪ All alone in the moonlight ♪</i>
+
+740
+00:52:12,254 --> 00:52:18,093
+<i>♪ I can smile at the old days ♪</i>
+
+741
+00:52:18,176 --> 00:52:22,722
+<i>♪ I was beautiful then ♪</i>
+
+742
+00:52:24,599 --> 00:52:29,896
+<i>♪ I remember the time ♪</i>
+
+743
+00:52:29,980 --> 00:52:36,069
+<i>♪ I knew what happiness was ♪</i>
+
+744
+00:52:37,445 --> 00:52:43,869
+<i>♪ Let the memory ♪</i>
+
+745
+00:52:44,786 --> 00:52:46,288
+<i>♪ Live... ♪</i>
+
+746
+00:52:48,665 --> 00:52:55,630
+<i>♪ Again ♪</i>
+
+747
+00:53:00,510 --> 00:53:02,846
+[tense music]
+
+748
+00:53:35,587 --> 00:53:37,422
+<i>♪ Follow me home ♪</i>
+
+749
+00:53:40,383 --> 00:53:42,844
+<i>♪ If you dare to ♪</i>
+
+750
+00:53:44,304 --> 00:53:46,389
+<i>♪ I wouldn't know ♪</i>
+
+751
+00:53:48,558 --> 00:53:51,645
+<i>♪ Where to lead you ♪</i>
+
+752
+00:53:52,729 --> 00:53:55,857
+<i>♪ Should I take chances ♪</i>
+
+753
+00:53:56,691 --> 00:53:59,945
+<i>♪ When no one took chances on me? ♪</i>
+
+754
+00:54:00,028 --> 00:54:02,238
+<i>♪ So I watch from the dark ♪</i>
+
+755
+00:54:02,322 --> 00:54:04,699
+<i>♪ Wait for my life to start ♪</i>
+
+756
+00:54:04,783 --> 00:54:08,453
+<i>♪ With no beauty in my memory ♪</i>
+
+757
+00:54:10,956 --> 00:54:13,291
+<i>♪ All that I wanted ♪</i>
+
+758
+00:54:14,876 --> 00:54:17,545
+<i>♪ Was to be wanted ♪</i>
+
+759
+00:54:19,130 --> 00:54:25,929
+<i>♪ Too young to wander London streets
+Alone and haunted ♪</i>
+
+760
+00:54:27,263 --> 00:54:29,474
+<i>♪ Born into nothing ♪</i>
+
+761
+00:54:30,850 --> 00:54:33,478
+<i>♪ At least you have something ♪</i>
+
+762
+00:54:34,854 --> 00:54:37,273
+<i>♪ Something to cling to ♪</i>
+
+763
+00:54:38,733 --> 00:54:41,111
+<i>♪ Visions of dazzling rooms ♪</i>
+
+764
+00:54:41,194 --> 00:54:45,240
+<i>♪ I'll never get let into ♪</i>
+
+765
+00:54:46,866 --> 00:54:51,037
+<i>♪ And the memories were lost long ago ♪</i>
+
+766
+00:54:53,748 --> 00:54:58,420
+<i>♪ But at least you have beautiful ghosts ♪</i>
+
+767
+00:55:00,380 --> 00:55:01,965
+<i>♪ And so maybe my home ♪</i>
+
+768
+00:55:02,048 --> 00:55:04,300
+<i>♪ Isn't what I had known ♪</i>
+
+769
+00:55:04,384 --> 00:55:06,886
+<i>♪ What I thought it would be ♪</i>
+
+770
+00:55:08,013 --> 00:55:12,142
+<i>♪ But I feel so alive
+With these phantoms of night ♪</i>
+
+771
+00:55:12,225 --> 00:55:15,061
+<i>♪ And I know that this life isn't safe ♪</i>
+
+772
+00:55:15,145 --> 00:55:18,398
+<i>♪ But it's wild and it's free ♪</i>
+
+773
+00:55:19,315 --> 00:55:21,776
+<i>♪ All that I wanted ♪</i>
+
+774
+00:55:23,361 --> 00:55:25,947
+<i>♪ Was to be wanted ♪</i>
+
+775
+00:55:27,240 --> 00:55:33,580
+<i>♪ I'll never wander London streets
+Alone and haunted ♪</i>
+
+776
+00:55:34,789 --> 00:55:37,292
+<i>♪ Born into nothing ♪</i>
+
+777
+00:55:38,084 --> 00:55:40,962
+<i>♪ With them I have something ♪</i>
+
+778
+00:55:42,172 --> 00:55:44,841
+<i>♪ Something to cling to ♪</i>
+
+779
+00:55:46,176 --> 00:55:52,974
+<i>♪ I never knew I'd love this world
+They let me into ♪</i>
+
+780
+00:55:54,559 --> 00:55:58,855
+<i>♪ And the memories were lost long ago ♪</i>
+
+781
+00:56:01,191 --> 00:56:05,945
+<i>♪ So I'll dance
+With these beautiful ghosts ♪</i>
+
+782
+00:56:08,490 --> 00:56:12,660
+<i>♪ The memories were lost long ago ♪</i>
+
+783
+00:56:15,413 --> 00:56:20,710
+<i>♪ So I'll dance with these beautiful ♪</i>
+
+784
+00:56:21,377 --> 00:56:24,422
+<i>♪ Ghosts ♪</i>
+
+785
+00:56:29,928 --> 00:56:33,264
+<i>♪ The moments of happiness ♪</i>
+
+786
+00:56:34,891 --> 00:56:39,813
+<i>♪ We had the experience
+But missed the meaning ♪</i>
+
+787
+00:56:39,896 --> 00:56:45,902
+<i>♪ And approach to the meaning
+Restores the experience ♪</i>
+
+788
+00:56:46,569 --> 00:56:48,738
+<i>♪ In a different form ♪</i>
+
+789
+00:56:49,572 --> 00:56:56,371
+<i>♪ Beyond any meaning
+We can assign to happiness ♪</i>
+
+790
+00:56:57,872 --> 00:57:03,461
+<i>♪ The past experience revived
+In the meaning ♪</i>
+
+791
+00:57:04,379 --> 00:57:10,260
+<i>♪ Is not the experience of one life only ♪</i>
+
+792
+00:57:10,760 --> 00:57:16,057
+<i>♪ But of many generations ♪</i>
+
+793
+00:57:18,226 --> 00:57:21,646
+<i>♪ Not forgetting something ♪</i>
+
+794
+00:57:21,729 --> 00:57:27,152
+<i>♪ That is probably quite ineffable ♪</i>
+
+795
+00:57:36,786 --> 00:57:38,329
+[Old Deuteronomy]
+Are you all right, my dear?
+
+796
+00:57:40,290 --> 00:57:41,708
+We haven't met before, have we?
+
+797
+00:57:43,168 --> 00:57:45,587
+No. I'm not from round here.
+
+798
+00:57:47,505 --> 00:57:48,339
+I was abandoned.
+
+799
+00:57:48,423 --> 00:57:50,091
+Oh, poor thing.
+
+800
+00:57:52,093 --> 00:57:54,721
+Would you like to see me
+make the Jellicle choice?
+
+801
+00:57:55,221 --> 00:57:57,849
+-Am I allowed?
+-Why wouldn't you be allowed?
+
+802
+00:57:57,932 --> 00:57:59,309
+I'm not a Jellicle.
+
+803
+00:57:59,392 --> 00:58:01,853
+Not yet, perhaps.
+
+804
+00:58:02,729 --> 00:58:04,898
+Come, we're about to begin.
+
+805
+00:58:06,983 --> 00:58:09,777
+[slurping]
+
+806
+00:58:13,698 --> 00:58:14,741
+Gus.
+
+807
+00:58:15,783 --> 00:58:17,160
+Gus, it's your call.
+
+808
+00:58:17,869 --> 00:58:18,745
+[exhales heavily]
+
+809
+00:58:19,370 --> 00:58:23,249
+I just wanted to wish you jolly good luck.
+
+810
+00:58:23,333 --> 00:58:25,418
+I'm a tremendous fan of your work.
+
+811
+00:58:25,502 --> 00:58:26,794
+Hmm.
+
+812
+00:58:27,545 --> 00:58:28,546
+What's your name?
+
+813
+00:58:28,630 --> 00:58:29,756
+Mr. Mistoffelees.
+
+814
+00:58:29,839 --> 00:58:31,758
+I'm a magic cat, you see.
+
+815
+00:58:31,841 --> 00:58:33,510
+Oh.
+
+816
+00:58:38,223 --> 00:58:39,474
+Do you ever get nervous?
+
+817
+00:58:39,557 --> 00:58:41,851
+No, no. It's all practice,
+practice, practice.
+
+818
+00:58:41,935 --> 00:58:43,561
+Then nothing can go wrong.
+
+819
+00:58:45,688 --> 00:58:46,564
+Touch wood.
+
+820
+00:58:57,075 --> 00:58:59,160
+I've never played The Egyptian before.
+
+821
+00:59:07,877 --> 00:59:10,630
+Gus the Theater Cat.
+
+822
+00:59:13,758 --> 00:59:14,884
+Cross paws.
+
+823
+00:59:25,853 --> 00:59:27,146
+Hmm.
+
+824
+00:59:29,232 --> 00:59:33,987
+<i>♪ Gus is the cat at the theater door ♪</i>
+
+825
+00:59:35,572 --> 00:59:39,659
+<i>♪ My name As I ought to
+Have told you before ♪</i>
+
+826
+00:59:39,742 --> 00:59:42,245
+<i>♪ Is really Asparagus ♪</i>
+
+827
+00:59:42,328 --> 00:59:45,415
+<i>♪ But that's such a fuss to pronounce ♪</i>
+
+828
+00:59:46,040 --> 00:59:49,961
+<i>♪ That they usually call me just Gus ♪</i>
+
+829
+00:59:52,171 --> 00:59:56,593
+<i>♪ My coat's very shabby
+I'm thin as a rake ♪</i>
+
+830
+00:59:57,468 --> 01:00:02,015
+<i>♪ And I suffer from palsy
+Which makes my paws shake ♪</i>
+
+831
+01:00:02,807 --> 01:00:07,729
+<i>♪ Yet I was, in my youth
+Quite the smartest of cats ♪</i>
+
+832
+01:00:07,812 --> 01:00:13,151
+<i>♪ Though no longer
+A terror to mice or to rats ♪</i>
+
+833
+01:00:14,027 --> 01:00:18,615
+<i>♪ For I'm not the cat
+That I was in my prime ♪</i>
+
+834
+01:00:18,698 --> 01:00:24,203
+<i>♪ Though my name was quite famous
+They say, in my time ♪</i>
+
+835
+01:00:24,287 --> 01:00:28,249
+<i>♪ And whenever I join my friends
+At their club ♪</i>
+
+836
+01:00:28,333 --> 01:00:32,920
+<i>♪ Which takes place at the back
+Of the neighboring pub ♪</i>
+
+837
+01:00:33,671 --> 01:00:38,676
+<i>♪ I love to regale them
+If someone else pays ♪</i>
+
+838
+01:00:39,427 --> 01:00:44,349
+<i>♪ With anecdotes drawn
+From my palmiest days ♪</i>
+
+839
+01:00:44,891 --> 01:00:50,563
+<i>♪ For I once was a star
+Of the highest degree ♪</i>
+
+840
+01:00:50,647 --> 01:00:54,025
+<i>♪ I have acted with Irving ♪</i>
+
+841
+01:00:54,651 --> 01:00:55,568
+[exhales deeply]
+
+842
+01:00:56,486 --> 01:00:58,821
+<i>♪ I've acted with Tree ♪</i>
+
+843
+01:01:01,115 --> 01:01:05,787
+<i>♪ And I like to recall
+My success on the halls ♪</i>
+
+844
+01:01:05,870 --> 01:01:10,917
+<i>♪ When the gallery
+Once gave me seven catcalls ♪</i>
+
+845
+01:01:12,293 --> 01:01:17,924
+<i>♪ But my grandest creation
+As I love to tell ♪</i>
+
+846
+01:01:18,508 --> 01:01:22,053
+<i>♪ Was Firefrorefiddle ♪</i>
+
+847
+01:01:22,637 --> 01:01:28,726
+<i>♪ The Fiend of the Fell ♪</i>
+
+848
+01:01:30,144 --> 01:01:31,479
+[screeches]
+
+849
+01:01:31,562 --> 01:01:38,194
+[laughing]
+Ah.
+
+850
+01:01:39,737 --> 01:01:43,491
+<i>♪ Then if someone
+Will give me a toothful of gin ♪</i>
+
+851
+01:01:43,574 --> 01:01:48,037
+<i>♪ I will tell how I once
+Played a part in East Lynne ♪</i>
+
+852
+01:01:48,121 --> 01:01:51,791
+<i>♪ In a Shakespeare performance
+I once walked on pat ♪</i>
+
+853
+01:01:51,874 --> 01:01:56,838
+<i>♪ When some actor
+Suggested the need for a cat ♪</i>
+
+854
+01:01:58,005 --> 01:02:03,428
+<i>♪ And I say now, these kittens
+They do not get trained ♪</i>
+
+855
+01:02:03,511 --> 01:02:08,266
+<i>♪ As we did in the days
+When Victoria reigned ♪</i>
+
+856
+01:02:08,349 --> 01:02:12,478
+<i>♪ They do not get drilled
+In a regular troupe ♪</i>
+
+857
+01:02:12,562 --> 01:02:17,024
+<i>♪ And they think it is smart
+Just to jump through a hoop ♪</i>
+
+858
+01:02:18,526 --> 01:02:23,489
+<i>♪ And I say, as I scratch myself
+With my claws ♪</i>
+
+859
+01:02:24,741 --> 01:02:29,620
+<i>♪ Well, the theater
+Is certainly not what it was ♪</i>
+
+860
+01:02:32,206 --> 01:02:36,502
+<i>♪ These modern productions
+Are all very well ♪</i>
+
+861
+01:02:36,586 --> 01:02:41,382
+<i>♪ But there's nothing to equal
+From what I hear tell ♪</i>
+
+862
+01:02:43,217 --> 01:02:46,637
+<i>♪ That moment of mystery ♪</i>
+
+863
+01:02:47,346 --> 01:02:51,934
+<i>♪ When I made history ♪</i>
+
+864
+01:02:53,561 --> 01:02:58,107
+<i>♪ As Firefrorefiddle ♪</i>
+
+865
+01:02:58,191 --> 01:03:05,198
+<i>-♪ The Fiend of the Fell ♪</i>
+-[thunderclap]
+
+866
+01:03:10,119 --> 01:03:14,123
+[music stops]
+
+867
+01:03:22,340 --> 01:03:25,218
+[all meowing]
+
+868
+01:03:31,432 --> 01:03:33,643
+I could do it again, you know.
+
+869
+01:03:39,857 --> 01:03:45,530
+[panting]
+
+870
+01:03:46,155 --> 01:03:49,784
+[Macavity] Bravo! Bravo, Gus.
+
+871
+01:03:49,867 --> 01:03:53,996
+Could I trouble you for an autograph, sir?
+[Macavity gasps]
+
+872
+01:03:54,080 --> 01:03:58,417
+To see Firefrorefiddle come alive tonight
+
+873
+01:03:58,501 --> 01:04:02,338
+was truly inspirational and scary.
+
+874
+01:04:04,590 --> 01:04:07,009
+Macavity!
+[laughing]
+
+875
+01:04:07,093 --> 01:04:08,803
+[Old Deuteronomy]
+The next contestant is...
+
+876
+01:04:09,387 --> 01:04:12,348
+Skimbleshanks the Railway Cat.
+
+877
+01:04:15,434 --> 01:04:20,064
+<i>♪ Skimbleshanks the Railway Cat ♪</i>
+
+878
+01:04:20,147 --> 01:04:25,027
+<i>♪ The Cat of the Railway Train ♪</i>
+
+879
+01:04:25,695 --> 01:04:28,865
+<i>♪ There's a whisper down the line
+At 11:39 ♪</i>
+
+880
+01:04:28,948 --> 01:04:31,742
+<i>♪ When the Night Mail's ready to depart ♪</i>
+
+881
+01:04:31,826 --> 01:04:33,828
+<i>♪ Saying, "Skimble, where is Skimble? ♪</i>
+
+882
+01:04:33,911 --> 01:04:35,371
+<i>♪ Has he gone to hunt the thimble? ♪</i>
+
+883
+01:04:35,454 --> 01:04:38,583
+<i>♪ We must find him
+Or the train can't start" ♪</i>
+
+884
+01:04:38,666 --> 01:04:40,334
+<i>♪ All the guards and all the porters ♪</i>
+
+885
+01:04:40,418 --> 01:04:41,794
+<i>♪ And the stationmaster's daughters ♪</i>
+
+886
+01:04:41,878 --> 01:04:45,131
+<i>♪ Would be searching high and low ♪</i>
+
+887
+01:04:45,214 --> 01:04:46,716
+<i>♪ Saying, "Skimble, where is Skimble? ♪</i>
+
+888
+01:04:46,799 --> 01:04:48,509
+<i>♪ For unless he's very nimble ♪</i>
+
+889
+01:04:48,593 --> 01:04:51,220
+<i>♪ Then the Night Mail just can't go" ♪</i>
+
+890
+01:04:51,804 --> 01:04:55,349
+<i>♪ At 11:42 with the signal overdue ♪</i>
+
+891
+01:04:55,433 --> 01:04:58,185
+<i>♪ And the passengers
+All frantic to a man ♪</i>
+
+892
+01:04:58,269 --> 01:04:59,770
+<i>♪ That's when I would appear ♪</i>
+
+893
+01:05:00,813 --> 01:05:03,482
+<i>♪ And I'd saunter to the rear ♪</i>
+
+894
+01:05:04,233 --> 01:05:09,155
+<i>♪ I'd been busy in the luggage van ♪</i>
+
+895
+01:05:09,238 --> 01:05:13,242
+<i>♪ Then he gives one flash
+Of his glass-green eyes ♪</i>
+
+896
+01:05:13,326 --> 01:05:15,620
+<i>♪ And the signal goes "All clear!" ♪</i>
+
+897
+01:05:16,746 --> 01:05:19,999
+<i>♪ And we're off at last
+For the northern part ♪</i>
+
+898
+01:05:20,082 --> 01:05:24,337
+<i>♪ Of the Northern Hemisphere ♪</i>
+
+899
+01:05:25,171 --> 01:05:27,173
+[whistle blows]
+
+900
+01:05:29,467 --> 01:05:34,889
+[rhythmic tapping]
+
+901
+01:05:50,821 --> 01:05:53,824
+[tapping intensifies]
+
+902
+01:06:05,670 --> 01:06:07,755
+[loud music]
+
+903
+01:06:21,686 --> 01:06:25,982
+<i>♪ Skimbleshanks the Railway Cat ♪</i>
+
+904
+01:06:26,065 --> 01:06:30,486
+<i>♪ Skimbleshanks the Railway Cat ♪</i>
+
+905
+01:06:30,569 --> 01:06:34,323
+<i>♪ Skimbleshanks, Skimbleshanks ♪</i>
+
+906
+01:06:34,407 --> 01:06:38,953
+<i>♪ Skimbleshanks the Railway Cat ♪</i>
+
+907
+01:06:39,036 --> 01:06:43,916
+<i>♪ The Cat of the Railway Train ♪</i>
+
+908
+01:06:44,000 --> 01:06:45,793
+<i>♪ You could say that by and large ♪</i>
+
+909
+01:06:45,876 --> 01:06:47,294
+<i>♪ It was me who was in charge ♪</i>
+
+910
+01:06:47,378 --> 01:06:50,381
+<i>♪ Of the Sleeping Car Express ♪</i>
+
+911
+01:06:50,464 --> 01:06:54,093
+<i>♪ From the driver and the guards
+To the bagmen playing cards ♪</i>
+
+912
+01:06:54,176 --> 01:06:57,346
+<i>♪ I would supervise them all
+More or less ♪</i>
+
+913
+01:06:57,430 --> 01:06:58,764
+<i>♪ I will watch you without winking ♪</i>
+
+914
+01:06:58,848 --> 01:07:00,850
+<i>♪ And I'll see what you are thinking ♪</i>
+
+915
+01:07:00,933 --> 01:07:03,853
+<i>♪ And it's certain
+That I wouldn't approve ♪</i>
+
+916
+01:07:03,936 --> 01:07:07,982
+<i>♪ Of hilarity and riot
+So the folk are very quiet ♪</i>
+
+917
+01:07:08,065 --> 01:07:12,570
+<i>♪ When Skimble is about and on the move ♪</i>
+
+918
+01:07:12,653 --> 01:07:16,574
+<i>♪ You can play no pranks
+With Skimbleshanks ♪</i>
+
+919
+01:07:16,657 --> 01:07:19,535
+<i>♪ I'm a cat that cannot be ignored ♪</i>
+
+920
+01:07:19,618 --> 01:07:22,997
+<i>♪ So nothing goes wrong
+On the Northern Mail ♪</i>
+
+921
+01:07:23,080 --> 01:07:25,708
+<i>♪ When Skimbleshanks is aboard ♪</i>
+
+922
+01:07:31,672 --> 01:07:34,759
+<i>♪ Oh, it's very pleasant
+When you've found your little den ♪</i>
+
+923
+01:07:34,842 --> 01:07:37,011
+<i>♪ With your name written up on the door ♪</i>
+
+924
+01:07:37,094 --> 01:07:37,928
+[Jellicles] Whoo-whoo!
+
+925
+01:07:38,012 --> 01:07:40,931
+<i>♪ And the berth is very neat
+With a newly folded sheet ♪</i>
+
+926
+01:07:41,015 --> 01:07:43,893
+<i>♪ And there's not a speck of dust
+On the floor ♪</i>
+
+927
+01:07:44,435 --> 01:07:46,145
+<i>♪ Then the guard looks in politely ♪</i>
+
+928
+01:07:46,228 --> 01:07:49,315
+<i>♪ And will ask you very brightly
+"Do you like your morning tea..." ♪</i>
+
+929
+01:07:49,398 --> 01:07:50,941
+<i>♪ "Weak or strong?" ♪</i>
+
+930
+01:07:51,442 --> 01:07:54,945
+<i>♪ But I was just behind him
+And was ready to remind him ♪</i>
+
+931
+01:07:55,029 --> 01:07:59,867
+<i>♪ For Skimble
+Won't let anything go wrong ♪</i>
+
+932
+01:07:59,950 --> 01:08:03,621
+<i>♪ When you creep into your cozy berths ♪</i>
+
+933
+01:08:03,704 --> 01:08:07,166
+<i>♪ And pull up the counterpane ♪</i>
+
+934
+01:08:07,249 --> 01:08:10,211
+<i>♪ You ought to reflect
+That it's very nice ♪</i>
+
+935
+01:08:10,294 --> 01:08:12,880
+<i>♪ To know that you
+Won't be bothered by mice ♪</i>
+
+936
+01:08:12,963 --> 01:08:14,131
+Skimble! Aah!
+
+937
+01:08:14,215 --> 01:08:16,675
+<i>♪ You can leave all that
+To the Railway Cat ♪</i>
+
+938
+01:08:16,759 --> 01:08:18,719
+<i>♪ The Cat of the Railway Train ♪</i>
+
+939
+01:08:18,803 --> 01:08:19,637
+Cats!
+
+940
+01:08:19,720 --> 01:08:24,558
+<i>-♪ Skimbleshanks the Railway Cat ♪
+-♪ Skimbleshanks ♪</i>
+
+941
+01:08:24,642 --> 01:08:29,188
+<i>♪ The Cat of the Railway Train ♪</i>
+
+942
+01:08:29,271 --> 01:08:32,900
+<i>♪ And he gives you a wave
+Of his long brown tail ♪</i>
+
+943
+01:08:32,983 --> 01:08:35,945
+<i>♪ Which says, "I'll see you again" ♪</i>
+
+944
+01:08:36,028 --> 01:08:40,658
+<i>♪ You will meet without fail
+On the Midnight Mail ♪</i>
+
+945
+01:08:40,741 --> 01:08:47,706
+<i>♪ The Cat of the Railway Train ♪</i>
+
+946
+01:08:48,415 --> 01:08:50,167
+[yelps]
+
+947
+01:08:59,093 --> 01:09:03,222
+[Macavity laughing]
+
+948
+01:09:06,350 --> 01:09:07,685
+Macavity.
+
+949
+01:09:10,271 --> 01:09:12,273
+[funky music]
+
+950
+01:09:36,839 --> 01:09:42,344
+<i>♪ Macavity's a mystery cat
+He's called "the Hidden Paw" ♪</i>
+
+951
+01:09:42,845 --> 01:09:48,184
+<i>♪ For he's the master criminal
+Who can defy the law ♪</i>
+
+952
+01:09:48,767 --> 01:09:55,149
+<i>♪ He's the bafflement of Scotland Yard
+The Flying Squad's despair ♪</i>
+
+953
+01:09:55,649 --> 01:10:01,530
+<i>♪ For when they reach the scene of crime
+Macavity's not there! ♪</i>
+
+954
+01:10:07,620 --> 01:10:10,456
+[dust rattling]
+
+955
+01:10:14,585 --> 01:10:20,674
+<i>♪ Macavity, Macavity
+There's no one like Macavity ♪</i>
+
+956
+01:10:20,758 --> 01:10:27,139
+<i>♪ He's broken every human law
+He breaks the law of gravity ♪</i>
+
+957
+01:10:27,223 --> 01:10:33,562
+<i>♪ His powers of levitation
+Would make a fakir stare ♪</i>
+
+958
+01:10:33,646 --> 01:10:38,984
+<i>♪ But when they reach the scene of crime
+Macavity's not there! ♪</i>
+
+959
+01:10:39,068 --> 01:10:40,069
+[tinkles]
+
+960
+01:10:40,152 --> 01:10:45,324
+<i>♪ Macavity's a ginger cat
+He's very tall and thin ♪</i>
+
+961
+01:10:45,950 --> 01:10:51,121
+<i>♪ You would know him if you saw him
+For his eyes are sunken in ♪</i>
+
+962
+01:10:52,373 --> 01:10:58,337
+<i>♪ His brow is deeply lined with thought
+His head is highly domed ♪</i>
+
+963
+01:10:58,420 --> 01:11:04,510
+<i>♪ His coat is dusty from neglect
+His whiskers are uncombed ♪</i>
+
+964
+01:11:04,593 --> 01:11:10,432
+<i>♪ He sways his head from side to side
+With movements like a snake ♪</i>
+
+965
+01:11:10,516 --> 01:11:16,730
+<i>♪ And when you think he's half asleep
+He's always wide awake! ♪</i>
+
+966
+01:11:16,814 --> 01:11:22,611
+<i>♪ Macavity, Macavity
+There's no one like Macavity ♪</i>
+
+967
+01:11:22,695 --> 01:11:28,575
+<i>♪ For he's a fiend in feline shape
+A monster of depravity ♪</i>
+
+968
+01:11:28,659 --> 01:11:34,873
+<i>♪ You may meet him in a bystreet
+You may see him in the square ♪</i>
+
+969
+01:11:34,957 --> 01:11:40,796
+<i>♪ But when a crime's discovered
+Then Macavity's not there! ♪</i>
+
+970
+01:11:41,297 --> 01:11:47,261
+<i>♪ He's outwardly respectable ♪</i>
+
+971
+01:11:47,344 --> 01:11:51,849
+<i>♪ I know he cheats at cards ♪</i>
+
+972
+01:11:53,058 --> 01:11:57,062
+<i> ♪ And his footprints are not found ♪</i>
+
+973
+01:11:57,146 --> 01:12:03,652
+<i>♪ In any files of Scotland Yard's ♪</i>
+
+974
+01:12:05,612 --> 01:12:11,493
+<i>♪ And when the larder's looted
+And the jewel case is rifled ♪</i>
+
+975
+01:12:11,577 --> 01:12:16,999
+<i>♪ Or when the milk is missing
+Or another Peke's been stifled ♪</i>
+
+976
+01:12:17,082 --> 01:12:21,462
+<i>-♪ Or the greenhouse glass is broken ♪</i>
+-[glass shatters]
+
+977
+01:12:21,545 --> 01:12:25,090
+<i>♪ And the trellis past repair ♪</i>
+
+978
+01:12:25,174 --> 01:12:31,263
+<i>♪ There's the wonder of the thing!
+Macavity's not there! ♪</i>
+
+979
+01:12:34,308 --> 01:12:39,980
+<i>♪ Macavity, Macavity
+There's no one like Macavity ♪</i>
+
+980
+01:12:40,064 --> 01:12:46,362
+<i>♪ There never was a cat
+Of such deceitfulness and suavity ♪</i>
+
+981
+01:12:46,445 --> 01:12:52,117
+<i>♪ He always has an alibi
+And one or two to spare ♪</i>
+
+982
+01:12:52,743 --> 01:12:58,040
+<i>♪ Whatever time the deed took place
+Macavity wasn't there! ♪</i>
+
+983
+01:12:58,123 --> 01:13:04,463
+<i>♪ And they say that all the cats
+Whose wicked deeds are widely known ♪</i>
+
+984
+01:13:04,546 --> 01:13:10,886
+<i>♪ I might mention Mungojerrie
+Rumpleteazer, Griddlebone ♪</i>
+
+985
+01:13:10,969 --> 01:13:16,475
+<i>♪ Are nothing more than agents
+For the cat who all the time ♪</i>
+
+986
+01:13:16,975 --> 01:13:20,104
+<i>♪ Just controls the operations ♪</i>
+
+987
+01:13:20,187 --> 01:13:23,524
+[Macavity] The Napoleon of crime!
+
+988
+01:13:24,691 --> 01:13:29,571
+[laughing]
+Mwah!
+
+989
+01:13:29,655 --> 01:13:36,286
+<i>♪ Macavity, Macavity
+There's no one like Macavity ♪</i>
+
+990
+01:13:36,370 --> 01:13:41,875
+<i>♪ He's a fiend in feline shape
+A monster of depravity ♪</i>
+
+991
+01:13:41,959 --> 01:13:47,297
+<i>♪ You may meet him in a bystreet
+You may see him in the square ♪</i>
+
+992
+01:13:48,507 --> 01:13:51,301
+<i>♪ But when a crime's discovered, then... ♪</i>
+
+993
+01:13:51,385 --> 01:13:54,138
+<i>♪ Macavity ♪</i>
+
+994
+01:13:54,221 --> 01:13:57,474
+<i>♪ Macavity ♪</i>
+
+995
+01:13:57,558 --> 01:13:59,518
+<i>♪ Macavity! ♪</i>
+
+996
+01:14:00,811 --> 01:14:04,440
+<i>♪ Macavity ♪</i>
+
+997
+01:14:09,945 --> 01:14:12,614
+<i>♪ When a crime's discovered, then... ♪</i>
+
+998
+01:14:12,698 --> 01:14:15,200
+<i>♪ Macavity's not there! ♪</i>
+
+999
+01:14:15,284 --> 01:14:18,245
+[Macavity] Aha! Yes!
+
+1000
+01:14:21,373 --> 01:14:24,126
+The time has come
+to make the Jellicle choice.
+
+1001
+01:14:27,546 --> 01:14:30,090
+Old Deuteronomy, if you would.
+
+1002
+01:14:32,843 --> 01:14:36,805
+As I am the only contestant left.
+
+1003
+01:14:39,308 --> 01:14:40,976
+And, quite obviously, the best.
+
+1004
+01:14:44,646 --> 01:14:45,564
+And so...
+
+1005
+01:14:47,149 --> 01:14:47,983
+Never.
+
+1006
+01:14:50,360 --> 01:14:52,070
+[blows air]
+
+1007
+01:14:52,154 --> 01:14:56,366
+I choose the cat that deserves a new life.
+
+1008
+01:14:57,451 --> 01:14:59,495
+I judge a cat by its soul.
+
+1009
+01:14:59,578 --> 01:15:02,873
+-He's got soul.
+-I've got plenty of soul.
+
+1010
+01:15:02,956 --> 01:15:04,166
+You're a cheat, Macavity.
+
+1011
+01:15:05,292 --> 01:15:06,543
+[Macavity yells]
+
+1012
+01:15:08,545 --> 01:15:11,298
+[all panting]
+
+1013
+01:15:11,882 --> 01:15:13,091
+Oh!
+
+1014
+01:15:14,343 --> 01:15:16,553
+[ominous music]
+
+1015
+01:15:17,137 --> 01:15:18,680
+[snickering]
+
+1016
+01:15:22,559 --> 01:15:24,478
+[grunting]
+
+1017
+01:15:28,315 --> 01:15:29,691
+Deuteronomy...
+
+1018
+01:15:29,775 --> 01:15:32,819
+-I am going to the Heaviside Layer.
+-Ah!
+
+1019
+01:15:32,903 --> 01:15:35,739
+I demand that you grant me another life.
+
+1020
+01:15:35,822 --> 01:15:38,450
+You will never go to the Heaviside Layer.
+
+1021
+01:15:38,534 --> 01:15:40,536
+Oh. We'll see about that.
+
+1022
+01:15:41,036 --> 01:15:44,206
+Growltiger, make her walk the plank.
+
+1023
+01:15:44,790 --> 01:15:45,666
+-[hisses]
+-[gasps]
+
+1024
+01:15:45,749 --> 01:15:48,544
+-[Macavity chuckles]
+-[gasps]
+
+1025
+01:15:51,922 --> 01:15:53,757
+-Say it's me...
+-[Old Deuteronomy] Oh!
+
+1026
+01:15:53,840 --> 01:15:55,842
+...or you'll drown in that river.
+
+1027
+01:15:55,926 --> 01:15:57,886
+[Old Deuteronomy]
+You'll never be my Jellicle choice!
+
+1028
+01:15:57,970 --> 01:16:00,889
+-[Macavity] This is your last chance.
+-Oh! Never!
+
+1029
+01:16:04,351 --> 01:16:05,602
+Where is Old Deuteronomy?
+
+1030
+01:16:09,523 --> 01:16:10,649
+Where is she?
+
+1031
+01:16:12,693 --> 01:16:13,860
+We don't know.
+
+1032
+01:16:13,944 --> 01:16:15,445
+[hisses]
+Where is she?
+
+1033
+01:16:15,529 --> 01:16:16,863
+Look, it was only a bit of fun.
+
+1034
+01:16:16,947 --> 01:16:19,199
+We didn't know he was gonna take Old Deut.
+
+1035
+01:16:24,580 --> 01:16:26,331
+There must be something we can do.
+
+1036
+01:16:26,415 --> 01:16:28,333
+[Cassandra] We can't just magic her back.
+
+1037
+01:16:28,417 --> 01:16:29,793
+[Victoria] Yes, we can!
+
+1038
+01:16:35,549 --> 01:16:36,758
+Yes, we can.
+
+1039
+01:16:44,349 --> 01:16:45,851
+You're a magician.
+
+1040
+01:16:48,478 --> 01:16:50,647
+-What?
+-[Munkustrap] It's not a bad idea.
+
+1041
+01:16:51,231 --> 01:16:52,316
+Might be worth a try.
+
+1042
+01:16:52,399 --> 01:16:54,067
+Really, I can't.
+
+1043
+01:16:54,151 --> 01:16:55,319
+You could try.
+
+1044
+01:17:03,368 --> 01:17:04,453
+Good luck.
+
+1045
+01:17:04,536 --> 01:17:09,166
+[breathing shakily]
+
+1046
+01:17:13,962 --> 01:17:15,088
+You can do it.
+
+1047
+01:17:19,468 --> 01:17:20,302
+Cross paws.
+
+1048
+01:17:22,054 --> 01:17:24,222
+-Can we get a spotlight?
+-Please, don't make me do this.
+
+1049
+01:17:24,306 --> 01:17:25,641
+And a drumroll, please.
+
+1050
+01:17:25,724 --> 01:17:27,100
+[drumroll]
+
+1051
+01:17:27,184 --> 01:17:30,937
+<i>♪ The greatest magicians
+Have something to learn ♪</i>
+
+1052
+01:17:31,855 --> 01:17:37,027
+<i>♪ From Mr. Mistoffelees' conjuring turn ♪</i>
+
+1053
+01:17:39,780 --> 01:17:41,990
+<i>♪ And we all say ♪</i>
+
+1054
+01:17:42,824 --> 01:17:45,327
+<i>♪ Oh! Well, I never ♪</i>
+
+1055
+01:17:45,410 --> 01:17:49,122
+<i>♪ Was there ever a cat so clever ♪</i>
+
+1056
+01:17:49,206 --> 01:17:55,253
+<i>♪ As magical Mr. Mistoffelees? ♪</i>
+
+1057
+01:17:59,174 --> 01:18:02,719
+<i>♪ I'm quiet and small, I am black ♪</i>
+
+1058
+01:18:02,803 --> 01:18:05,263
+<i>♪ From my ears to the tip of my tail ♪</i>
+
+1059
+01:18:05,764 --> 01:18:08,308
+<i>♪ I can creep through the tiniest crack ♪</i>
+
+1060
+01:18:08,934 --> 01:18:11,520
+<i>♪ I can walk on the narrowest rail ♪</i>
+
+1061
+01:18:12,020 --> 01:18:14,481
+<i>♪ I can pick any card from a pack ♪</i>
+
+1062
+01:18:15,065 --> 01:18:18,026
+<i>♪ I am equally cunning with dice ♪</i>
+
+1063
+01:18:18,110 --> 01:18:20,779
+<i>♪ I am always deceiving you
+Into believing ♪</i>
+
+1064
+01:18:20,862 --> 01:18:23,073
+<i>♪ That you're only hunting for mice ♪</i>
+
+1065
+01:18:23,949 --> 01:18:26,535
+<i>♪ I can play any trick with a cork ♪</i>
+
+1066
+01:18:27,077 --> 01:18:29,079
+<i>♪ Or a spoon and a bit of fish paste ♪</i>
+
+1067
+01:18:29,996 --> 01:18:32,624
+<i>♪ If you look for a knife or a fork ♪</i>
+
+1068
+01:18:33,166 --> 01:18:35,585
+<i>♪ And you think it is merely misplaced ♪</i>
+
+1069
+01:18:36,128 --> 01:18:39,548
+<i>♪ You have seen it one moment
+And then it is gone ♪</i>
+
+1070
+01:18:39,631 --> 01:18:44,594
+<i>♪ But you find it next week
+Lying out on the lawn! ♪</i>
+
+1071
+01:18:44,678 --> 01:18:47,097
+<i>♪ And we all say ♪</i>
+
+1072
+01:18:47,180 --> 01:18:49,683
+<i>♪ Oh! Well, I never ♪</i>
+
+1073
+01:18:49,766 --> 01:18:52,936
+<i>♪ Was there ever a cat so clever ♪</i>
+
+1074
+01:18:53,019 --> 01:18:58,442
+<i>♪ As magical Mr. Mistoffelees? ♪</i>
+
+1075
+01:19:00,235 --> 01:19:01,153
+[grunts]
+
+1076
+01:19:04,489 --> 01:19:05,532
+You can do this.
+
+1077
+01:19:08,785 --> 01:19:09,828
+[chuckles]
+
+1078
+01:19:12,205 --> 01:19:14,916
+<i>♪ My manner is vague and aloof ♪</i>
+
+1079
+01:19:15,417 --> 01:19:17,961
+<i>♪ You would think there was nobody shyer ♪</i>
+
+1080
+01:19:18,044 --> 01:19:20,881
+<i>♪ But my voice has been heard
+On the roof ♪</i>
+
+1081
+01:19:20,964 --> 01:19:23,550
+<i>♪ When I was curled up by the fire ♪</i>
+
+1082
+01:19:23,633 --> 01:19:26,887
+<i>♪ And I've sometimes been heard
+By the fire ♪</i>
+
+1083
+01:19:26,970 --> 01:19:29,723
+<i>♪ When I was about on the roof ♪</i>
+
+1084
+01:19:29,806 --> 01:19:32,392
+<i>♪ At least they all heard
+That somebody purred ♪</i>
+
+1085
+01:19:32,476 --> 01:19:34,686
+<i>♪ Which is incontestable proof ♪</i>
+
+1086
+01:19:35,395 --> 01:19:37,981
+<i>♪ Of my singular magical powers ♪</i>
+
+1087
+01:19:38,064 --> 01:19:40,650
+<i>♪ And I've known the family to call ♪</i>
+
+1088
+01:19:40,734 --> 01:19:43,653
+<i>♪ Me in from the garden for hours ♪</i>
+
+1089
+01:19:43,737 --> 01:19:46,156
+<i>♪ When I was asleep in the hall ♪</i>
+
+1090
+01:19:46,823 --> 01:19:49,951
+<i>♪ And not long ago this phenomenal cat ♪</i>
+
+1091
+01:19:50,035 --> 01:19:55,540
+<i>♪ Produced seven kittens
+Right out of a hat! ♪</i>
+
+1092
+01:19:55,624 --> 01:19:59,211
+[mouse] What? Mr. Mistoffelees? My hero!
+
+1093
+01:19:59,920 --> 01:20:00,962
+-Oh.
+-Don't go!
+
+1094
+01:20:01,046 --> 01:20:02,255
+-Oh, no!
+-I'm falling!
+
+1095
+01:20:02,339 --> 01:20:04,758
+<i>-♪ And they all say ♪</i>
+-Oh, gosh! Run!
+
+1096
+01:20:04,841 --> 01:20:06,885
+<i>♪ Oh! Well, I never ♪</i>
+
+1097
+01:20:06,968 --> 01:20:10,388
+<i>♪ Was there ever a cat so clever ♪</i>
+
+1098
+01:20:10,472 --> 01:20:16,603
+<i>♪ As magical Mr. Mistoffelees? ♪</i>
+
+1099
+01:20:16,686 --> 01:20:18,230
+[sucks teeth, grunts]
+
+1100
+01:20:22,567 --> 01:20:25,278
+<i>♪ Oh! Well, I never ♪</i>
+
+1101
+01:20:25,362 --> 01:20:28,698
+<i>♪ Was there ever a cat so clever ♪</i>
+
+1102
+01:20:28,782 --> 01:20:34,830
+<i>♪ As magical Mr. Mistoffelees? ♪</i>
+
+1103
+01:20:34,913 --> 01:20:36,039
+Please.
+
+1104
+01:20:37,332 --> 01:20:38,583
+[grunts]
+
+1105
+01:20:41,878 --> 01:20:43,296
+[whimpers]
+
+1106
+01:20:57,018 --> 01:20:59,604
+[Victoria]<i> ♪ Oh! Well, I never ♪</i>
+
+1107
+01:20:59,688 --> 01:21:04,359
+<i>♪ Was there ever a cat so clever ♪</i>
+
+1108
+01:21:04,442 --> 01:21:08,738
+<i>♪ As magical Mr. Mistoffelees? ♪</i>
+
+1109
+01:21:08,822 --> 01:21:10,991
+<i>♪ And we all say ♪</i>
+
+1110
+01:21:11,074 --> 01:21:13,159
+<i>♪ Oh! Well, I never ♪</i>
+
+1111
+01:21:13,243 --> 01:21:16,454
+<i>♪ Was there ever a cat so clever ♪</i>
+
+1112
+01:21:16,538 --> 01:21:22,294
+<i>♪ As magical Mr. Mistoffelees? ♪</i>
+
+1113
+01:21:23,295 --> 01:21:25,213
+<i>♪ Oh! Well, I never ♪</i>
+
+1114
+01:21:25,297 --> 01:21:28,800
+<i>♪ Was there ever a cat so clever ♪</i>
+
+1115
+01:21:28,884 --> 01:21:34,764
+<i>♪ As magical Mr. Mistoffelees? ♪</i>
+
+1116
+01:21:34,848 --> 01:21:36,975
+<i>♪ Oh! Well, I never ♪</i>
+
+1117
+01:21:37,058 --> 01:21:40,687
+<i>♪ Was there ever a cat so clever ♪</i>
+
+1118
+01:21:40,770 --> 01:21:47,736
+<i>♪ As magical Mr. Mistoffelees? ♪</i>
+
+1119
+01:21:50,989 --> 01:21:51,990
+[grunts]
+
+1120
+01:22:02,959 --> 01:22:06,671
+[Old Deuteronomy] <i>♪ Oh! Well, I never ♪</i>
+
+1121
+01:22:07,339 --> 01:22:12,677
+<i>♪ Was there ever a cat so clever ♪</i>
+
+1122
+01:22:13,845 --> 01:22:20,810
+<i>♪ As magical Mr. Mistoffelees? ♪</i>
+
+1123
+01:22:22,187 --> 01:22:24,147
+<i>♪ And we all say ♪</i>
+
+1124
+01:22:24,230 --> 01:22:26,524
+<i>♪ Oh! Well, I never ♪</i>
+
+1125
+01:22:26,608 --> 01:22:29,694
+<i>♪ Was there ever a cat so clever ♪</i>
+
+1126
+01:22:29,778 --> 01:22:35,075
+<i>♪ As magical Mr. Mistoffelees? ♪</i>
+
+1127
+01:22:35,742 --> 01:22:38,161
+<i>♪ Oh! Well, I never ♪</i>
+
+1128
+01:22:38,244 --> 01:22:40,956
+<i>♪ Was there ever a cat so clever ♪</i>
+
+1129
+01:22:41,039 --> 01:22:46,044
+<i>♪ As magical Mr. Mistoffelees? ♪</i>
+
+1130
+01:22:47,212 --> 01:22:49,297
+<i>♪ Oh! Well, I never ♪</i>
+
+1131
+01:22:49,381 --> 01:22:52,801
+<i>♪ Was there ever a cat so clever ♪</i>
+
+1132
+01:22:52,884 --> 01:22:58,473
+<i>♪ As magical Mr. Mistoffelees? ♪</i>
+
+1133
+01:22:58,556 --> 01:23:00,767
+<i>♪ Oh! Well, I never ♪</i>
+
+1134
+01:23:00,850 --> 01:23:04,104
+<i>♪ Was there ever a cat so clever ♪</i>
+
+1135
+01:23:04,187 --> 01:23:07,816
+<i>-♪ As magical Mr. Mistoffelees? ♪
+-♪ So clever ♪</i>
+
+1136
+01:23:07,899 --> 01:23:10,568
+<i>-♪ As you ♪
+-♪ As me ♪</i>
+
+1137
+01:23:10,652 --> 01:23:12,153
+<i>♪ Oh! Well, I never ♪</i>
+
+1138
+01:23:12,237 --> 01:23:15,073
+<i>♪ Was there ever a cat so clever ♪</i>
+
+1139
+01:23:15,156 --> 01:23:21,204
+<i>♪ As magical Mr. Mistoffelees? ♪</i>
+
+1140
+01:23:21,287 --> 01:23:26,835
+Ladies and gentlemen, I give you
+the marvelous, magical Mr. Mistoffelees!
+
+1141
+01:23:34,050 --> 01:23:36,302
+[cheering, meowing]
+
+1142
+01:23:50,942 --> 01:23:52,652
+[Macavity] She's tricked me.
+
+1143
+01:23:52,736 --> 01:23:54,195
+I will get there.
+
+1144
+01:23:54,779 --> 01:23:55,989
+I will get to the Heaviside Layer.
+
+1145
+01:23:56,072 --> 01:23:58,867
+I will win! You'll all see!
+
+1146
+01:23:58,950 --> 01:24:00,952
+-[Jennyanydots whimpers]
+-[growls]
+
+1147
+01:24:01,036 --> 01:24:02,454
+Come with me!
+
+1148
+01:24:03,246 --> 01:24:04,414
+[Macavity] Meow!
+
+1149
+01:24:04,497 --> 01:24:06,499
+[suspenseful music]
+
+1150
+01:24:10,920 --> 01:24:12,005
+[grunting]
+
+1151
+01:24:15,633 --> 01:24:16,885
+[hissing]
+
+1152
+01:24:16,968 --> 01:24:20,263
+[yelling]
+
+1153
+01:24:20,346 --> 01:24:21,681
+[groans]
+
+1154
+01:24:21,765 --> 01:24:24,768
+[grunts, pants]
+
+1155
+01:24:24,851 --> 01:24:27,145
+Don't mess with the crazy cat lady.
+
+1156
+01:24:27,228 --> 01:24:29,355
+[shouting]
+
+1157
+01:24:29,439 --> 01:24:30,607
+Oh!
+
+1158
+01:24:32,734 --> 01:24:34,486
+[retches]
+
+1159
+01:24:40,158 --> 01:24:43,161
+-[yowls]
+-Firefrorefiddle!
+
+1160
+01:24:45,663 --> 01:24:46,956
+[Jennyanydots] Gus!
+
+1161
+01:24:47,540 --> 01:24:49,542
+[ominous music]
+
+1162
+01:24:51,503 --> 01:24:57,926
+<i>♪ The Fiend of the Fell! ♪</i>
+
+1163
+01:25:00,678 --> 01:25:01,846
+Meow!
+
+1164
+01:25:04,099 --> 01:25:05,433
+[Jennyanydots] Oh, you fiend.
+
+1165
+01:25:23,076 --> 01:25:25,203
+<i>♪ Daylight ♪</i>
+
+1166
+01:25:25,286 --> 01:25:29,916
+<i>♪ See the dew on a sunflower ♪</i>
+
+1167
+01:25:30,500 --> 01:25:34,420
+<i>♪ And a rose that is fading ♪</i>
+
+1168
+01:25:35,338 --> 01:25:38,550
+<i>♪ Roses wither away ♪</i>
+
+1169
+01:25:41,052 --> 01:25:43,930
+<i>♪ Like the sunflower ♪</i>
+
+1170
+01:25:44,013 --> 01:25:49,018
+<i>♪ I yearn to turn my face to the dawn ♪</i>
+
+1171
+01:25:50,061 --> 01:25:54,357
+<i>♪ I am waiting ♪</i>
+
+1172
+01:25:54,858 --> 01:25:57,861
+<i>♪ For the day ♪</i>
+
+1173
+01:26:25,597 --> 01:26:27,891
+[somber music]
+
+1174
+01:26:49,662 --> 01:26:50,788
+[hisses]
+
+1175
+01:27:14,103 --> 01:27:15,104
+Sing.
+
+1176
+01:27:39,629 --> 01:27:42,715
+<i>♪ Memory ♪</i>
+
+1177
+01:27:43,549 --> 01:27:48,763
+<i>♪ Turn your face to the moonlight ♪</i>
+
+1178
+01:27:49,597 --> 01:27:54,519
+<i>♪ Let your memory lead you ♪</i>
+
+1179
+01:27:55,186 --> 01:27:59,899
+<i>♪ Open up, enter in ♪</i>
+
+1180
+01:28:01,401 --> 01:28:04,821
+<i>♪ If you find there ♪</i>
+
+1181
+01:28:04,904 --> 01:28:10,493
+<i>♪ The meaning of what happiness is ♪</i>
+
+1182
+01:28:11,786 --> 01:28:15,999
+<i>♪ Then a new life ♪</i>
+
+1183
+01:28:17,375 --> 01:28:20,295
+<i>♪ Will begin ♪</i>
+
+1184
+01:28:21,921 --> 01:28:25,133
+<i>♪ Memory ♪</i>
+
+1185
+01:28:25,216 --> 01:28:30,096
+<i>♪ All alone in the moonlight ♪</i>
+
+1186
+01:28:30,805 --> 01:28:36,019
+<i>♪ I can smile at the old days ♪</i>
+
+1187
+01:28:36,102 --> 01:28:39,605
+<i>♪ I was beautiful then ♪</i>
+
+1188
+01:28:41,524 --> 01:28:45,945
+<i>♪ I remember the time ♪</i>
+
+1189
+01:28:46,029 --> 01:28:49,949
+<i>♪ I knew what happiness was ♪</i>
+
+1190
+01:28:51,451 --> 01:28:55,079
+<i>♪ Let the memory ♪</i>
+
+1191
+01:28:56,289 --> 01:28:58,750
+<i>♪ Live again ♪</i>
+
+1192
+01:28:59,959 --> 01:29:06,966
+<i>♪ Burnt-out ends of smoky days ♪</i>
+
+1193
+01:29:07,467 --> 01:29:13,097
+<i>♪ The stale, cold smell of morning ♪</i>
+
+1194
+01:29:14,390 --> 01:29:17,101
+<i>♪ The street lamp dies ♪</i>
+
+1195
+01:29:17,185 --> 01:29:21,606
+<i>♪ Another night is over ♪</i>
+
+1196
+01:29:21,689 --> 01:29:28,321
+<i>♪ Another day is dawning ♪</i>
+
+1197
+01:29:29,822 --> 01:29:31,657
+<i>♪ Daylight ♪</i>
+
+1198
+01:29:32,325 --> 01:29:36,412
+<i>♪ I must wait for the sunrise ♪</i>
+
+1199
+01:29:36,496 --> 01:29:40,333
+<i>♪ I must think of a new life ♪</i>
+
+1200
+01:29:40,416 --> 01:29:43,503
+<i>♪ And I mustn't give in ♪</i>
+
+1201
+01:29:45,421 --> 01:29:52,136
+<i>♪ When the dawn comes tonight
+Will be a memory too ♪</i>
+
+1202
+01:29:53,012 --> 01:29:56,599
+<i>♪ And a new day ♪</i>
+
+1203
+01:29:56,682 --> 01:30:00,770
+<i>♪ Will begin ♪</i>
+
+1204
+01:30:14,951 --> 01:30:21,374
+<i>♪ Sunlight through the trees in summer ♪</i>
+
+1205
+01:30:21,457 --> 01:30:26,546
+<i>♪ Endless masquerading ♪</i>
+
+1206
+01:30:28,214 --> 01:30:34,971
+<i>♪ Like a flower as the dawn is breaking ♪</i>
+
+1207
+01:30:35,555 --> 01:30:42,562
+<i>♪ The memory is fading ♪</i>
+
+1208
+01:30:45,148 --> 01:30:48,568
+<i>♪ Touch me ♪</i>
+
+1209
+01:30:48,651 --> 01:30:53,573
+<i>♪ It's so easy to leave me ♪</i>
+
+1210
+01:30:53,656 --> 01:30:58,870
+<i>♪ All alone with the memory ♪</i>
+
+1211
+01:30:58,953 --> 01:31:03,207
+<i>♪ Of my days in the sun ♪</i>
+
+1212
+01:31:04,667 --> 01:31:07,753
+<i>♪ If you touch me ♪</i>
+
+1213
+01:31:07,837 --> 01:31:14,010
+<i>♪ You'll understand what happiness is ♪</i>
+
+1214
+01:31:20,016 --> 01:31:21,767
+[sobs]
+
+1215
+01:31:28,191 --> 01:31:29,650
+<i>♪ Look ♪</i>
+
+1216
+01:31:31,986 --> 01:31:35,781
+<i>♪ A new day ♪</i>
+
+1217
+01:31:38,284 --> 01:31:45,291
+<i>♪ Has begun ♪</i>
+
+1218
+01:32:10,233 --> 01:32:12,235
+[soft music]
+
+1219
+01:32:42,431 --> 01:32:45,518
+You are the Jellicle choice.
+
+1220
+01:32:59,448 --> 01:33:01,867
+[soft music]
+
+1221
+01:33:06,872 --> 01:33:08,291
+Thank you.
+
+1222
+01:33:20,386 --> 01:33:22,972
+<i>♪ All that you wanted ♪</i>
+
+1223
+01:33:24,265 --> 01:33:26,726
+<i>♪ Was to be wanted ♪</i>
+
+1224
+01:33:28,144 --> 01:33:35,151
+<i>♪ Never to wander London streets
+Alone and haunted ♪</i>
+
+1225
+01:33:38,154 --> 01:33:40,239
+[Old Deuteronomy]
+<i>♪ All your memories of pain ♪</i>
+
+1226
+01:33:40,823 --> 01:33:42,658
+<i>♪ Let them go ♪</i>
+
+1227
+01:33:45,077 --> 01:33:49,999
+<i>♪ And you'll dance
+With these beautiful ghosts ♪</i>
+
+1228
+01:33:52,293 --> 01:33:54,295
+[uplifting music]
+
+1229
+01:34:15,566 --> 01:34:20,363
+<i>♪ Up, up, up, past the Russell Hotel ♪</i>
+
+1230
+01:34:21,280 --> 01:34:26,619
+<i>♪ Up, up, up, up to the Heaviside Layer ♪</i>
+
+1231
+01:34:26,702 --> 01:34:32,375
+<i>♪ Up, up, up, past the Russell Hotel ♪</i>
+
+1232
+01:34:32,458 --> 01:34:37,171
+<i>♪ Up, up, up, up to the Heaviside Layer ♪</i>
+
+1233
+01:34:38,297 --> 01:34:43,594
+<i>♪ Up, up, up, past the Russell Hotel ♪</i>
+
+1234
+01:34:43,677 --> 01:34:49,558
+<i>♪ Up, up, up, up to the Heaviside Layer ♪</i>
+
+1235
+01:34:49,642 --> 01:34:54,730
+<i>♪ Up, up, up, past the Russell Hotel ♪</i>
+
+1236
+01:34:54,814 --> 01:35:00,027
+<i>♪ Up, up, up, up to the Heaviside Layer ♪</i>
+
+1237
+01:35:00,111 --> 01:35:06,200
+<i>♪ Up, up, up, past the Jellicle moon ♪</i>
+
+1238
+01:35:06,283 --> 01:35:11,705
+<i>♪ Up, up, up, up to the Heaviside Layer ♪</i>
+
+1239
+01:35:11,789 --> 01:35:17,837
+<i>♪ Up, up, up, past the Jellicle moon ♪</i>
+
+1240
+01:35:17,920 --> 01:35:19,630
+<i>♪ Up, up, up, up ♪</i>
+
+1241
+01:35:19,713 --> 01:35:25,344
+<i>♪ To the Heaviside Layer ♪</i>
+
+1242
+01:35:25,428 --> 01:35:26,804
+[grunting]
+
+1243
+01:35:27,805 --> 01:35:31,767
+[laughing]
+Up, up, up!
+
+1244
+01:35:31,851 --> 01:35:34,311
+Heaviside Layer, here I... Oop!
+
+1245
+01:35:34,395 --> 01:35:36,647
+[grunting]
+
+1246
+01:35:36,730 --> 01:35:39,817
+[whimpering]
+
+1247
+01:35:40,818 --> 01:35:42,319
+[screams]
+
+1248
+01:35:42,403 --> 01:35:43,737
+[groans]
+
+1249
+01:35:48,993 --> 01:35:50,077
+Ineffable.
+
+1250
+01:35:54,999 --> 01:35:57,543
+-[Jellicles cheering]
+-Meow.
+
+1251
+01:35:57,626 --> 01:35:59,712
+[grandiose music]
+
+1252
+01:35:59,795 --> 01:36:01,338
+-[laughing]
+-You're alive!
+
+1253
+01:36:11,056 --> 01:36:17,146
+<i>♪ The mystical divinity ♪</i>
+
+1254
+01:36:17,229 --> 01:36:24,236
+<i>♪ Of unashamed felinity ♪</i>
+
+1255
+01:36:24,320 --> 01:36:30,409
+<i>♪ Round the cathedral ♪</i>
+
+1256
+01:36:30,493 --> 01:36:37,249
+<i>♪ Rang "Vivat" ♪</i>
+
+1257
+01:36:37,833 --> 01:36:40,294
+<i>♪ Life to ♪</i>
+
+1258
+01:36:40,377 --> 01:36:46,842
+<i>♪ The Everlasting ♪</i>
+
+1259
+01:36:47,635 --> 01:36:53,182
+<i>♪ Cat! ♪</i>
+
+1260
+01:36:57,353 --> 01:37:01,774
+<i>♪ You've heard of several kinds of cat ♪</i>
+
+1261
+01:37:01,857 --> 01:37:05,945
+<i>♪ And my opinion now is that ♪</i>
+
+1262
+01:37:06,028 --> 01:37:09,740
+<i>♪ You should need no interpreter ♪</i>
+
+1263
+01:37:10,241 --> 01:37:13,702
+<i>♪ To understand our character ♪</i>
+
+1264
+01:37:14,245 --> 01:37:18,249
+<i>♪ You've learned enough to take the view ♪</i>
+
+1265
+01:37:18,332 --> 01:37:22,503
+<i>♪ That cats are very much like you ♪</i>
+
+1266
+01:37:22,586 --> 01:37:26,590
+<i>♪ You've seen us both at work and games ♪</i>
+
+1267
+01:37:26,674 --> 01:37:30,302
+<i>♪ And learned about our proper names ♪</i>
+
+1268
+01:37:30,386 --> 01:37:34,557
+<i>♪ Our habits and our habitat ♪</i>
+
+1269
+01:37:34,640 --> 01:37:40,646
+<i>♪ But how would you ad-dress a cat? ♪</i>
+
+1270
+01:37:42,731 --> 01:37:48,362
+<i>♪ So first, your memory, I'll jog ♪</i>
+
+1271
+01:37:48,946 --> 01:37:54,368
+<i>♪ And say a cat is not a dog ♪</i>
+
+1272
+01:37:54,994 --> 01:38:01,041
+<i>♪ So first, your memory, I'll jog ♪</i>
+
+1273
+01:38:01,125 --> 01:38:05,713
+<i>♪ And say a cat is not ♪</i>
+
+1274
+01:38:05,796 --> 01:38:09,258
+<i>♪ A dog ♪</i>
+
+1275
+01:38:10,884 --> 01:38:16,307
+<i>♪ With cats, some say, one rule is true ♪</i>
+
+1276
+01:38:16,390 --> 01:38:22,021
+<i>♪ Don't speak till you are spoken to ♪</i>
+
+1277
+01:38:22,730 --> 01:38:25,983
+<i>♪ Myself, I do not hold with that ♪</i>
+
+1278
+01:38:26,066 --> 01:38:29,612
+<i>♪ I say you should ad-dress a cat ♪</i>
+
+1279
+01:38:29,695 --> 01:38:33,782
+<i>♪ But always bear in mind that he ♪</i>
+
+1280
+01:38:33,866 --> 01:38:37,286
+<i>♪ Resents familiarity ♪</i>
+
+1281
+01:38:40,331 --> 01:38:46,003
+<i>♪ You bow, and taking off your hat ♪</i>
+
+1282
+01:38:46,670 --> 01:38:50,257
+<i>♪ Ad-dress him in this form ♪</i>
+
+1283
+01:38:50,341 --> 01:38:53,010
+<i>♪ O Cat! ♪</i>
+
+1284
+01:38:54,345 --> 01:38:58,098
+<i>♪ O Cat! ♪</i>
+
+1285
+01:38:58,891 --> 01:39:02,728
+<i>♪ Before a cat will condescend ♪</i>
+
+1286
+01:39:02,811 --> 01:39:06,148
+<i>♪ To treat you as a trusted friend ♪</i>
+
+1287
+01:39:06,231 --> 01:39:09,652
+<i>♪ Some little token of esteem ♪</i>
+
+1288
+01:39:09,735 --> 01:39:13,197
+<i>♪ Is needed, like a dish of cream ♪</i>
+
+1289
+01:39:13,280 --> 01:39:16,283
+<i>♪ Or you might now and then supply ♪</i>
+
+1290
+01:39:16,367 --> 01:39:20,037
+<i>♪ Some caviar, or Strasbourg pie ♪</i>
+
+1291
+01:39:20,120 --> 01:39:23,832
+<i>♪ Some potted grouse, or salmon paste ♪</i>
+
+1292
+01:39:23,916 --> 01:39:27,753
+<i>♪ He's sure to have his personal taste ♪</i>
+
+1293
+01:39:27,836 --> 01:39:31,590
+<i>♪ And so in time, you reach your aim ♪</i>
+
+1294
+01:39:31,674 --> 01:39:38,097
+<i>♪ And call him by his name ♪</i>
+
+1295
+01:39:39,848 --> 01:39:45,104
+<i>♪ A cat's entitled to expect ♪</i>
+
+1296
+01:39:45,187 --> 01:39:49,733
+<i>♪ These evidences of respect ♪</i>
+
+1297
+01:39:49,817 --> 01:39:56,573
+<i>♪ So this is this, and that is that ♪</i>
+
+1298
+01:39:56,657 --> 01:40:02,663
+<i>♪ And that's how you ad-dress ♪</i>
+
+1299
+01:40:02,746 --> 01:40:09,753
+<i>♪ A cat ♪</i>
+
+1300
+01:40:18,971 --> 01:40:21,181
+[indistinct chatter]
+
+1301
+01:40:34,903 --> 01:40:40,075
+I believe you truly are a Jellicle cat.
+
+1302
+01:40:43,579 --> 01:40:45,038
+A dearliccle cat.
+
+1303
+01:40:48,792 --> 01:40:50,794
+[calm music]
+
+1304
+01:41:14,151 --> 01:41:16,069
+[chimes]
+
+1305
+01:41:20,741 --> 01:41:22,743
+[upbeat music]
+
+1306
+01:43:41,506 --> 01:43:43,508
+[dramatic music]
+
+1307
+01:43:45,093 --> 01:43:47,179
+<i>♪ Follow me home ♪</i>
+
+1308
+01:43:49,389 --> 01:43:52,601
+<i>♪ If you dare to ♪</i>
+
+1309
+01:43:53,393 --> 01:43:55,395
+<i>♪ I wouldn't know ♪</i>
+
+1310
+01:43:57,522 --> 01:44:00,400
+<i>♪ Where to lead you ♪</i>
+
+1311
+01:44:01,443 --> 01:44:04,738
+<i>♪ Should I take chances ♪</i>
+
+1312
+01:44:05,280 --> 01:44:08,283
+<i>♪ When no one took chances on me? ♪</i>
+
+1313
+01:44:08,367 --> 01:44:09,826
+<i>♪ So I watch from the dark ♪</i>
+
+1314
+01:44:09,910 --> 01:44:12,329
+<i>♪ Wait for my life to start ♪</i>
+
+1315
+01:44:12,412 --> 01:44:16,792
+<i>♪ With no beauty in my memory ♪</i>
+
+1316
+01:44:17,751 --> 01:44:20,379
+<i>♪ All that I wanted ♪</i>
+
+1317
+01:44:21,672 --> 01:44:24,508
+<i>♪ Was to be wanted ♪</i>
+
+1318
+01:44:25,634 --> 01:44:32,140
+<i>♪ Too young to wander London streets
+Alone and haunted ♪</i>
+
+1319
+01:44:33,225 --> 01:44:35,894
+<i>♪ Born into nothing ♪</i>
+
+1320
+01:44:37,020 --> 01:44:39,398
+<i>♪ At least you have something ♪</i>
+
+1321
+01:44:40,691 --> 01:44:43,527
+<i>♪ Something to cling to ♪</i>
+
+1322
+01:44:44,736 --> 01:44:47,322
+<i>♪ Visions of dazzling rooms ♪</i>
+
+1323
+01:44:47,406 --> 01:44:51,243
+<i>♪ I'll never get let into ♪</i>
+
+1324
+01:44:53,120 --> 01:44:57,165
+<i>♪ And the memories were lost long ago ♪</i>
+
+1325
+01:44:59,960 --> 01:45:04,840
+<i>♪ But at least you have beautiful ghosts ♪</i>
+
+1326
+01:45:07,884 --> 01:45:10,679
+<i>♪ Perilous night ♪</i>
+
+1327
+01:45:11,221 --> 01:45:14,641
+<i>♪ Their voices calling ♪</i>
+
+1328
+01:45:15,267 --> 01:45:17,978
+<i>♪ A flicker of light ♪</i>
+
+1329
+01:45:18,770 --> 01:45:21,982
+<i>♪ Before the dawning ♪</i>
+
+1330
+01:45:22,649 --> 01:45:26,236
+<i>♪ Out here the wild ones ♪</i>
+
+1331
+01:45:26,319 --> 01:45:28,530
+<i>♪ Are taming the fear within me ♪</i>
+
+1332
+01:45:28,613 --> 01:45:30,574
+<i>♪ Scared to call them my friends ♪</i>
+
+1333
+01:45:30,657 --> 01:45:32,325
+<i>♪ And be broken again ♪</i>
+
+1334
+01:45:32,409 --> 01:45:36,997
+<i>♪ Is this hope just a mystical dream? ♪</i>
+
+1335
+01:45:37,789 --> 01:45:40,125
+<i>♪ All that I wanted ♪</i>
+
+1336
+01:45:41,543 --> 01:45:44,046
+<i>♪ Was to be wanted ♪</i>
+
+1337
+01:45:45,172 --> 01:45:51,470
+<i>♪ Too young to wander London streets
+Alone and haunted ♪</i>
+
+1338
+01:45:52,471 --> 01:45:55,057
+<i>♪ Born into nothing ♪</i>
+
+1339
+01:45:56,141 --> 01:45:58,643
+<i>♪ At least you have something ♪</i>
+
+1340
+01:45:59,936 --> 01:46:02,606
+<i>♪ Something to cling to ♪</i>
+
+1341
+01:46:03,565 --> 01:46:05,984
+<i>♪ Visions of dazzling rooms ♪</i>
+
+1342
+01:46:06,068 --> 01:46:10,280
+<i>♪ I'll never get let into ♪</i>
+
+1343
+01:46:11,573 --> 01:46:16,244
+<i>♪ And the memories were lost long ago ♪</i>
+
+1344
+01:46:18,580 --> 01:46:23,794
+<i>♪ But at least you have beautiful ghosts ♪</i>
+
+1345
+01:46:25,003 --> 01:46:27,089
+<i>♪ And so maybe my home ♪</i>
+
+1346
+01:46:27,172 --> 01:46:28,924
+<i>♪ Isn't what I had known ♪</i>
+
+1347
+01:46:29,007 --> 01:46:31,635
+<i>♪ What I thought it would be ♪</i>
+
+1348
+01:46:32,344 --> 01:46:36,431
+<i>♪ But I feel so alive
+With these phantoms of night ♪</i>
+
+1349
+01:46:36,515 --> 01:46:39,017
+<i>♪ And I know that this life isn't safe ♪</i>
+
+1350
+01:46:39,101 --> 01:46:43,313
+<i>♪ But it's wild and it's free ♪</i>
+
+1351
+01:46:43,396 --> 01:46:46,358
+<i>♪ All that I wanted ♪</i>
+
+1352
+01:46:47,067 --> 01:46:49,903
+<i>♪ Was to be wanted ♪</i>
+
+1353
+01:46:50,904 --> 01:46:57,577
+<i>♪ I'll never wander London streets
+Alone and haunted ♪</i>
+
+1354
+01:46:58,161 --> 01:47:00,539
+<i>♪ Born into nothing ♪</i>
+
+1355
+01:47:01,540 --> 01:47:04,376
+<i>♪ With them I have something ♪</i>
+
+1356
+01:47:05,377 --> 01:47:08,130
+<i>♪ Something to cling to ♪</i>
+
+1357
+01:47:09,005 --> 01:47:15,929
+<i>♪ I never knew I'd love this world
+They've let me into ♪</i>
+
+1358
+01:47:17,013 --> 01:47:21,309
+<i>♪ And the memories were lost long ago ♪</i>
+
+1359
+01:47:23,645 --> 01:47:28,567
+<i>♪ So I'll dance
+With these beautiful ghosts ♪</i>
+
+1360
+01:47:30,527 --> 01:47:34,906
+<i>♪ And the memories were lost long ago ♪</i>
+
+1361
+01:47:37,117 --> 01:47:41,204
+<i>♪ So I'll dance with these beautiful ♪</i>
+
+1362
+01:47:41,288 --> 01:47:47,919
+<i>♪ Ghosts ♪</i>
+
+1363
+01:47:55,010 --> 01:47:57,012
+[lively music]
+
+1364
+01:49:07,290 --> 01:49:09,292
+[somber music]
+

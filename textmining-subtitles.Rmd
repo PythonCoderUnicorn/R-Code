@@ -1,0 +1,112 @@
+---
+title: "textmining subtitles"
+output: html_notebook
+---
+
+[source material](https://joenoonan.se/post/cats/)
+
+## Use movie subtitles for textmining
+
+Movie subtitles are stored in `.srt` files, find a movie or a play that has a srt file and do analysis.
+
+```{r libraries, warning=FALSE, message=FALSE}
+library(tidyverse)
+# install.packages('srt')
+library(srt) # reads subtitle text
+library(tidytext)
+library(scales)
+library(paletteer)
+library(showtext)
+library(ggtext)
+
+font_add_google("Lato","Lato")
+showtext_auto()
+
+cats = srt::read_srt("./Cats_Netflix_en.srt")
+head(cats)
+```
+
+
+## clean text 
+
+Use tidytext library to clean the text by using the `stopwords` and to count the words
+
+```{r}
+cats_clean_count = cats %>% 
+  unnest_tokens(word, subtitle) %>% 
+  anti_join(stop_words) %>% 
+  count(word, sort = T)
+
+head(cats_clean_count)
+```
+
+
+stem the words for proper text analysis, looking for only word cat stems
+
+```{r}
+cats_clean_count %>% 
+  filter( str_detect(word, "\\bcat\\b|\\bcats\\b|\\bcat's\\b"))
+```
+
+look for when the word cat is said 
+
+```{r}
+cat_pattern = "\\bcat\\b|\\bcats\\b|\\bcat's\\b"
+
+total_cat_mentions = cats %>% 
+  rename(time = start) %>% 
+  select(time, subtitle) %>% 
+  mutate(cat_mentions = str_count(subtitle, cat_pattern),
+         cumulative_cat_mentions = cumsum(cat_mentions))
+
+head(total_cat_mentions)
+```
+
+
+
+
+```{r}
+
+
+total_cat_mentions %>% 
+  ggplot(
+    aes(x= time,
+        y=  cumulative_cat_mentions,
+        col= cumulative_cat_mentions
+        )
+  )+
+  geom_line(show.legend = F, size= 1.5)+
+  scale_x_time() +
+  ggdark::dark_mode()+
+  scale_color_paletteer_c(`"gameofthrones::margaery"`) +
+  labs(
+    title = "\nCumulative mentions of `cats` in Cats (2019)",
+    subtitle = "words used from subtitle text",
+    x= "\nFilm time",
+    # y= "Cumulative mentions of 'cats'\n",
+    caption = "\n@unicornCoder | Nov 26, 2022 | Source: @JoeDNoonan"
+  )+
+  theme(
+    text = element_text(family = "Lato"),
+    plot.title = element_text(hjust = 0.5, size = 13, color= '#ffcc66',face = 'bold'),
+    plot.subtitle = element_text(hjust = 0.5, color = 'grey60'),
+    plot.caption = element_text(hjust = 0, size = 11, color = 'grey50'),
+    axis.text.y = element_text(size = 11, color= '#ffcc66'),
+    axis.title.x = element_text(size = 11, color= 'grey70'),
+    
+    axis.title.y = element_blank()
+  )
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
